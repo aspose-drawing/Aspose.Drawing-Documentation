@@ -1,8 +1,8 @@
 ---
-title: "Aspose.Drawing for .NET 20.6"
+title: "Aspose.Drawing for .NET 20.6 Release Notes"
 type: docs
 url: /net/aspose-drawing-for-net-20-6/
-weight: 10
+weight: 60
 ---
 
 {{% alert color="primary" %}} 
