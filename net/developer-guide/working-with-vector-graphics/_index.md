@@ -18,7 +18,7 @@ To drawn an arc using C#,
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawArc-DrawArc.cs" >}}
 
-![Draw Arc result](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawArc_out.png)
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawArc_out.png" alt="Draw Arc result" width="50%"/>
 
 ## **Draw Bezier Spline**
 1. Instantiate an object of Bitmap class
@@ -28,7 +28,7 @@ To drawn an arc using C#,
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawBezierSpline-DrawBezierSpline.cs" >}}
 
-![Draw Bezier Spline result](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawBezierSpline_out.png)
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawBezierSpline_out.png" alt="Draw Bezier Spline result" width="50%"/>
 
 ## **Draw Cardinal Spline**
 1. Instantiate an object of Bitmap class
