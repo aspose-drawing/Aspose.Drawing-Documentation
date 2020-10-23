@@ -18,11 +18,11 @@ Creating a new image from scratch is easy using Aspose.Drawing for .NET API. The
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawArc-DrawArc.cs" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawArc_out.png" alt="Draw Arc result" width="50%"/>
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawArc_out.png" alt="Draw Arc result" width="500" />
 
 ## **Load From File**
 You can also load an existing image from file and save it back to disc using the API as shown in the following C# code sample.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Images-LoadSave-LoadSave.cs" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Images/LoadSave_out.png" alt="Load and save image result" width="50%"/>
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Images/LoadSave_out.png" alt="Load and save image result" />
