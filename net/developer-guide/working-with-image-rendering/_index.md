@@ -23,6 +23,9 @@ To draw graphics with translucency using C#, the following steps can be used.
 1. Save the output to any desired output image format
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-AlphaBlending-AlphaBlending.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Rendering/AlphaBlending_out.png" alt="Alpha Blending" width="500" />
+
 ## **Antialiasing with Lines and Curves**
 To draw lines and curves with antialiasing in C#, the following steps can be used.
 
@@ -33,6 +36,9 @@ To draw lines and curves with antialiasing in C#, the following steps can be use
 1. Save the output to any desired output image format
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-Antialiasing-Antialiasing.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Rendering/Antialiasing_out.png" alt="Antialiasing" width="500" />
+
 ## **Image Clipping**
 For image clipping with C#, use the following steps.
 
@@ -42,3 +48,5 @@ For image clipping with C#, use the following steps.
 1. Set the clip path using the SetClip method
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-Clipping-Clipping.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Rendering/Clipping_out.png" alt="Image Clipping" width="500" />
