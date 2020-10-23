@@ -38,7 +38,7 @@ To drawn an arc using C#,
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawCardinalSpline-DrawCardinalSpline.cs" >}}
 
-![Draw Cardinal Spline result](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawCardinalSpline_out.png)
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawCardinalSpline_out.png" alt="Draw Cardinal Spline result" width="50%"/>
 
 ## **Draw Closed Curve**
 1. Instantiate an object of Bitmap class
@@ -48,7 +48,7 @@ To drawn an arc using C#,
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawClosedCurve-DrawClosedCurve.cs" >}}
 
-![Draw Closed Curve result](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawClosedCurve_out.png)
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawClosedCurve_out.png" alt="Draw Closed Curve result" width="50%"/>
 
 ## **Draw Ellipse**
 1. Instantiate an object of Bitmap class
@@ -58,7 +58,7 @@ To drawn an arc using C#,
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawEllipse-DrawEllipse.cs" >}}
 
-![Draw Ellipse result](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawEllipse_out.png)
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawEllipse_out.png" alt="Draw Ellipse result" width="50%"/>
 
 ## **Draw Lines**
 1. Instantiate an object of Bitmap class
@@ -68,7 +68,7 @@ To drawn an arc using C#,
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawLines-DrawLines.cs" >}}
 
-![Draw Lines result](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawLines_out.png)
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawLines_out.png" alt="Draw Lines result" width="50%"/>
 
 ## **Draw Path**
 1. Instantiate an object of Bitmap class
@@ -80,8 +80,7 @@ To drawn an arc using C#,
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawPath-DrawPath.cs" >}}
 
-![Draw Path result](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawPath_out.png)
-
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawPath_out.png" alt="Draw Path result" width="50%"/>
 
 ## **Draw Polygon**
 1. Instantiate an object of Bitmap class
@@ -91,7 +90,7 @@ To drawn an arc using C#,
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawPolygon-DrawPolygon.cs" >}}
 
-![Draw Polygon result](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawPolygon_out.png)
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawPolygon_out.png" alt="Draw Polygon result" width="50%"/>
 
 ## **Draw Rectangle**
 1. Instantiate an object of Bitmap class
@@ -101,7 +100,7 @@ To drawn an arc using C#,
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawRectangle-DrawRectangle.cs" >}}
 
-![Draw Rectangle result](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawRectangle_out.png)
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawRectangle_out.png" alt="Draw Rectangle result" width="50%"/>
 
 ## **Fill Region**
 1. Instantiate an object of Bitmap class
@@ -112,4 +111,4 @@ To drawn an arc using C#,
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-FillRegion-FillRegion.cs" >}}
 
-![Fill Region result](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/FillRegion_out.png)
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/FillRegion_out.png" alt="Fill Region result" width="50%"/>
