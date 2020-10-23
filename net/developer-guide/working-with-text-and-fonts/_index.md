@@ -22,6 +22,9 @@ In order to draw text using C#, the following steps can be used.
 1. Use the DrawString method to draw text on the bitmap
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-DrawText-DrawText.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/TextFonts/DrawText_out.png" alt="Draw text" width="500" />
+
 ## **Format Text**
 In order to format text using C#, the following steps can be used.
 
@@ -31,6 +34,9 @@ In order to format text using C#, the following steps can be used.
 1. Use the DrawString method to draw formatted text
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-FormatText-FormatText.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/TextFonts/FormatText_out.png" alt="Format text" width="500" />
+
 ## **Text Hinting**
 Text hinting mode can be specified using the API. The following C# code shows how to set the grid fitting mode.
 
@@ -44,7 +50,12 @@ Text hinting mode can be specified using the API. The following C# code shows ho
 The following helper function is used for drawing text.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-Hinting-HintingDrawText.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/TextFonts/Hinting_out.png" alt="Text hinting" width="500" />
+
 ## **Installed Fonts**
 
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-InstalledFonts-InstalledFonts.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/TextFonts/InstalledFonts_out.png" alt="Installed fonts" width="500" />
