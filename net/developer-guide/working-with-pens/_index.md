@@ -18,6 +18,9 @@ To draw graphics with a certain pen width, the following steps can be used.
 1. Save the output to any desired output image format
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Width-Width.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Pens/Width_out.png" alt="Pen width" width="500" />
+
 ## **Set Pen Color to Draw Graphics**
 To draw graphics with a certain pen color, the following steps can be used.
 
@@ -28,6 +31,9 @@ To draw graphics with a certain pen color, the following steps can be used.
 1. Save the output to any desired output image format
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Colors-Colors.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Pens/Colors_out.png" alt="Pen color" width="500" />
+
 ## **Join Lines**
 Multiple lines can be joined to create a path. To join paths using C#, the following steps can be used.
 
@@ -42,3 +48,5 @@ Multiple lines can be joined to create a path. To join paths using C#, the follo
 The following method is called by above code sample to draw path using Pen.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Join-PenJoinDrawPath.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Pens/Join_out.png" alt="Join lines" width="500" />
