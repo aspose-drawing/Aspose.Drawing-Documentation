@@ -15,15 +15,12 @@ Please make sure you meet the following requirements before downloading and runn
 ## **Download from GitHub**
 All examples of Aspose.Drawing for .NET are hosted on [GitHub](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET).
 
-- You can either clone the repository using your favorite GitHub client or download the ZIP file from [here](https://github.com/aspose-drawingAspose.Drawing-for-.NET/archive/master.zip).
+- You can either clone the repository using your favorite GitHub client or download the ZIP file from [here](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/archive/master.zip).
 - Extract the contents of ZIP file to any folder on your computer. All the examples are located in the **Examples** folder.
-- There are two Visual Studio solution files, one for Console and other one is for Web Application.
-- The projects are created in Visual Studio 2015, but the solution files are compatible with Visual Studio 2010 SP1 and higher.
 - Open the solution file in Visual Studio and build the project.
 - On first run the dependencies will automatically be downloaded via NuGet.
 - **Data** folder at the root folder of **Examples** contains input files which CSharp examples used. It is mandatory that you download the **Data** folder along with the examples project.
 - Open RunExamples.cs file, all the examples are called from here.
-- Uncomment the examples you want to run from within the project.
 
 Please feel free to reach out using our Forums if you have any issues setting up or running the examples.
 ## **Contribute**

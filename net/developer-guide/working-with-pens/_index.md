@@ -13,13 +13,13 @@ To draw graphics with a certain pen width, the following steps can be used.
 
 1. Create an object Bitmap class
 1. Initialize the Graphics object from the created bitmap
-1. Create a new Pen with the desired color
+1. Create a new Pen with the desired width
 1. Use the DrawLine method to draw a line with the desired width
 1. Save the output to any desired output image format
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Width-Width.cs" >}}
 ## **Set Pen Color to Draw Graphics**
-To draw graphics with a certain pen width, the following steps can be used.
+To draw graphics with a certain pen color, the following steps can be used.
 
 1. Create an object Bitmap class
 1. Initialize the Graphics object from the bitmap
@@ -28,7 +28,7 @@ To draw graphics with a certain pen width, the following steps can be used.
 1. Save the output to any desired output image format
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Colors-Colors.cs" >}}
-## **Join Paths using Pen**
+## **Join Lines**
 Multiple lines can be joined to create a path. To join paths using C#, the following steps can be used.
 
 1. Create an object Bitmap class

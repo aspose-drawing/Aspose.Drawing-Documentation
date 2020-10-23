@@ -38,11 +38,11 @@ To drawn an arc using C#,
 1. Use the DrawClosedCurve method of Graphics class object to draw closed curve
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawClosedCurve-DrawClosedCurve.cs" >}}
-## **Draw Eclipse**
+## **Draw Ellipse**
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
-1. Use the DrawEllipse method of Graphics class object to draw Eclipse
+1. Use the DrawEllipse method of Graphics class object to draw Ellipse
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawEllipse-DrawEllipse.cs" >}}
 ## **Draw Lines**
@@ -56,7 +56,7 @@ To drawn an arc using C#,
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
-1. Initialize a new object of GrahpicsPath class and add Lines to its path collection
+1. Initialize a new object of GraphicsPath class and add Lines to its path collection
 
 
 

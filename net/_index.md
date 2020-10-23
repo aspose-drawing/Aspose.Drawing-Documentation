@@ -14,7 +14,7 @@ is_root: true
 
 **Welcome to the Aspose.Drawing for .NET**
 
-Aspose.Drawing is a .NET graphics API that provides the capability of 2D drawings identical to GDI+ in your .NET applications. The drawing engine supports rendering vector graphics (such as lines, curves, and figures) and text (in a variety of fonts, sizes, and styles) onto raster images in all commonly used graphics file formats. The project is based on managed .NET core and does not have dependencies on native code and libraries, with the rendering algorithms working the same way on all supported platforms.
+Aspose.Drawing is a fully managed, cross-platform, complete 2D graphic library for drawing text, geometries, and images. Aspose.Drawing provides System.Drawing compatible API, making it very easy for your existing code using System.Drawing to become truly cross-platform. Built against .NET Standard 2.0, Aspose.Drawing can be used in web, mobile, desktop, cloud and IoT scenarios. The drawing engine supports rendering vector graphics (such as lines, curves, and figures) and text (in a variety of fonts, sizes, and styles) onto raster images in all commonly used graphics file formats.
 
 {{% /alert %}} 
 

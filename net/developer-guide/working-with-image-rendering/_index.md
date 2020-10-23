@@ -15,11 +15,11 @@ Aspose.Drawing for .NET API lets you work with editing images visual appearance 
 ## **Alpha Blending**
 Alpha blending is the process where the alpha channel is combined with other layers in an image to show translucency. It consists of an additional eight bits that can give value in the range of 0-255 to represent 256 levels of translucency. This blending generates a new color as a result of the alpha channel mixing with the original colors in the image.
 
-To draw graphics with a certain pen width using C#, the following steps can be used.
+To draw graphics with translucency using C#, the following steps can be used.
 
 1. Create an object Bitmap class
 1. Initialize the Graphics object from the created bitmap
-1. Use the FillEllipse method to alpha blend the image colors
+1. Use the Color.FromArgb method with the alpha channel parameter
 1. Save the output to any desired output image format
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-AlphaBlending-AlphaBlending.cs" >}}

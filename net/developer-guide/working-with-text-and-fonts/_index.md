@@ -18,7 +18,7 @@ In order to draw text using C#, the following steps can be used.
 
 1. Instantiate a Bitmap object
 1. Instantiate a Graphics object with the bitmap object
-1. Initial necessary brushes and pens
+1. Initialize a brush
 1. Use the DrawString method to draw text on the bitmap
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-DrawText-DrawText.cs" >}}
@@ -31,17 +31,17 @@ In order to format text using C#, the following steps can be used.
 1. Use the DrawString method to draw formatted text
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-FormatText-FormatText.cs" >}}
-## **Text Styles - Hinting**
-Text styles can be specified using the API. The following C# code shows how to work with text styles hinting.
+## **Text Hinting**
+Text hinting mode can be specified using the API. The following C# code shows how to set the grid fitting mode.
 
 1. Instantiate a Bitmap object
 1. Instantiate a Graphics object with the bitmap object
-1. Use the TextRenderingHint property of the Graphics object to specify required Text Style Hinting
-1. Use the DrawText method to draw text with defined style
+1. Use the TextRenderingHint property of the Graphics object to specify the hinting mode
+1. Use the DrawText method to draw text with the defined mode
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-Hinting-Hinting.cs" >}}
 
-The following helper function is used for drawing text with hinting.
+The following helper function is used for drawing text.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-Hinting-HintingDrawText.cs" >}}
 ## **Installed Fonts**
