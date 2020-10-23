@@ -48,5 +48,3 @@ For image clipping with C#, use the following steps.
 1. Set the clip path using the SetClip method
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-Clipping-Clipping.cs" >}}
-
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Rendering/Clipping_out.png" alt="Image Clipping" width="500" style="background-color:gray;"/>
