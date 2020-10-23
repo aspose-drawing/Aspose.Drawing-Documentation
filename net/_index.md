@@ -2,8 +2,8 @@
 title: Aspose.Drawing for .NET
 type: docs
 url: /net/
-keywords: "PDF, Aspose.PDF Features, documentation"
-description: "Get an introduction to Aspose.PDF for .NET, a high-performance library for building modern, desktop, mobile, cloud-enabled, internet-connected apps."
+keywords: "System.Drawing, 2D graphic library, Aspose.Drawing Features, documentation"
+description: "Get an introduction to Aspose.Drawing for .NET, a complete 2D graphic library for building modern, desktop, mobile, cloud-enabled, internet-connected apps."
 weight: 10
 is_root: true
 ---
