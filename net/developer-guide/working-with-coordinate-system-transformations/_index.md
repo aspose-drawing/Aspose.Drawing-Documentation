@@ -15,6 +15,9 @@ For global transformation of a scene in C#, the following steps can be used.
 1. Draw the shapes with global transformation
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-GlobalTransformation-GlobalTransformation.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/CoordinateSystemsTransformations/GlobalTransformation_out.png" alt="Global Transformation" width="500" />
+
 ## **Local Transformation**
 ` `For local transformation of an object in C#, the following steps can be used.
 
@@ -25,6 +28,9 @@ For global transformation of a scene in C#, the following steps can be used.
 1. Apply the matrix to defined object
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-LocalTransformation-LocalTransformation.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/CoordinateSystemsTransformations/LocalTransformation_out.png" alt="Local Transformation" width="500" />
+
 ## **Matrix Transformation**
 ` `For Matrix transformation of a path in C#, the following steps can be used.
 
@@ -39,6 +45,9 @@ For global transformation of a scene in C#, the following steps can be used.
 The following helping method is called by above code sample.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-MatrixTransformations-MatrixTransformationsTransformPath.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/CoordinateSystemsTransformations/MatrixTransformations_out.png" alt="Matrix Transformation" width="500" />
+
 ## **Page Transformation**
 For Page transformation of a scene in C#, the following steps can be used.
 
@@ -48,6 +57,9 @@ For Page transformation of a scene in C#, the following steps can be used.
 1. Draw a shape such as Rectangle
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-PageTransformation-PageTransformation.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/CoordinateSystemsTransformations/PageTransformation_out.png" alt="Page Transformation" width="500" />
+
 ## **Units of Measure**
 To apply different units of measurement to different objects of a scene in C#, the following steps can be used.
 
@@ -57,6 +69,9 @@ To apply different units of measurement to different objects of a scene in C#, t
 1. Draw the shapes such as Rectangles
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-UnitsOfMeasure-UnitsOfMeasure.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/CoordinateSystemsTransformations/UnitsOfMeasure_out.png" alt="Units of Measure" width="500" />
+
 ## **World Transformation**
 For World Transformation, the following sample C# code can be used.
 
@@ -66,3 +81,5 @@ For World Transformation, the following sample C# code can be used.
 1. Draw a shape such as Rectangle
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-WorldTransformation-WorldTransformation.cs" >}}
+
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/CoordinateSystemsTransformations/WorldTransformation_out.png" alt="World Transformation" width="500" />
