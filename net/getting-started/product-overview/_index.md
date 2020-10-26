@@ -7,7 +7,7 @@ weight: 10
 
 {{% alert color="primary" %}} 
 
-![todo:image_alt_text](product-overview_1)
+![Aspose.Drawing logo](product-overview_1)
 
 **Welcome to the Aspose.Drawing for .NET**
 
@@ -17,11 +17,11 @@ Aspose.Drawing is a fully managed, cross-platform, complete 2D graphic library f
 ## **Product Description**
 Aspose.Drawing for .NET is a robust .NET library that lets developers work with 2D drawings and graphics without the need of any other software. It provides a simple Application Programming Interface (API) that is easy to learn and use.
 
-Aspose.Drawing for .NET is implemented using Managed C# and it can be used with any .NET language like C#, VB.NET, and J#, etc. It can be integrated with any kind of application either it's an ASP.NET Web Application or a Windows Application. In order to facilitate the developers to get up and running quickly, Aspose.Drawing for .NET provides fully featured demos and working examples written in C#. Using these demos, developers can quickly learn about the features provided by the API.
+Aspose.Drawing for .NET is implemented using Managed C# and it can be used with any .NET language like C#, VB.NET, and F#, etc. It can be integrated with any kind of application either it's an ASP.NET Web Application or a Windows Application. In order to facilitate the developers to get up and running quickly, Aspose.Drawing for .NET provides fully featured demos and working examples written in C#. Using these demos, developers can quickly learn about the features provided by the API.
 
 The fast, light-weight library creates images efficiently and helps your application perform better. It is multithread safe as long as only one thread works on an image at a time. It is a typical scenario to have one thread working on one image. Different threads can safely work on different images at the same time.
 ## **Declaration**
-All Aspose .NET components require Full Trust permission set. The reason is, Aspose .NET components need to access registry settings, system files other than virtual directory for certain operations like parsing fonts etc. Moreover, Aspose .NET Components are based on core .NET system classes that also require Full Trust permission set in many cases.
+All Aspose .NET libraries require Full Trust permission set. The reason is, Aspose .NET libraries need to access registry settings, system files other than virtual directory for certain operations like parsing fonts etc. Moreover, Aspose .NET libraries are based on core .NET system classes that also require Full Trust permission set in many cases.
 
 Internet Service Providers hosting multiple applications from different companies mostly enforce Medium Trust security level. In case of .NET 2.0, such security level applies the following constraints:
 
@@ -32,4 +32,4 @@ Internet Service Providers hosting multiple applications from different companie
 - **WebPermission is restricted**. This means your application can only communicate with an address or range of addresses that you define in the <trust> element.
 - **FileIOPermission is restricted**. This means you can only access files in your application's virtual directory hierarchy.
 
-Due to the reasons specified above, Aspose .NET components cannot be used on servers granting permission set other than Full Trust.
+Due to the reasons specified above, Aspose .NET libraries cannot be used on servers granting permission set other than Full Trust.

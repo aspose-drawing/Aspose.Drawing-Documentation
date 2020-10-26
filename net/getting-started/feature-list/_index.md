@@ -25,7 +25,7 @@ Aspose.Drawing for .NET provides a rich set of features to draw vector graphics 
 - Join type
 ## **Brushes**
 - Solid
-- Hatch (planned)
+- Hatch
 - Texture
 - LinearGradient
 - PathGradient (planned)
