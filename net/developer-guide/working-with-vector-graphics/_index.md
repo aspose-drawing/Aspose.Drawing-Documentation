@@ -9,7 +9,7 @@ weight: 20
 
 Aspose.Drawing for .NET makes it easy for you to draw vector graphics using C#. The API lets you work with a variety of different vector graphics such as arcs, Bezier spline, Cardinal Spline, closed curves, ellipses, lines and a  number of other types. This article contains C# examples for drawing different types of vector graphics using the API.
 ## **Draw Arc**
-To drawn an arc using C#,
+To drawn an arc using C#:
 
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
@@ -96,7 +96,7 @@ To drawn an arc using C#,
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
-1. Use the DrawRectangle method of Graphics class object to draw Rectange
+1. Use the DrawRectangle method of Graphics class object to draw Rectangle
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawRectangle-DrawRectangle.cs" >}}
 

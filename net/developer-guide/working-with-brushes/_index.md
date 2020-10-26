@@ -11,8 +11,8 @@ Aspose.Drawing for .NET API provides the capability to draw graphics elements. B
 ## **Using Solid Brush to Draw Graphics in C#**
 To draw graphics with a solid brush, the following steps can be used.
 
-1. Create an object Bitmap class
-1. Inititalize the Graphics object from above bitmap
+1. Create an object of the Bitmap class
+1. Initialize the Graphics object from above bitmap
 1. Create a new Brush using the SolidBrush class
 1. Use the FillEllipse method as an example to draw a solid filled Ellipse
 1. Save the output to any desirable output image format

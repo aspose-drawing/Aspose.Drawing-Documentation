@@ -19,7 +19,7 @@ For global transformation of a scene in C#, the following steps can be used.
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/CoordinateSystemsTransformations/GlobalTransformation_out.png" alt="Global Transformation" width="500" />
 
 ## **Local Transformation**
-` `For local transformation of an object in C#, the following steps can be used.
+For local transformation of an object in C#, the following steps can be used.
 
 1. Instantiate a new object of Bitmap class
 1. Initialize a new object of Graphics class with this bitmap object
@@ -32,7 +32,7 @@ For global transformation of a scene in C#, the following steps can be used.
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/CoordinateSystemsTransformations/LocalTransformation_out.png" alt="Local Transformation" width="500" />
 
 ## **Matrix Transformation**
-` `For Matrix transformation of a path in C#, the following steps can be used.
+For Matrix transformation of a path in C#, the following steps can be used.
 
 1. Instantiate a new object of Bitmap class
 1. Initialize a new object of Graphics class with this bitmap object
