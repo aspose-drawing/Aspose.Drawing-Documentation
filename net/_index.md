@@ -2,8 +2,8 @@
 title: Aspose.Drawing for .NET
 type: docs
 url: /net/
-keywords: "PDF, Aspose.PDF Features, documentation"
-description: "Get an introduction to Aspose.PDF for .NET, a high-performance library for building modern, desktop, mobile, cloud-enabled, internet-connected apps."
+keywords: "System.Drawing, 2D graphic library, Aspose.Drawing Features, documentation"
+description: "Get an introduction to Aspose.Drawing for .NET, a complete 2D graphic library for building modern, desktop, mobile, cloud-enabled, internet-connected apps."
 weight: 10
 is_root: true
 ---
@@ -14,7 +14,7 @@ is_root: true
 
 **Welcome to the Aspose.Drawing for .NET**
 
-Aspose.Drawing is a .NET graphics API that provides the capability of 2D drawings identical to GDI+ in your .NET applications. The drawing engine supports rendering vector graphics (such as lines, curves, and figures) and text (in a variety of fonts, sizes, and styles) onto raster images in all commonly used graphics file formats. The project is based on managed .NET core and does not have dependencies on native code and libraries, with the rendering algorithms working the same way on all supported platforms.
+Aspose.Drawing is a fully managed, cross-platform, complete 2D graphic library for drawing text, geometries, and images. Aspose.Drawing provides System.Drawing compatible API, making it very easy for your existing code using System.Drawing to become truly cross-platform. Built against .NET Standard 2.0, Aspose.Drawing can be used in web, mobile, desktop, cloud and IoT scenarios. The drawing engine supports rendering vector graphics (such as lines, curves, and figures) and text (in a variety of fonts, sizes, and styles) onto raster images in all commonly used graphics file formats.
 
 {{% /alert %}} 
 
@@ -27,6 +27,6 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Drawing for .NET Release Notes](/drawing/net/release-notes/)
 - [Aspose.Drawing for .NET Product Page](https://products.aspose.com/drawing/net)
 - [Install Aspose.Drawing for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Drawing/)
-- [Aspose.Drawing for .NET API Reference Guide](https://apireference.aspose.com/net/drawing)
+- [Aspose.Drawing for .NET API Reference Guide](https://apireference.aspose.com/drawing/net)
 - [Aspose.Drawing for .NET Free Support Forum](https://forum.aspose.com/c/drawing)
 - [Aspose.Drawing for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)

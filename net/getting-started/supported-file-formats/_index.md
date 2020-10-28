@@ -2,13 +2,13 @@
 title: "Supported File Formats"
 type: docs
 url: /net/supported-file-formats/
-keywords: "C# API to create bmp, C# create JPEG, C# Create PNG, C# CROP image, C# Rotate Image."
-description: "Create images using C#. Crop, Rotate, Cut, and update images using .NET languages C# and VB.NET."
+keywords: "C# API to create bmp, C# create JPEG, C# Create PNG, C# Create GIF, C# Create TIFF."
+description: "Create images using .NET languages C# and VB.NET."
 weight: 20
 ---
 
 ## **Supported File Formats**
-The following table indicates the file formats that Aspose.Drawing for .NET can load and Save.
+The following table indicates the file formats that Aspose.Drawing for .NET can load and save.
 
 |**Format**|**Description**|**Load**|**Save**|**Remarks**|
 | :- | :- | :- | :- | :- |

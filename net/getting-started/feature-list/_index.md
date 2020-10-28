@@ -20,17 +20,17 @@ Aspose.Drawing for .NET provides a rich set of features to draw vector graphics 
 ## **Pens**
 - Color
 - Width
-- Dash style (planned)
+- Dash style
 - Cap type (planned)
 - Join type
 ## **Brushes**
 - Solid
-- Hatch (planned)
-- Texture (planned)
-- LinearGradient (planned)
+- Hatch
+- Texture
+- LinearGradient
 - PathGradient (planned)
 ## **Text and Fonts**
-- Load installed and private (planned) fonts
+- Load installed and private fonts
 - Draw text
 - Format text
 - Hinting

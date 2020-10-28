@@ -7,7 +7,7 @@ weight: 60
 
 {{% alert color="primary" %}} 
 
-This page contains release notes informaiton for Aspose.Drawing for .NET 20.6.
+This page contains release notes information for Aspose.Drawing for .NET 20.6.
 
 {{% /alert %}} 
 ## **Aspose.Drawing for .NET has been launched!**
