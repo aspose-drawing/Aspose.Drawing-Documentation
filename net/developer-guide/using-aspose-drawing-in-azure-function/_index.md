@@ -78,7 +78,7 @@ Publish your project to Azure as described in [Quickstart: Create your first fun
 
 ## 6. Test your function in Azure.
 
-In the address bar in the browser, append the string /api/Function1 to the base URL and run the request (the full request will be like https://azurefunctionapp123456789.azurewebsites.net/api/Function1).
+In the address bar in the browser, append the string **/api/Function1** to the base URL and run the request (the full request will look like https://azurefunctionapp123456789.azurewebsites.net/api/Function1).
 
 The browser will display the drawing result:
 
