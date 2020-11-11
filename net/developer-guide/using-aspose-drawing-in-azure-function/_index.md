@@ -11,7 +11,7 @@ Azure Functions allows you to quickly create a module to run on the cloud infras
 
 You can use Aspose.Drawing in your Azure Function to draw vector graphics, text, and generate resulting images as demonstrated in this tutorial.
 
-## 1. Create a function app project.
+## 1. Create a C# function app project.
 
 Create a HTTP trigger function from **Azure Functions** project template as described in 
 [Quickstart: Create your first function in Azure using Visual Studio](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio#create-a-function-app-project).
