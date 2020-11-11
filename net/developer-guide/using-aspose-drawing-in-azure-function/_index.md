@@ -20,7 +20,7 @@ Create a HTTP trigger function from **Azure Functions** project template as desc
 
 ## 2. Add the Aspose.Drawing package to project dependencies.
 
-![Installing Aspose.Drawing from NuGet](../getting-started/functions-project-settings.png)
+![Installing Aspose.Drawing from NuGet](../../getting-started/installation/installation_1.png)
 
 ## 3. Add image drawing code.
 
