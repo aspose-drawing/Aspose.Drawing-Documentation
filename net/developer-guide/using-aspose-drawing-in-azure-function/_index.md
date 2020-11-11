@@ -20,6 +20,8 @@ Create a HTTP trigger function from **Azure Functions** project template as desc
 
 ## 2. Add the Aspose.Drawing package to project dependencies.
 
+![Installing Aspose.Drawing from NuGet](../getting-started/functions-project-settings.png)
+
 ## 3. Add image drawing code.
 
 Replace the main **Function1.cs** file with the following code that draws a gradient and returns the resulting image for a HTTP request.
