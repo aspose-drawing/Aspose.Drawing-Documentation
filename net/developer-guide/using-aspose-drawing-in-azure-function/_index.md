@@ -13,7 +13,7 @@ You can use Aspose.Drawing in your Azure Function to draw vector graphics, text,
 
 ## 1. Create a C# function app project.
 
-Create a HTTP trigger function from **Azure Functions** project template as described in 
+Create an HTTP trigger function from **Azure Functions** project template as described in 
 [Quickstart: Create your first function in Azure using Visual Studio](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio#create-a-function-app-project).
 
 ![Azure Function project settings](functions-project-settings.png)
@@ -24,7 +24,7 @@ Create a HTTP trigger function from **Azure Functions** project template as desc
 
 ## 3. Add image drawing code.
 
-Replace the main **Function1.cs** file with the following code that draws a gradient and returns the resulting image for a HTTP request.
+Replace the main **Function1.cs** file with the following code that draws a gradient and returns the resulting image for an HTTP request.
 
 ```csharp
 using System.IO;
