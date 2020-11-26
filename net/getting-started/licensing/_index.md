@@ -37,3 +37,10 @@ When you call the SetLicense method, the license name that you pass should be th
 The following example shows how to load a license from a stream.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Licensing-Licensing-LoadLicenseFromStream.cs" >}}
+
+## **Metered License**
+Aspose.Drawing allows developers to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
+
+A new class Metered has been introduced to apply metered key. Following is the sample code demonstrating how to set metered public and private keys.
+
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Licensing-Licensing-SetMeteredLicense.cs" >}}
