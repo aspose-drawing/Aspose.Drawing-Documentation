@@ -19,7 +19,7 @@ In Visual Studio, create a new C# **Blazor App** - **Blazor WebAssembly App** pr
 
 ## 2. Add the Aspose.Drawing package to the BlazorApp1.Client project dependencies.
 
-![Installing Aspose.Drawing from NuGet](../../getting-started/installation/installation_1.png)
+![Installing Aspose.Drawing from NuGet](../installation/installation_1.png)
 
 ## 3. Add image drawing code.
 
