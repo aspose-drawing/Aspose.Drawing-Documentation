@@ -24,49 +24,9 @@ Create an HTTP trigger function from **Azure Functions** project template as des
 
 ## 3. Add image drawing code.
 
-Replace the main **Function1.cs** file with the following code that draws a gradient and returns the resulting image for an HTTP request.
+Replace the main **Function1.cs** file with the following code that draws a gradient and returns the resulting image for an HTTP request:
 
-```csharp
-using System.IO;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Extensions.Http;
-using Microsoft.AspNetCore.Http;
-
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Drawing.Imaging;
-
-namespace AzureFunctionApp1
-{
-    public static class Function1
-    {
-        [FunctionName("Function1")]
-        public static async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req, ExecutionContext context)
-        {
-            Aspose.Drawing.License license = new Aspose.Drawing.License();
-            license.SetLicense(Path.Combine(context.FunctionAppDirectory, "Aspose.Drawing.NET.lic"));
-
-            return new FileStreamResult(Draw(ImageFormat.Png), "image/png");
-        }
-
-        static Stream Draw(ImageFormat format)
-        {
-            Bitmap bitmap = new Bitmap(1000, 800, PixelFormat.Format32bppPArgb);
-            Graphics graphics = Graphics.FromImage(bitmap);
-
-            Brush brush = new LinearGradientBrush(new Point(0, 0), new Point(1000, 800), Color.Red, Color.Blue);
-            graphics.FillEllipse(brush, 100, 100, 800, 600);
-
-            MemoryStream result = new MemoryStream();
-            bitmap.Save(result, format);
-            result.Seek(0, SeekOrigin.Begin);
-            return result;
-        }
-    }
-}
-```
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Azure-Function-Drawing.cs" >}}
 
 ## 4. Add an Aspose.Drawing license file.
 
