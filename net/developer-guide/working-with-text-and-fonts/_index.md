@@ -47,10 +47,6 @@ Text hinting mode can be specified using the API. The following C# code shows ho
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-Hinting-Hinting.cs" >}}
 
-The following helper function is used for drawing text.
-
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-Hinting-HintingDrawText.cs" >}}
-
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/TextFonts/Hinting_out.png" alt="Text hinting" />
 
 ## **Installed Fonts**

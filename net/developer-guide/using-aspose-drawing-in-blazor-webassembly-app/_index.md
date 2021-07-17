@@ -23,41 +23,9 @@ In Visual Studio, create a new C# **Blazor App** - **Blazor WebAssembly App** pr
 
 ## 3. Add image drawing code.
 
-Replace the **Pages\Index.razor** file with the following code that draws a gradient and creates an image.
+Replace the **Pages\Index.razor** file with the following code that draws a gradient and creates an image:
 
-```csharp
-@page "/"
-@using System.Drawing;
-@using System.Drawing.Drawing2D;
-@using System.Drawing.Imaging;
-@using System.IO;
-
-<img src="@imageSrc" />
-
-@code {
-    private string imageSrc;
-
-    public Index()
-    {
-        imageSrc = "data:image/png;base64, " + Convert.ToBase64String(Draw(ImageFormat.Png).ToArray());
-    }
-
-    static MemoryStream Draw(ImageFormat format)
-    {
-        Bitmap bitmap = new Bitmap(1000, 800, PixelFormat.Format32bppPArgb);
-        Graphics graphics = Graphics.FromImage(bitmap);
-        graphics.SmoothingMode = SmoothingMode.AntiAlias;
-
-        Brush brush = new LinearGradientBrush(new Point(0, 0), new Point(1000, 800), Color.Red, Color.Blue);
-        graphics.FillEllipse(brush, 100, 100, 800, 600);
-
-        MemoryStream result = new MemoryStream();
-        bitmap.Save(result, format);
-        result.Seek(0, SeekOrigin.Begin);
-        return result;
-    }
-}
-```
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Blazor-WebAssembly-Drawing.cs" >}}
 
 ## 4. Add an Aspose.Drawing license file.
 
@@ -67,10 +35,7 @@ Copy your **Aspose.Drawing.NET.lic** file with Aspose.Drawing licensing informat
 
 In the **Program.cs** file, add the following code to the beginning on the **Main** method:
 
-```csharp
-Aspose.Drawing.License license = new Aspose.Drawing.License();
-license.SetLicense("BlazorApp1.Client.Aspose.Drawing.NET.lic");
-```
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Blazor-WebAssembly-Set-Drawing-License.cs" >}}
 
 ## 6. Run the application.
 

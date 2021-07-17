@@ -42,10 +42,6 @@ For Matrix transformation of a path in C#, the following steps can be used.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-MatrixTransformations-MatrixTransformations.cs" >}}
 
-The following helping method is called by above code sample.
-
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-MatrixTransformations-MatrixTransformationsTransformPath.cs" >}}
-
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/CoordinateSystemsTransformations/MatrixTransformations_out.png" alt="Matrix Transformation" width="500" />
 
 ## **Page Transformation**
