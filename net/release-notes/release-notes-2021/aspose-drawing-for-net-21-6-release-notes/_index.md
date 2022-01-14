@@ -2,7 +2,7 @@
 title: "Aspose.Drawing for .NET 21.6 Release Notes"
 type: docs
 url: /net/aspose-drawing-for-net-21-6-release-notes/
-weight: 20
+weight: 19
 ---
 
 {{% alert color="primary" %}} 
