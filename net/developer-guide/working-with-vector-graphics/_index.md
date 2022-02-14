@@ -2,13 +2,13 @@
 title: "Working with Vector Graphics"
 type: docs
 url: /net/working-with-vector-graphics/
-keywords: "C# Draw Bezier Curves, C# Cardinal Spline, Draw Arc C#, Vector Graphics C#"
-description: "Draw Bezier Curves in C#. Draw Cardinal Spline using C#. Draw Arc, Ellipse, Path, Polygon in C# and VB.NET."
 weight: 20
+keywords: C# .Net Drawing, Draw Arc in C#, Draw Bezier Spline in C#, Draw Cardinal Spline in C#, Draw Closed Curve in C#, Draw Ellipse in C#, Draw Lines in C#, Draw Path in C#, Draw Polygon in C#, Draw Rectangle in C#, Fill Region in C#
+description: Draw Arc, Bezier Spline, Cardinal Spline, Closed Curve, Ellipse, Lines, Path, Polygon, Rectangle and Fill Region in C# or .NET
 ---
 
 Aspose.Drawing for .NET makes it easy for you to draw vector graphics using C#. The API lets you work with a variety of different vector graphics such as arcs, Bezier spline, Cardinal Spline, closed curves, ellipses, lines and a  number of other types. This article contains C# examples for drawing different types of vector graphics using the API.
-## **Draw Arc**
+## **Draw Arc in .NET**
 To drawn an arc using C#:
 
 1. Instantiate an object of Bitmap class
@@ -20,7 +20,7 @@ To drawn an arc using C#:
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawArc_out.png" alt="Draw Arc" width="500"/>
 
-## **Draw Bezier Spline**
+## **Draw Bezier Spline in .NET**
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
@@ -30,7 +30,7 @@ To drawn an arc using C#:
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawBezierSpline_out.png" alt="Draw Bezier Spline" width="500"/>
 
-## **Draw Cardinal Spline**
+## **Draw Cardinal Spline in .NET**
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
@@ -40,7 +40,7 @@ To drawn an arc using C#:
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawCardinalSpline_out.png" alt="Draw Cardinal Spline" width="500"/>
 
-## **Draw Closed Curve**
+## **Draw Closed Curve in .NET**
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
@@ -50,7 +50,7 @@ To drawn an arc using C#:
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawClosedCurve_out.png" alt="Draw Closed Curve" width="500"/>
 
-## **Draw Ellipse**
+## **Draw Ellipse in .NET**
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
@@ -60,7 +60,7 @@ To drawn an arc using C#:
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawEllipse_out.png" alt="Draw Ellipse" width="500"/>
 
-## **Draw Lines**
+## **Draw Lines in .NET**
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
@@ -70,7 +70,7 @@ To drawn an arc using C#:
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawLines_out.png" alt="Draw Lines" width="500"/>
 
-## **Draw Path**
+## **Draw Path in .NET**
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
@@ -82,7 +82,7 @@ To drawn an arc using C#:
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawPath_out.png" alt="Draw Path" width="500"/>
 
-## **Draw Polygon**
+## **Draw Polygon in .NET**
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
@@ -92,7 +92,7 @@ To drawn an arc using C#:
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawPolygon_out.png" alt="Draw Polygon" width="500"/>
 
-## **Draw Rectangle**
+## **Draw Rectangle in .NET**
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Define a Pen object with desired parameters
@@ -102,7 +102,7 @@ To drawn an arc using C#:
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/LinesCurvesShapes/DrawRectangle_out.png" alt="Draw Rectangle" width="500"/>
 
-## **Fill Region**
+## **Fill Region in .NET**
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap
 1. Instantiate a GraphicsPath class object

@@ -2,7 +2,7 @@
 title: "Using Aspose.Drawing in Blazor WebAssembly App"
 type: docs
 url: /net/using-aspose-drawing-in-blazor-webassembly-app/
-keywords: "Blazor, Blazor WebAssembly, C# Draw Graphics, Graphics C#"
+keywords: "Blazor, Blazor WebAssembly, Blazor Drawing, C# Draw Graphics, Graphics C#"
 description: "Learn how to use Aspose.Drawing in Blazor WebAssembly application with C#."
 weight: 40
 ---

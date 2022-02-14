@@ -3,6 +3,8 @@ title: "Product Overview"
 type: docs
 url: /net/product-overview/
 weight: 10
+keywords: C#, .NET, 2D Drawings, System.Drawing, draw text in C#, draw geometries in C#, draw images in C#
+description: C# .NET graphic library to work with 2D drawings with simple API and it is System.Drawing compatible.
 ---
 
 {{% alert color="primary" %}} 

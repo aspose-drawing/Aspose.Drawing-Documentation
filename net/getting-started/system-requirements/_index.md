@@ -3,6 +3,8 @@ title: "System Requirements"
 type: docs
 url: /net/system-requirements/
 weight: 40
+keywords: System Requirements, .NET Core, Linux, Mac OS
+description: Aspose.Drawing for .NET System Requirements
 ---
 
 ## **Operating Systems**

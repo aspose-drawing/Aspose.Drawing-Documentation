@@ -3,6 +3,8 @@ title: "How to Run the Examples"
 type: docs
 url: /net/how-to-run-the-examples/
 weight: 80
+keywords: Run Examples, Visual Studio, NuGet Package Manager
+description: Learn about how to run examples in Visual Studio using NuGet or manually add reference to dll.
 ---
 
 ## **Software Requirements**
