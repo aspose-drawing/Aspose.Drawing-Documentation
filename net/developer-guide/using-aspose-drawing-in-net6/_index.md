@@ -25,7 +25,7 @@ In Visual Studio 2022, create a new C# **Console App**, selecting **.NET 6.0** f
 
 Replace the **Program.cs** file with the following code that draws a gradient and saves an image:
 
-{{< gist "Sergey-Vlasov" "ec6803611746664a3c10d7a9fae567c2" "Examples-CSharp-NET6-Drawing.cs" >}}
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-NET6-Drawing.cs" >}}
 
 ## 4. Add an Aspose.Drawing license file.
 
