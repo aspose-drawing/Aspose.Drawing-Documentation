@@ -12,6 +12,7 @@ NuGet is the easiest way to download and install Aspose APIs for .NET. Open Micr
 
 ![Installing Aspose.Drawing for .NET through NuGet](installation_1.png)
 
+You can select from Aspose.Drawing and Aspose.Drawing.Common packages. Aspose.Drawing package uses System.Drawing namespace and can be used to replace System.Drawing.Common without changing source code. Aspose.Drawing.Common package uses Aspose.Drawing namespace and can be used side-by-side with System.Drawing.Common.
 
 ## **Install or Update Aspose.Drawing using the Package Manager Console**
 You can follow the steps below to reference the Aspose.Drawing API using the package manager console:
