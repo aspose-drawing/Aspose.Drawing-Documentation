@@ -13,15 +13,15 @@ Customers can test the API thoroughly before making a final decision to buy it. 
 - The number of drawing operations is limited to 100 and an exception will be thrown after that
 - A watermark is embedded in output image when user saves the image
 ## **Apply License using File or Stream Object**
-The license can be loaded from a file or stream object. The easiest way to set a license is to put the license file in the same folder as the Aspose.Drawing.dll file and specify the file name, without a path, as shown in the example below.
+The license can be loaded from a file or stream object. The easiest way to set a license is to put the license file in the same folder as the Aspose.Drawing.dll/Aspose.Drawing.Common.dll file and specify the file name, without a path, as shown in the example below.
 
 {{% alert color="primary" %}} 
 
-If you use are using any other Aspose for .NET library along with Aspose.Drawing for .NET, please specify the namespace for License like Aspose.Drawing.License.
+If you use are using any other Aspose for .NET library along with Aspose.Drawing for .NET, please specify the namespace for License like Aspose.Drawing.License for Aspose.Drawing.Common package or System.Drawing.AsposeDrawing.License for Aspose.Drawing package.
 
 {{% /alert %}} 
 ### **Loading a License from File**
-The easiest way to apply a license is to put the license file in the same folder as the Aspose.Drawing.dll file and specify just the file name without a path.
+The easiest way to apply a license is to put the license file in the same folder as the Aspose.Drawing.dll/Aspose.Drawing.Common.dll file and specify just the file name without a path.
 
 {{% alert color="primary" %}} 
 
