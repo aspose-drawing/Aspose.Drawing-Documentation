@@ -2,7 +2,7 @@
 type: docs
 url: /net/developer-guide/system-drawing-replacement/
 weight: 5
-title: System.Drawing.Common replacement with Aspose.Drawing
+title: System.Drawing.Common (System.Drawing) replacement
 description: Aspose.Drawing library for drawing pictures. Replacement for Microsoft NET System.Drawing.Common 2D graphics. Draw image with .NET (C#) for graphic application development.
 keywords: [
 dot net,

@@ -1,8 +1,8 @@
 ---
 type: docs
-url: /net/developer-guide/cross-platform-graphics/
+url: /net/developer-guide/cross-platform-2d-graphics/
 weight: 7
-title: Cross-platform graphics library for 2D drawing pictures
+title: Cross platform 2D graphics library
 description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross-platform alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
 keywords: [
 drawing pictures,

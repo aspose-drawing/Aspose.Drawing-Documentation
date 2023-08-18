@@ -1,8 +1,8 @@
 ---
 type: docs
-url: /net/developer-guide/alternative-to-system-drawing/
+url: /net/developer-guide/system-drawing-alternative/
 weight: 6
-title: Aspose.Drawing.Common API as an alternative to System.Drawing.Common for 2D graphics engine
+title: System.Drawing.Common (System.Drawing) alternative
 description: System.Drawing alternative with Aspose.Drawing.Common C# API for drawing pictures. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
 keywords: [drawing pictures, anti aliasing, System drawing alternative, dot net, affine transformation, bezier curves, nuget package, alpha blending, rendering text, Drawing library for Windows]
 ---

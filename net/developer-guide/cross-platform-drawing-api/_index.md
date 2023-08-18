@@ -2,7 +2,7 @@
 type: docs
 url: /net/developer-guide/cross-platform-drawing-api/
 weight: 8
-title: Cross-platform drawing C# API
+title: Cross platform drawing API for C# (.NET)
 description: Aspose.Drawing library for Microsoft .NET for drawing pictures. Cross-platform support of C# Graphics API for 2D geometric drawings such as drawing lines, drawing shapes, drawing path and drawing rectangles.
 keywords: [drawing pictures,
 lines drawing,
