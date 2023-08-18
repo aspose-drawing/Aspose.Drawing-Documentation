@@ -39,7 +39,7 @@ The Aspose.Drawing library offers an extensive set of 2D drawing features, inclu
 </p>
 
 <figure class="frame"><p>
-<img src="Hinting_out.png" alt="Text strings with font hinting" width="1000" height="800"/>
+<img src="Hinting_out.webp" alt="Text strings with font hinting" width="640" height="244"/>
 <figcaption>Rendering text with font hinting</figcaption>
 </p></figure>
 
@@ -49,12 +49,12 @@ When drawing graphics, you have the flexibility to configure a pen with various 
 </p>
 
 <figure class="frame"><p>
-<img src="AlphaBlending_out.png" alt="" width="1000" height="800"/>
+<img src="AlphaBlending_out.webp" alt="" width="640" height="512"/>
 <figcaption>Drawing with alfa-blending</figcaption>
 </p></figure>
 
 <figure class="frame"><p>
-<img src="Antialiasing_out.png" alt="" width="1000" height="800"/>
+<img src="Antialiasing_out.webp" alt="" width="640" height="512"/>
 <figcaption>Drawing with anti-aliasing line</figcaption>
 </p></figure>
 

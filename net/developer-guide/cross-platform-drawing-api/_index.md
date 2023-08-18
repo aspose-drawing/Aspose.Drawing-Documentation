@@ -89,7 +89,7 @@ The C# code above will draw the following image with Lines, Rectangles and Ellip
 
 <figure class="frame">
 <p>
-<img src="DrawPath_out.png" alt="Draw Line Rectangle Ellipse Path " width="1000" height="800"/>
+<img src="DrawPath_out.webp" alt="Draw Line Rectangle Ellipse Path " width="640" height="512"/>
 <figcaption>Example of drawing lines, rectangles and ellipses</figcaption>
 </p>
 </figure>
@@ -110,7 +110,7 @@ The C# code example to draw an arc:
 
 <figure class="frame">
 <p>
-<img src="DrawArc_out.png" alt="Draw Arc with Aspose.Drawing" width="1000" height="800"/>
+<img src="DrawArc_out.webp" alt="Draw Arc with Aspose.Drawing" width="640" height="512"/>
 <figcaption>Example of drawing arc</figcaption>
 </p>
 </figure>
@@ -141,7 +141,7 @@ bitmap.Save(RunExamples.GetDataDir() + @"LinesCurvesShapes\DrawBezierSpline_out.
 
 <figure class="frame">
 <p>
-<img src="DrawBezierSpline_out.png" alt="Draw Bezier spline curve with Aspose.Drawing" width="1000" height="800"/>
+<img src="DrawBezierSpline_out.webp" alt="Draw Bezier spline curve with Aspose.Drawing" width="640" height="512"/>
 <figcaption>Example of drawing Bezier spline curve</figcaption>
 </p>
 </figure>
@@ -182,7 +182,7 @@ bitmap.Save(RunExamples.GetDataDir() + @"Rendering\Clipping_out.png");
 
 <figure class="frame">
 <p>
-<img src="Clipping_out.png" alt="Draw text string and clipping with Aspose.Drawing" width="1000" height="800"/>
+<img src="Clipping_out.webp" alt="Draw text string and clipping with Aspose.Drawing" width="640" height="512"/>
 <figcaption>Example of drawing text string with clipping</figcaption>
 </p>
 </figure>
