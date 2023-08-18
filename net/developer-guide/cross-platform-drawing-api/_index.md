@@ -27,7 +27,11 @@ Graphics API for ASP site]
     margin: 10px 0 5px 5px;
     background: #f0f0f0;
     align-items: center;
-   }
+    }
+   .marginauto {
+    margin: 10px auto 20px;
+    display: block;
+    }
    .frame figcaption {
     margin: 0 auto 5px;
 	display: flex;
@@ -88,10 +92,8 @@ The C# code above will draw the following image with Lines, Rectangles and Ellip
 </p>
 
 <figure class="frame">
-<p>
-<img src="DrawPath_out.webp" alt="Draw Line Rectangle Ellipse Path " width="640" height="512"/>
+<img class="marginauto" src="DrawPath_out.webp" alt="Draw Line Rectangle Ellipse Path " width="640" height="512"/>
 <figcaption>Example of drawing lines, rectangles and ellipses</figcaption>
-</p>
 </figure>
 
 
@@ -109,10 +111,8 @@ The C# code example to draw an arc:
 {% gist aspose-com-gists/660f3761ba6652f5bbd06bd535ac4bf9 draw-arc.cs %}
 
 <figure class="frame">
-<p>
-<img src="DrawArc_out.webp" alt="Draw Arc with Aspose.Drawing" width="640" height="512"/>
+<img class="marginauto" src="DrawArc_out.webp" alt="Draw Arc with Aspose.Drawing" width="640" height="512"/>
 <figcaption>Example of drawing arc</figcaption>
-</p>
 </figure>
 
 <p align='justify'>
@@ -140,10 +140,8 @@ bitmap.Save(RunExamples.GetDataDir() + @"LinesCurvesShapes\DrawBezierSpline_out.
 ```
 
 <figure class="frame">
-<p>
-<img src="DrawBezierSpline_out.webp" alt="Draw Bezier spline curve with Aspose.Drawing" width="640" height="512"/>
+<img class="marginauto" src="DrawBezierSpline_out.webp" alt="Draw Bezier spline curve with Aspose.Drawing" width="640" height="512"/>
 <figcaption>Example of drawing Bezier spline curve</figcaption>
-</p>
 </figure>
 
 
@@ -181,10 +179,8 @@ bitmap.Save(RunExamples.GetDataDir() + @"Rendering\Clipping_out.png");
 ```
 
 <figure class="frame">
-<p>
-<img src="Clipping_out.webp" alt="Draw text string and clipping with Aspose.Drawing" width="640" height="512"/>
+<img class="marginauto" src="Clipping_out.webp" alt="Draw text string and clipping with Aspose.Drawing" width="640" height="512"/>
 <figcaption>Example of drawing text string with clipping</figcaption>
-</p>
 </figure>
 
 <p align='justify'>

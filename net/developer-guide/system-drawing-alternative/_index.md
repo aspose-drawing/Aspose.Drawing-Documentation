@@ -14,13 +14,16 @@ keywords: [drawing pictures, anti aliasing, System drawing alternative, dot net,
     margin: 10px 0 5px 5px;
     background: #f0f0f0;
     align-items: center;
-   }
+    }
+   .marginauto {
+    margin: 10px auto 20px;
+    display: block;
+    }
    .frame figcaption {
     margin: 0 auto 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
    }
 </style>
 
@@ -38,25 +41,25 @@ The alternative to the System.Drawing.Common library has become more relevant si
 The Aspose.Drawing library offers an extensive set of 2D drawing features, including various methods for drawing lines, Bezier curves, splines, arcs, and shapes like rectangles, polygons, and ellipses, as well as processing and drawing graphics paths. Furthermore, it allows you to draw text strings as well. In contrast to other drawing libraries, Aspose provides high-quality rendering of text with anti-aliasing and hinting, ensuring that font edges appear smooth without jagged edges, and letters are readable on any kind of displays and resolutions. Aspose.Drawing has an advantage over other alternative libraries as it also supports strikeout or underline font rendering and the possibility to draw text in the shapes with alignment.
 </p>
 
-<figure class="frame"><p>
-<img src="Hinting_out.webp" alt="Text strings with font hinting" width="640" height="244"/>
+<figure class="frame">
+<img class="marginauto" src="Hinting_out.webp" alt="Text strings with font hinting" width="640" height="244"/>
 <figcaption>Rendering text with font hinting</figcaption>
-</p></figure>
+</figure>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 When drawing graphics, you have the flexibility to configure a pen with various colors, widths, and line styles, such as solid lines, dash lines, dot lines, or any custom combination of dashes and dots. Additionally, you can use solid and texture brushes to draw shapes. Moreover, you can utilize alpha blending and anti-aliasing for lines and shapes, allowing you to create semi-transparent objects that blend smoothly with a background image.
 </p>
 
-<figure class="frame"><p>
-<img src="AlphaBlending_out.webp" alt="" width="640" height="512"/>
+<figure class="frame">
+<img class="marginauto" src="AlphaBlending_out.webp" alt="" width="640" height="512"/>
 <figcaption>Drawing with alfa-blending</figcaption>
-</p></figure>
+</figure>
 
-<figure class="frame"><p>
-<img src="Antialiasing_out.webp" alt="" width="640" height="512"/>
-<figcaption>Drawing with anti-aliasing line</figcaption>
-</p></figure>
+<figure class="frame">
+<img class="marginauto" src="Antialiasing_out.webp" alt="" width="640" height="512"/>
+<figcaption>Drawing with anti-aliasing lines</figcaption>
+</figure>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
