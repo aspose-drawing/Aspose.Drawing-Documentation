@@ -85,39 +85,7 @@ One of the most popular use case for 2D drawing is adding text to images, such a
 
 Example of C# code to draw text on an image:
 
-```cs
-using (var image = Image.FromFile(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl.jpg")))
-{
-    var graphics = Graphics.FromImage(image);
-
-    graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
-    graphics.PageUnit = GraphicsUnit.Pixel;
-
-    SolidBrush brush = new SolidBrush(Color.Navy);
-    Font font = new Font("Calibri", 20, FontStyle.Italic);
-
-    int padding = 5;
-
-    string text = "Happy Birthday!";
-    var words = text.Split(' ');
-
-    int extentWidth = 0;
-    int extentHeight = 0;
-
-    words.ToList().ForEach(word => { var stringSize = graphics.MeasureString(word, font);
-                                        extentWidth = Math.Max(extentWidth, (int)stringSize.Width + padding);
-                                        extentHeight += (int)stringSize.Height; });
-
-    Rectangle rectangle = new Rectangle(image.Width - padding - extentWidth,
-                                        image.Height - padding - extentHeight,
-                                        extentWidth,
-                                        extentHeight);
-
-    graphics.DrawString(text, font, brush, rectangle);
-
-    image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl_card.jpg"));
-}
-```
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-DrawText-GiftCard.cs" >}}
 
 <style>
    .frame {
@@ -164,24 +132,7 @@ Moreover, you can enhance the visual appeal by creating a color frame around ima
 
 Example of C# code to draw a color frame around a photo:
 
-```cs
-using (var image = Image.FromFile(Path.Combine(RunExamples.GetDataDir(), "UseCases", "cat.jpg")))
-{
-    var graphics = Graphics.FromImage(image);
-
-    graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
-    graphics.PageUnit = GraphicsUnit.Pixel;
-
-    var pen = new Pen(Color.Magenta, 1);
-
-    int gap = 2;
-
-    graphics.DrawRectangle(pen, 0, 0, image.Width - 1, image.Height - 1);
-    graphics.DrawRectangle(pen, gap, gap, image.Width - gap - 1, image.Height - gap - 1);
-
-    image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "cat_with_honor.jpg"));
-}
-```
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawRectangle-PhotoWithFrame.cs" >}}
 
 <figure class="frame">
 <div class="container"><div>Source image</div><div>Resulting image</div></div>
@@ -206,61 +157,7 @@ Another useful scenario involves creating callouts on images to add supplementar
 
 Example of C# code to draw callouts on an image:
 
-```cs
-// callout with size
-using (var image = Image.FromFile(Path.Combine(RunExamples.GetDataDir(), "UseCases", "gears.png")))
-{
-    var graphics = Graphics.FromImage(image);
-
-    graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
-    graphics.PageUnit = GraphicsUnit.Pixel;
-
-    DrawCallOut(graphics, new PointF(107, 55), new PointF(179, 5), 74, "mm");
-
-    DrawCallOut(graphics, new PointF(111, 146), new PointF(29, 180), 28, "mm");
-
-    image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "gears_with_callout.jpg"));
-}
-
-void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int value, string unit)
-{
-    Pen pen = new Pen(Color.LightGray, 1);
-
-    Font font = new Font("Arial", 10, FontStyle.Bold);
-
-    string outputValue = $"{value} {unit}";
-
-    var textSize = graphic.MeasureString(outputValue, font);
-
-    int diameterSymbolSize = 12;
-    int spaceSize = 3;
-
-    textSize.Width += diameterSymbolSize + spaceSize;
-
-    float callOutMiddleX = endAnchor.X > startAnchor.X ? endAnchor.X - textSize.Width : endAnchor.X + textSize.Width;
-    float callOutMiddleY = endAnchor.Y > startAnchor.Y ? endAnchor.Y - textSize.Height : endAnchor.Y + textSize.Height;
-
-    graphic.DrawLine(pen, startAnchor.X, startAnchor.Y, callOutMiddleX, callOutMiddleY);
-
-    float textAnchorX = Math.Min(callOutMiddleX, endAnchor.X);
-    float textAnchorY = callOutMiddleY;
-    graphic.DrawLine(pen, callOutMiddleX, callOutMiddleY,
-                     textAnchorX == callOutMiddleX ? textAnchorX + textSize.Width : textAnchorX,
-                     callOutMiddleY);
-
-    graphic.DrawEllipse(pen, new Rectangle((int)textAnchorX + spaceSize,
-                                           (int)(textAnchorY - textSize.Height) + spaceSize, 10, 10));
-
-    graphic.DrawLine(pen, (int)textAnchorX + 1, (int)textAnchorY - 1,
-                          (int)textAnchorX + diameterSymbolSize + 2,
-                          (int)textAnchorY - diameterSymbolSize - 2);
-
-    SolidBrush brush = new SolidBrush(Color.LightGray);
-
-    graphic.DrawString(outputValue, font, brush, (int)textAnchorX + diameterSymbolSize + spaceSize,
-                                                 (int)(textAnchorY - textSize.Height));
-}
-```
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-DrawCallOut.cs" >}}
 
 <figure class="frame">
 <div class="container"><div>Source image</div><div>Resulting image</div></div>
