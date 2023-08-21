@@ -53,38 +53,12 @@ The Aspose.Drawing library provides a cross-platform C# API for creating geometr
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 In this example, we demonstrate how to create a series of graphic primitives, including lines, rectangles, and ellipses, using the <a href="https://reference.aspose.com/drawing/net/system.drawing/graphics/drawpath/">DrawPath method</a>. To start, we create a bitmap with a size of `1000x800` pixels and a color depth of 32 bits per pixel. Next, we define a Pen object with two properties: the color set to `Blue` and a width of 2
-pixels, which will be used for drawing the images, along with a <a href="https://reference.aspose.com/drawing/net/system.drawing.drawing2d/graphicspath/graphicspath/">Path object</a>. Following that, we sequentially add two lines to the Path, each defined by its starting and ending X, Y coordinates: one from (100, 100) to (1000, 400), and another line from (1000, 600) to (300, 600); a Rectangle with the following specifications: left upper corner at (0, 0), width of 200, and height of 400 pixels; and an Ellipse object fitted within a rectangle, positioned at the left upper corner (10, 200), with a width of 450 and a height of 300 pixels. Using the DrawPath method and the previously described Pen object, we draw the Path onto the created bitmap. Finally, we rasterize the image and save it as a PNG file.
+pixels, which will be used for drawing the images, along with a <a href="https://reference.aspose.com/drawing/net/system.drawing.drawing2d/graphicspath/graphicspath/">Path object</a>. Following that, we sequentially add two lines to the Path, each defined by its starting and ending X, Y coordinates: one from (100, 100) to (1000, 400), and another line from (1000, 600) to (300, 600); a Rectangle with the following specifications: left upper corner at (500, 350), width of 200, and height of 400 pixels; and an Ellipse object fitted within a rectangle, positioned at the left upper corner (10, 250), with a width of 450 and a height of 300 pixels. Using the DrawPath method and the previously described Pen object, we draw the Path onto the created bitmap. Finally, we rasterize the image and save it as a PNG file.
 </p>
 
 C# code example:
-```cs
-using System.Drawing;
-using System.Drawing.Drawing2D;
 
-namespace Aspose.Drawing.Examples.CSharp.LinesCurvesShapes
-{
-    class DrawPath
-    {
-        public static void Run()
-        {
-            //ExStart: DrawPath
-            Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
-            Graphics graphics = Graphics.FromImage(bitmap);
-
-            Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
-            GraphicsPath path = new GraphicsPath();
-            path.AddLine(100, 100, 1000, 400);
-            path.AddLine(1000, 600, 300, 600);
-            path.AddRectangle(new Rectangle(500, 350, 200, 400));
-            path.AddEllipse(10, 250, 450, 300);
-            graphics.DrawPath(pen, path);
-
-            bitmap.Save(RunExamples.GetDataDir() + @"LinesCurvesShapes\DrawPath_out.png");
-            //ExEnd: DrawPath
-        }
-    }
-}
-```
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawPath-DrawPath.cs" >}}
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -108,7 +82,8 @@ Similar to the previous example of 2D geometrics drawings, to draw an arc, we be
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 The C# code example to draw an arc:
 </p>
-{% gist aspose-com-gists/660f3761ba6652f5bbd06bd535ac4bf9 draw-arc.cs %}
+
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawArc-DrawArc.cs" >}}
 
 <figure class="frame">
 <img class="marginauto" src="DrawArc_out.webp" alt="Draw Arc with Aspose.Drawing" width="640" height="512"/>
@@ -125,19 +100,7 @@ To draw a Bezier curve, you need to utilize the <a href="https://reference.aspos
 The C# code example to draw a Bezier curve:
 </p>
 
-```cs
-Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
-Graphics graphics = Graphics.FromImage(bitmap);
-
-Pen pen = new Pen(Color.FromKnownColor(KnownColor.Blue), 2);
-PointF p1 = new PointF(0, 0);   // start point
-PointF c1 = new PointF(0, 800);   // first control point
-PointF c2 = new PointF(1000, 0);  // second control point
-PointF p2 = new PointF(1000, 800);  // end point
-graphics.DrawBezier(pen, p1, c1, c2, p2);
-
-bitmap.Save(RunExamples.GetDataDir() + @"LinesCurvesShapes\DrawBezierSpline_out.png");
-```
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawBezierSpline-DrawBezierSpline.cs" >}}
 
 <figure class="frame">
 <img class="marginauto" src="DrawBezierSpline_out.webp" alt="Draw Bezier spline curve with Aspose.Drawing" width="640" height="512"/>
@@ -157,26 +120,7 @@ Let's try a more intricate example with text drawing. We will render a text with
 The C# code example to draw a text string:
 </p>
 
-```cs
-Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
-Graphics graphics = Graphics.FromImage(bitmap);
-graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
-
-Rectangle rectangle = new Rectangle(200, 200, 600, 400);
-GraphicsPath clipPath = new GraphicsPath();
-clipPath.AddEllipse(rectangle);
-graphics.SetClip(clipPath);
-
-StringFormat stringFormat = new StringFormat();
-stringFormat.Alignment = StringAlignment.Center;
-stringFormat.LineAlignment = StringAlignment.Center;
-Brush brush = new SolidBrush(Color.FromKnownColor(KnownColor.Blue));
-Font arial = new Font("Arial", 20, FontStyle.Regular);
-string text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sapien tellus, mattis et condimentum eget, commodo ut ipsum. Maecenas elit sapien, tempus sit amet mauris sit amet, hendrerit laoreet nisi. Nulla facilisi. Sed commodo, mauris eget porta commodo, nunc tellus volutpat mi, eu auctor diam libero vel neque. Vestibulum nec mattis dui, nec molestie nisl. Etiam in magna felis. Praesent non nulla tortor. Integer nec convallis purus. Fusce vitae mollis mauris. Cras efficitur dui at mi viverra scelerisque. Morbi quis magna elit. Nulla facilisis id ante sit amet fringilla. Sed iaculis consectetur lectus a interdum. Etiam ut sollicitudin lectus, et congue lectus.";
-graphics.DrawString(text, arial, brush, rectangle, stringFormat);
-
-bitmap.Save(RunExamples.GetDataDir() + @"Rendering\Clipping_out.png");
-```
+{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-Clipping-Clipping.cs" >}}
 
 <figure class="frame">
 <img class="marginauto" src="Clipping_out.webp" alt="Draw text string and clipping with Aspose.Drawing" width="640" height="512"/>
