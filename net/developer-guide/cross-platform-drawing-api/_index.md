@@ -66,7 +66,7 @@ The C# code above will draw the following image with Lines, Rectangles and Ellip
 </p>
 
 <figure class="frame">
-<img class="marginauto" src="DrawPath_out.webp" alt="Draw Line Rectangle Ellipse Path " width="640" height="512"/>
+<img class="marginauto" src="DrawPath_out.png" alt="Draw Line Rectangle Ellipse Path " width="640" height="512"/>
 <figcaption>Example of drawing lines, rectangles and ellipses</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ The C# code example to draw an arc:
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawArc-DrawArc.cs" >}}
 
 <figure class="frame">
-<img class="marginauto" src="DrawArc_out.webp" alt="Draw Arc with Aspose.Drawing" width="640" height="512"/>
+<img class="marginauto" src="DrawArc_out.png" alt="Draw Arc with Aspose.Drawing" width="640" height="512"/>
 <figcaption>Example of drawing arc</figcaption>
 </figure>
 
@@ -103,7 +103,7 @@ The C# code example to draw a Bezier curve:
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawBezierSpline-DrawBezierSpline.cs" >}}
 
 <figure class="frame">
-<img class="marginauto" src="DrawBezierSpline_out.webp" alt="Draw Bezier spline curve with Aspose.Drawing" width="640" height="512"/>
+<img class="marginauto" src="DrawBezierSpline_out.png" alt="Draw Bezier spline curve with Aspose.Drawing" width="640" height="512"/>
 <figcaption>Example of drawing Bezier spline curve</figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ The C# code example to draw a text string:
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-Clipping-Clipping.cs" >}}
 
 <figure class="frame">
-<img class="marginauto" src="Clipping_out.webp" alt="Draw text string and clipping with Aspose.Drawing" width="640" height="512"/>
+<img class="marginauto" src="Clipping_out.png" alt="Draw text string and clipping with Aspose.Drawing" width="640" height="512"/>
 <figcaption>Example of drawing text string with clipping</figcaption>
 </figure>
 

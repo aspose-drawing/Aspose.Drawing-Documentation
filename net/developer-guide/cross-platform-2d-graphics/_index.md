@@ -113,10 +113,10 @@ Example of C# code to draw text on an image:
 <div class="container"><div>Source image</div><div>Resulting image</div></div>
 <div class="container">
     <div>
-        <img src="girl.webp" alt="Text drawing on image gift card" width="476" height="315"/>
+        <img src="girl.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
     </div>
     <div>
-        <img src="girl_card.webp" alt="Text drawing on image gift card" width="476" height="315"/>
+        <img src="girl_card.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
     </div>
 </div>
 <figcaption>Frame drawing on image</figcaption>
@@ -138,10 +138,10 @@ Example of C# code to draw a color frame around a photo:
 <div class="container"><div>Source image</div><div>Resulting image</div></div>
 <div class="container">
     <div>
-        <img src="cat.webp" alt="Frame drawing on image" width="476" height="268"/>
+        <img src="cat.jpg" alt="Frame drawing on image" width="476" height="268"/>
     </div>
     <div>
-       <img src="cat_with_honor.webp" alt="Frame drawing on image" width="476" height="268"/>
+       <img src="cat_with_honor.jpg" alt="Frame drawing on image" width="476" height="268"/>
     </div>
 </div>
 <figcaption>Frame drawing on image</figcaption>
@@ -163,10 +163,10 @@ Example of C# code to draw callouts on an image:
 <div class="container"><div>Source image</div><div>Resulting image</div></div>
 <div class="container">
     <div>
-        <img src="gears.webp" alt="Callouts drawing on image" width="176" height="183"/>
+        <img src="gears.png" alt="Callouts drawing on image" width="176" height="183"/>
     </div>
     <div>
-        <img src="gears_with_callout.webp" alt="Callouts drawing on image" width="176" height="183"/>
+        <img src="gears_with_callout.jpg" alt="Callouts drawing on image" width="176" height="183"/>
     </div>
 </div>
 <figcaption>Callouts drawing on image</figcaption>
