@@ -3,7 +3,7 @@ title: "Creating Car Body Drawing"
 type: docs
 url: /net/showcases/car-body/
 weight: 20
-description: Creating Car Body Drawing
+description: Creating Car Body drawing with Aspose.Drawing .NET (C#) 2d graphic library
 keywords: [2d drawing,]
 ---
 
@@ -60,3 +60,23 @@ keywords: [2d drawing,]
     <img class="marginauto" src="./sample_CarBody.png" alt="Car body drawing" width="640" height="212"/>
 <figcaption>Car body drawing</figcaption>
 </p></figure>
+
+### Video
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "VideoObject",
+    "name": "Car Body drawing",
+    "duration": "PT00M30S",
+    "uploadDate": "2023-09-16",
+    "embedUrl": "https://www.youtube.com/embed/xvEuQHaHWrk",
+    "thumbnailUrl": "https://i9.ytimg.com/vi/xvEuQHaHWrk/mqdefault.jpg?sqp=CMi6oKgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFUgVihlMA8=&rs=AOn4CLAAyl52MFXaz0bGBtDwjlO_vH9-5Q",
+    "description": "Creating Car Body drawing with Aspose.Drawing .NET (C#) 2d graphic library",
+}
+</script>
+
+<iframe width="1156" height="650" src="https://www.youtube.com/embed/xvEuQHaHWrk" title="CarBody" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+C# code example:
