@@ -121,7 +121,7 @@ internal class Skin
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Now you can assign different skins with background colors using the <a href="https://reference.aspose.com/drawing/net/system.drawing/color/fromargb/#fromargb_2">Color.FromArgb</a> method. The FromArgb() method creates a new skin color using four parameters: the first one sets the alpha layer to determine transparency levels, followed by R, G, B color palette parameters. So, skins number 1 and 2 in the code example below will use only a colored background, while skins 3 and 4 use additional `DesignElements` with a logo image, a position, and the banner text strings "KEWIN" and "ANCHOR," respectively. Define a font name, size, style and color per each `Banner` element: 
+Now you can assign different skins with background colors using the <a href="https://reference.aspose.com/drawing/net/aspose.drawing/color/fromargb/#fromargb_3">Color.FromArgb</a> method. The FromArgb() method creates a new skin color using four parameters: the first one sets the alpha layer to determine transparency levels, followed by R, G, B color palette parameters. So, skins number 1 and 2 in the code example below will use only a colored background, while skins 3 and 4 use additional `DesignElements` with a logo image, a position, and the banner text strings "KEWIN" and "ANCHOR," respectively. Define a font name, size, style and color per each `Banner` element:
 </p>
 
 ```cs
