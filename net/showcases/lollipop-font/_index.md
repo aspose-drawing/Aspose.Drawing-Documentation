@@ -45,11 +45,9 @@ Using the Aspose.Drawing 2D graphic library for .NET (C#), you can effortlessly 
 <figcaption>Lollipop Font drawing</figcaption>
 </p></figure>
 
-### C# code examples
-
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To demonstrate the capabilities of the graphic library, we will create a text drawing in a lollipop-inspired style. Beginning with the word "Lollipop" as our base text string, we will enhance it with vibrant outlines. To add intrigue to the font, we'll decorate the edges with circular white "nuts," each measuring 35 pixels in diameter. For a dynamic showcase video, we'll gradually reduce the nut size by 1 pixel every 20 frames. In each frame, we will render the word "Lollipop" on a black background, complete with a mirrored reflection to simulate a water reflection effect. Finally, we will save each resulting image frame as a separate PNG file.
+To demonstrate the capabilities of the graphic library, we will create a text drawing in a lollipop-inspired style. Beginning with the word "Lollipop" as our base text string, we will enhance it with vibrant outlines. To add intrigue to the font, we'll decorate the edges with circular white "nuts," each measuring 35 pixels in diameter. For a dynamic showcase video, we'll gradually reduce the nut size by 1 pixel during each consequent 20 frames. In each frame, we will render the word "Lollipop" on a black background, complete with a mirrored reflection to simulate a water reflection effect. Finally, we will save each resulting image frame as a separate PNG file.
 </p>
 
 ```cs
@@ -68,7 +66,7 @@ for (int i = 0; i < (makeVideo ? frames : 1); ++i)
 }
 ```
 
-#### Drawing word
+### Drawing word letters
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -145,7 +143,7 @@ private static void AddEllipseToPath(RectangleF rectangle, Graphics graphics, Gr
 }
 ```
 
-#### Selecting lollipop colors
+### Selecting lollipop colors
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -163,6 +161,10 @@ To derive our final lollipop colors, we'll blend palette colors with background 
 </p>
 
 ```cs
+Random r = new(seed);
+int half = 15; // of pen amount
+List<Color> colors = GetColors(half, r);
+
 private static List<Color> GetColors(int half, Random r)
 {
     int start = 0;
@@ -252,14 +254,11 @@ The resulting 30 lollipop colors are derived from the rainbow palette but are pa
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+After selecting the lollipop colors, we'll proceed to draw the path using the <a href="https://reference.aspose.com/drawing/net/aspose.drawing/graphics/drawpath/">DrawPath</a> method, employing a <a href="https://reference.aspose.com/drawing/net/aspose.drawing/pen/pen/#constructor_3">Pen</a> tool with gradually decreasing line width, starting from the widest stroke. To complete the image, we'll fill the letters of the word with a vertical color gradient transitioning from white to gray. We'll also add white circular "nuts" and crop the resulting bitmap using the widest stroke.
 </p>
 
 ```cs
-Random r = new(seed);
-int half = 15; // of pen amount
 int doubleStroke = 3 * 2; // the double width of stroke is increment of real pen width
-List<Color> colors = GetColors(half, r);
 Pen widest = new(colors[0], half * 2 * doubleStroke);
 
 for (int i = 0; i < half * 2; ++i)
@@ -289,9 +288,11 @@ VisitPoints(path, path, graphics, DrawAndFillEllipse);
 
 path2.Widen(widest);
 bitmap = Crop(bitmap, path2, margin);
+
+return bitmap;
 ```
 
-#### Drawing reflection
+### Drawing word reflection
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -358,4 +359,4 @@ public static Bitmap DrawReflection(Bitmap image1, int w, int h)
 
 ### Source code
 
-<a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/blob/master/Examples/Showcases/Showcases/LollipopFont.cs">LollipopFont.cs</a>
+Please find the complete C# source code example in the Aspose.Drawing Github repository: <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/blob/master/Examples/Showcases/Showcases/LollipopFont.cs">LollipopFont.cs</a>
