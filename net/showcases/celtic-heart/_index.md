@@ -9,6 +9,10 @@ keywords: [2d drawing,]
 
 ## Creating semi-transparent Celtic Heart figure text
 
+<a href="https://reference.aspose.com/drawing/net/aspose.drawing.drawing2d/graphicspath/flatten/">GraphicsPath.Flatten</a>
+
+<a href="https://reference.aspose.com/drawing/net/aspose.drawing.drawing2d/graphicspath/pathpoints/">GraphicsPath.PathPoints property</a>
+
 <style>
    .frame {
     border: 2px solid darkgray;
@@ -35,15 +39,33 @@ keywords: [2d drawing,]
    }
 </style>
 
-```cs
-private static readonly string text = "ᛦᛨᛩᛪ᛭ᛮᛯᛰᚠᛅᛆᛇᛈᛉᛊᛋᛏᛐᛒᛓᛗᛘᛚᛝᛞᛟᛠᛡᛢᛣᛥᚨᚩᚪᚫᚬᚭᚮᚯᚰᚱᚳᚴᚷᚸᚹᚺᚻᚼᚾᚿᛀ";
-```
-
-
 <figure class="frame"><p>
     <img class="marginauto" src="./sample_CelticHeart.png" alt="Celtic Heart figure text" width="640" height="360"/>
 <figcaption>Celtic Heart figure text</figcaption>
 </p></figure>
+
+```cs
+private static readonly string text = "ᛦᛨᛩᛪ᛭ᛮᛯᛰᚠᛅᛆᛇᛈᛉᛊᛋᛏᛐᛒᛓᛗᛘᛚᛝᛞᛟᛠᛡᛢᛣᛥᚨᚩᚪᚫᚬᚭᚮᚯᚰᚱᚳᚴᚷᚸᚹᚺᚻᚼᚾᚿᛀ";
+```
+
+```cs
+frameNumber = 151;
+for (int i = 0; i < 1; i++)
+{
+    ShiftRibbonStrings(ribbons);
+}
+
+g.Clear(bgColor);
+DrawRibbons(ribbons, g);
+RedrawRibbons(ribbons, segments1, segments2, g);
+Bitmap frame = Mix(bitmap, destParallelogram, rect, imageAttributes);
+
+string fileName = Path.Combine(outputDirectory, "CelticHeart.png");
+frame.Save(fileName);
+Console.WriteLine(fileName);
+```
+
+### Showcase video
 
 <script type="application/ld+json">
 {
