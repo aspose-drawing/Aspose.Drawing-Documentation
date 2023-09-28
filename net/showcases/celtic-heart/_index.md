@@ -46,7 +46,7 @@ keywords: [2d drawing,]
         <figcaption>Hopf Link</figcaption>
     </div>
     <div>
-        <figcaption>Intersection</figcaption>
+        <figcaption>Self-intersection</figcaption>
     </div>
 </div>
 <div class="container">
@@ -54,11 +54,16 @@ keywords: [2d drawing,]
         <img src="./hopf_link.webp" alt="Hopf Link" width="400" height="283"/>
     </div>
     <div>
-        <img src="./intersection.webp" alt="Intersection" width="400" height="275"/>
+        <img src="./intersection.webp" alt="Self-intersection" width="400" height="275"/>
     </div>
 </div>
 <figcaption>Ribbon path drawing</figcaption>
 </figure>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+We create a `Node` object that describes the point where ribbon segments intersect. The path contains multiple alternations where the ribbon passes beneath and then above another ribbon. Therefore, each Node has one ribbon that takes the upper route and two ribbons where segments pass beneath the upper ribbon. Consequently, the `Ribbon` object has its path with three Nodes: the starting Node, where the ribbon begins from beneath an upper ribbon, the Node where the ribbon takes the upper route above another ribbon, and the ending Node, where the ribbon once again passes beneath another ribbon. Additionally, the ribbon includes its text and a list of shifts that indicate the positions, angles, and corrections (hints) for each symbol.
+</p>
 
 ```cs
 internal class Node
@@ -101,7 +106,7 @@ internal class Shift
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Random 52 runic symbols
+Each ribbon contains a random text string composed of runic symbols. In the showcase video, these symbols move and disappear under the upper ribbon, while new symbols appear from the other side of the same ribbon segment. To achieve this effect, we randomly select runic symbols from the initial list of 52 runic symbols and add them to the string during the string shift, ensuring that the new symbol is different from its neighbor. This is accomplished by removing the neighbor symbol from the initial list once it has been selected.
 </p>
 
 ```cs
@@ -311,3 +316,7 @@ ffmpeg -i ./out/out.mp4 -i Nakarada.mp3 -map 0:v -map 1:a -c:v copy -shortest ./
 </script>
 
 <iframe width="1156" height="650" src="https://www.youtube.com/embed/TkCpEYy8Ong" title="Celtic Heart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Source code
+
+You can find the full source code of the showcase in the Aspose.Drawing Github repository: <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/blob/master/Examples/Showcases/Showcases/CelticHeart.cs">CelticHeart.cs</a>
