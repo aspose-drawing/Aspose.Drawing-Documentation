@@ -9,6 +9,21 @@ keywords: [2d drawing,]
 
 ## Creating semi-transparent Celtic Heart figure text
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The first impression is crucial when introducing new content to customers or viewers. Creating splash screens or digital art objects can be accomplished more quickly and effectively with a powerful tool like the Aspose.Drawing graphic library for .NET (C#). You can leverage a variety of ready-to-use functions from the library's API for text and image drawings, manipulate graphic objects with controlled transparency levels, and blend bitmaps to craft stunning art objects.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In our showcase example, we craft a drawing featuring Celtic rune text drawn along an intricate, curvy path that resembles a heart shape with multiple intersections. At the center of this design, we employ a 10-node knot with semi-intersections, represented by a semi-transparent ribbon. While it may appear complex initially, we'll guide you through the showcase with step-by-step C# code examples.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Let's begin with a basic example. In the illustration below, you can observe two simple unknot paths represented by cyan and magenta circles, which are linked together, forming a structure known as the Hopf Link. These paths intersect at 2 points, or in other words, the figure comprises 2 nodes. Simultaneously, we can observe 2 ribbons (segments), with the cyan ribbon passing over the magenta ribbon at one node, and vice versa magenta over the cyan at the second node. In the second illustration, an extra node is introduced due to the self-intersection of the cyan ribbon.
+</p>
+
 <style>
    .frame {
     border: 2px solid darkgray;
@@ -35,11 +50,6 @@ keywords: [2d drawing,]
    }
 </style>
 
-<figure class="frame"><p>
-    <img class="marginauto" src="./sample_CelticHeart.png" alt="Celtic Heart figure text" width="640" height="360"/>
-<figcaption>Celtic Heart figure text</figcaption>
-</p></figure>
-
 <figure class="frame">
 <div class="container">
     <div>
@@ -59,6 +69,16 @@ keywords: [2d drawing,]
 </div>
 <figcaption>Ribbon path drawing</figcaption>
 </figure>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In our Celtic Heart showcase, we created a figure that also consists of two linked paths. The internal path is a knot with 10 nodes (and accordingly, 10 self-intersections), while the external second path resembles a large heart and has 6 intersections with the first path. In three nodes, the second path crosses above the first one, and in three other nodes, it goes below another ribbon.
+</p>
+
+<figure class="frame"><p>
+    <img class="marginauto" src="./sample_CelticHeart.png" alt="Celtic Heart figure text" width="640" height="360"/>
+<figcaption>Celtic Heart figure text</figcaption>
+</p></figure>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
