@@ -19,11 +19,6 @@ The first impression is crucial when introducing new content to customers or vie
 In our showcase example, we craft a drawing featuring Celtic rune text drawn along an intricate, curvy path that resembles a heart shape with multiple intersections. At the center of this design, we employ a 10-node knot with semi-intersections, represented by a semi-transparent ribbon. While it may appear complex initially, we'll guide you through the showcase with step-by-step C# code examples.
 </p>
 
-<p align='justify'>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Let's begin with a basic example. In the illustration below, you can observe two simple unknot paths represented by cyan and magenta circles, which are linked together, forming a structure known as the Hopf Link. These paths intersect at 2 points, or in other words, the figure comprises 2 nodes. Simultaneously, we can observe 2 ribbons (segments), with the cyan ribbon passing over the magenta ribbon at one node, and vice versa magenta over the cyan at the second node. In the second illustration, an extra node is introduced due to the self-intersection of the cyan ribbon.
-</p>
-
 <style>
    .frame {
     border: 2px solid darkgray;
@@ -50,6 +45,18 @@ Let's begin with a basic example. In the illustration below, you can observe two
    }
 </style>
 
+<figure class="frame"><p>
+    <img class="marginauto" src="./sample_CelticHeart.png" alt="Celtic Heart figure text" width="640" height="360"/>
+<figcaption>Celtic Heart figure text</figcaption>
+</p></figure>
+
+### Nodes and ribbons
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Let's begin with a basic example. In the illustration below, you can observe two simple unknot paths represented by cyan and magenta circles, which are linked together, forming a structure known as the Hopf Link. These paths intersect at 2 points, or in other words, the figure comprises 2 nodes. Simultaneously, we can observe 2 ribbons (segments), with the cyan ribbon passing over the magenta ribbon at one node, and vice versa magenta over the cyan at the second node. In the second illustration, an extra node is introduced due to the self-intersection of the cyan ribbon.
+</p>
+
 <figure class="frame">
 <div class="container">
     <div>
@@ -74,11 +81,6 @@ Let's begin with a basic example. In the illustration below, you can observe two
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 In our Celtic Heart showcase, we created a figure that also consists of two linked paths. The internal path is a knot with 10 nodes (and accordingly, 10 self-intersections), while the external second path resembles a large heart and has 6 intersections with the first path. In three nodes, the second path crosses above the first one, and in three other nodes, it goes below another ribbon.
 </p>
-
-<figure class="frame"><p>
-    <img class="marginauto" src="./sample_CelticHeart.png" alt="Celtic Heart figure text" width="640" height="360"/>
-<figcaption>Celtic Heart figure text</figcaption>
-</p></figure>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -124,6 +126,8 @@ internal class Shift
 }
 ```
 
+### Celtic runes text
+
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Each ribbon contains a random text string composed of runic symbols. In the showcase video, these symbols move and disappear under the upper ribbon, while new symbols appear from the other side of the same ribbon segment. To achieve this effect, we randomly select runic symbols from the initial list of 52 runic symbols and add them to the string during the string shift, ensuring that the new symbol is different from its neighbor. This is accomplished by removing the neighbor symbol from the initial list once it has been selected.
@@ -150,13 +154,11 @@ private static string RandomString()
 }
 ```
 
+### Creating path and ribbon objects
+
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://reference.aspose.com/drawing/net/aspose.drawing.drawing2d/graphicspath/flatten/">GraphicsPath.Flatten</a>
-
-<a href="https://reference.aspose.com/drawing/net/aspose.drawing.drawing2d/graphicspath/pathpoints/">GraphicsPath.PathPoints property</a>
-
+We outlined our two paths using Bezier curves, and subsequently, we flattened each curve into a sequence of connected line segments utilizing the <a href="https://reference.aspose.com/drawing/net/aspose.drawing.drawing2d/graphicspath/flatten/">GraphicsPath.Flatten</a> method. Following this, we generated arrays of point objects that depict the path by accessing the <a href="https://reference.aspose.com/drawing/net/aspose.drawing.drawing2d/graphicspath/pathpoints/">GraphicsPath.PathPoints property</a>. From these points, we structured segments, each comprising a list of spans described by two consecutive points, achieved through the `AddSpans` procedure.
 </p>
 
 ```cs
@@ -182,7 +184,7 @@ segments.AddRange(segments1);
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Compare spans in segments, find intersections and fill the `nodes` list with segments' intersection
+We compared all spans within segments to each other and detected intersections using the `FindIntersection()` function. If the spans intersected, we populated the nodes list with these intersected segments and distinguished nodes with alternating properties like even-odd, indicating whether the path goes above or below the crossing path. In our scenario with two paths, we only needed to fix this alternation for the last node. Subsequently, we crafted ribbons from the segments of the second path, followed by those from the first path using the `MakeRibbons`, and calculated shifts for symbol placements using the `CalcShifts` procedures.
 </p>
 
 ```cs
@@ -228,9 +230,176 @@ MakeRibbons(ribbons, segments1);
 CalcShifts(ribbons, g);
 ```
 
+### Draw path with ribbons
+
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Now that we have created all the ribbon and node objects with their respective properties, we can begin generating image frames for the showcase video. For each video frame, we draw the ribbons with text and mix the frame with a background image. Additionally, after every 60 frames, we will shift symbols in the ribbon text.
+</p>
 
+```cs
+private static readonly int k = 60; // Frame number for transition from one key position
+                                    // to another on the creeping line.
+
+for (int i = 0; i < frameLimit; i++)
+{
+    if (i % k == 0)
+    {
+        ShiftRibbonStrings(ribbons);
+    }
+
+    ++frameNumber;
+    g.Clear(bgColor);
+    DrawRibbons(ribbons, g);
+    RedrawRibbons(ribbons, segments1, segments2, g);
+    Bitmap frame = Mix(bitmap, destParallelogram, rect, imageAttributes);
+
+    string fileName = Path.Combine(outputDirectory, $"{frameNumber:d5}.png");
+    frame.Save(fileName);
+    Console.WriteLine(fileName);
+}
+```
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To draw a ribbon, we employ the <a href="https://reference.aspose.com/drawing/net/aspose.drawing/graphics/drawpath/">Graphics.DrawPath</a> method, using a Pen tool corresponding to the border and inner path width. Furthermore, we incorporate a shadow that falls from the upper ribbon onto the underlying ribbons. To achieve this image effect, we define a new inner path using the <a href="https://reference.aspose.com/drawing/net/aspose.drawing.drawing2d/graphicspath/widen/">GraphicsPath.Widen</a> method, which takes into account the width of the border pen. Subsequently, we apply a Brush tool with an elliptical gradient that smoothly transitions from black to the surrounding color. This gradient has levels of transparency, gradually decreasing from 255 to 0, and is directed towards the centers of the ribbon's starting and ending nodes.
+</p>
+
+```cs
+private static readonly float ribbonInnerWidth = 48;
+private static readonly float ribbonStroke = 4;
+private static readonly Pen penInner = new(Color.FromArgb(255, 60, 60, 90), ribbonInnerWidth);
+private static readonly Pen penBorder = new(Color.White, ribbonInnerWidth + ribbonStroke * 2);
+
+private static void DrawRibbon(Ribbon ribbon, Graphics g)
+{
+    g.DrawPath(penBorder, ribbon.Path);
+    g.DrawPath(penInner, ribbon.Path);
+
+    GraphicsPath inner = (GraphicsPath)ribbon.Path.Clone();
+    inner.Widen(penBorder);
+
+    DrawTextOnPath(g, ribbon.Text, ribbon);
+
+    if (ribbon.Node1 is null || ribbon.Node3 is null)
+    {
+        return;
+    }
+
+    PathGradientBrush brush1 = MakeBrush(ribbon.Node1.Point);
+    g.FillPath(brush1, inner);
+
+    PathGradientBrush brush3 = MakeBrush(ribbon.Node3.Point);
+    g.FillPath(brush3, inner);
+}
+
+private static PathGradientBrush MakeBrush(PointF pt)
+{
+    float r = 80;
+    GraphicsPath path = new();
+    path.AddEllipse(pt.X - r, pt.Y - r, r * 2, r * 2);
+
+    PathGradientBrush brush = new(path) { CenterColor = Color.FromArgb(255, 0, 0, 0) };
+    Color[] colors = { Color.FromArgb(0, 60, 60, 90) };
+    brush.SurroundColors = colors;
+
+    return brush;
+}
+```
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+After applying shadows to the bottom ribbon, we need to redraw the section where the ribbons intersect to make the upper ribbon semi-transparent. This intersection region is located at the middle point of 'Node2' on the upper ribbon. To create this region, we combine the path from the two underlying ribbons using the 'MakeUnderPart()' function. Then, we find the intersection region between the upper and bottom ribbons using the <a href="https://reference.aspose.com/drawing/net/aspose.drawing/region/intersect/#intersect_1">Region.Intersect method</a>. For this specific clip region, we apply a transparent background and redraw all three corresponding ribbons once more.
+</p>
+
+```cs
+private static void RedrawRibbons(
+    List<Ribbon> ribbons, List<Span> segments1, List<Span> segments2, Graphics g)
+{
+    for (int i = 0; i < ribbons.Count; i++)
+    {
+        Ribbon ribbon = ribbons[i];
+        if (ribbon.Node2 is not null)
+        {
+            Node node = ribbon.Node2;
+
+            GraphicsPath part1 = ribbon.Path;
+            GraphicsPath part2 = MakeUnderPart(ribbon.Node2, segments1, segments2);
+
+            GraphicsPath widenPart1 = (GraphicsPath)part1.Clone();
+            GraphicsPath widenPart2 = (GraphicsPath)part2.Clone();
+
+            widenPart1.Widen(penWide);
+            widenPart2.Widen(penWide);
+
+            Region interParts = new(widenPart1);
+            interParts.Intersect(new Region(widenPart2));
+
+            g.Clip = interParts;
+            g.Clear(bgColor);
+
+            if (node.Ribbon1 is not null && node.Ribbon2 is not null && node.Ribbon3 is not null)
+            {
+                DrawRibbon(node.Ribbon1, g);
+                DrawRibbon(node.Ribbon3, g);
+                DrawRibbon(node.Ribbon2, g);
+            }
+
+            g.ResetClip();
+        }
+    }
+}
+```
+
+### Text rendering
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Text rendering is accomplished by employing the <a href="https://reference.aspose.com/drawing/net/aspose.drawing.drawing2d/graphicspath/addstring/">GraphicsPath.AddString method</a> and <a href="https://reference.aspose.com/drawing/net/aspose.drawing/graphics/fillpath/">Graphics.FillPath method</a> in conjunction with the chosen font and brush. Before this, we need to calculate the positions of the text symbols for each frame during the 60-frame interval. This involves determining the X and Y coordinates, as well as the angle and correction (hint) for each symbol's placement. The corrections to the Y coordinates of the symbols are essential to ensure that the symbols do not come into contact with the ribbon borders or neighboring symbols, especially when there are significant rotation angles involved. These transformations and rotations are then applied using the <a href="https://reference.aspose.com/drawing/net/aspose.drawing/graphics/translatetransform/">Graphics.TranslateTransform</a> and <a href="https://reference.aspose.com/drawing/net/aspose.drawing/graphics/rotatetransform/">Graphics.RotateTransform</a> methods.
+</p>
+
+```cs
+private static void DrawTextOnPath(Graphics g, string txt, Ribbon ribbon)
+{
+    for (int i = 1; i < ribbon.Shifts.Count - 1; i++)
+    {
+        string sub = txt.Substring(i, 1);
+
+        Shift shift1 = ribbon.Shifts[i];
+        Shift shift2 = ribbon.Shifts[i + 1];
+
+        int n = (frameNumber - 1) % k;
+        Shift shift = new(
+            shift1.X + (shift2.X - shift1.X) / k * n,
+            shift1.Y + (shift2.Y - shift1.Y) / k * n,
+            shift1.Angle + SmallestAngleDiff(shift1.Angle, shift2.Angle) / k * n,
+            shift1.Hint + (shift2.Hint - shift1.Hint) / k * n);
+
+        DrawTextOnSegment(g, sub, shift);
+    }
+}
+
+private static void DrawTextOnSegment(Graphics g, string txt, Shift shift)
+{
+    GraphicsState state = g.Save();
+
+    g.TranslateTransform(0, shift.Hint, MatrixOrder.Append);
+    g.RotateTransform(shift.Angle, MatrixOrder.Append);
+    g.TranslateTransform(shift.X, shift.Y, MatrixOrder.Append);
+
+    GraphicsPath path = new();
+    path.AddString(txt, fontFamily, 0, emSize, new Point(0, 0), null);
+    g.FillPath(fontBrush, path);
+
+    g.Restore(state);
+}
+```
+
+### Bitmaps blending with background images
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Finally, we need to blend the two bitmaps containing our Celtic heart ribbons and background image. To preserve semi-transparency, we create a <a href="https://reference.aspose.com/drawing/net/aspose.drawing.imaging/colormatrix/colormatrix/#constructor_1">Color matrix</a> with a transparency level of 0.55 and assign it to the <a href="https://reference.aspose.com/drawing/net/aspose.drawing.imaging/imageattributes/">Image Attributes</a> parameter used by the <a href="https://reference.aspose.com/drawing/net/aspose.drawing/graphics/drawimage/#drawimage_4">Graphics.DrawImage</a> method.
 </p>
 
 ```cs
@@ -261,50 +430,31 @@ PointF[] destParallelogram = new PointF[]
 };
 
 RectangleF rect = new(0, 0, w, h);
-```
 
-```cs
-private static readonly int k = 60; // Frame number for transition from one key position
-                                    // to another on the creeping line.
-
-for (int i = 0; i < frameLimit; i++)
+private static Bitmap Mix(Bitmap bitmap, PointF[] destParallelogram,
+    RectangleF rect, ImageAttributes imageAttributes)
 {
-    if (i % k == 0)
-    {
-        ShiftRibbonStrings(ribbons);
-    }
+    CalcFrameNumbers();
+    Bitmap frame = BackgroundMix();
+    Graphics g2 = Graphics.FromImage(frame);
+    g2.CompositingQuality = CompositingQuality.HighQuality;
 
-    ++frameNumber;
-    g.Clear(bgColor);
-    DrawRibbons(ribbons, g);
-    RedrawRibbons(ribbons, segments1, segments2, g);
-    Bitmap frame = Mix(bitmap, destParallelogram, rect, imageAttributes);
+    g2.DrawImage(
+        bitmap,
+        destParallelogram,
+        rect,
+        GraphicsUnit.Pixel,
+        imageAttributes);
 
-    string fileName = Path.Combine(outputDirectory, $"{frameNumber:d5}.png");
-    frame.Save(fileName);
-    Console.WriteLine(fileName);
+    return frame;
 }
 ```
-
-<p align='justify'>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-</p>
-
-
-<p align='justify'>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://reference.aspose.com/drawing/net/aspose.drawing/graphics/drawimage/#drawimage_4">Graphics.DrawImage</a>
-
-
-</p>
 
 ### Showcase video
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Prepare frames from background video using `ffmpeg` program:
+Before beginning the showcase generation, we need to prepare background frames from an existing video using the `ffmpeg` program:
 </p>
 
 ```sh
@@ -314,7 +464,7 @@ ffmpeg -i CelticHeart/StarrySky.mp4 ./CelticHeart/StarrySky_out/%%05d.png
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Make video from separate frames in PNG files and add sound:
+To create a video from individual frames saved as PNG files and add audio, you can execute the following commands:
 </p>
 
 ```sh
