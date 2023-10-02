@@ -4,7 +4,7 @@ type: docs
 url: /net/showcases/lollipop-font/
 weight: 20
 description: Creating Lollipop Font drawing with Aspose.Drawing .NET (C#) 2d graphic library
-keywords: [2d graphic library, font drawing, text drawing, font styles]
+keywords: [2d graphic library, font drawing, text drawing, font styles, graphic art, colored outlines, image effect, reflection effect, high-quality smoothing, graphic path, palette colors, rainbow palette, linear gradient, transparency effect, lollipop style, lollipop font, lollipop colors, C# source code example]
 ---
 
 ## Creating Lollipop Font
@@ -47,7 +47,7 @@ Using the Aspose.Drawing 2D graphic library for .NET (C#), you can effortlessly 
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To demonstrate the capabilities of the graphic library, we will create a text drawing in a lollipop-inspired style. Beginning with the word "Lollipop" as our base text string, we will enhance it with vibrant outlines. To add intrigue to the font, we'll decorate the edges with circular white "nuts," each measuring 35 pixels in diameter. For a dynamic showcase video, we'll gradually reduce the nut size by 1 pixel during each consequent 20 frames. In each frame, we will render the word "Lollipop" on a black background, complete with a mirrored reflection to simulate a water reflection effect. Finally, we will save each resulting image frame as a separate PNG file.
+To demonstrate the capabilities of the graphic library, we will create a text drawing in a lollipop-inspired style. Beginning with the word "Lollipop" as our base text string, we will enhance it with vibrant outlines. To add intrigue to the font, we'll decorate the edges with circular white "nuts," each measuring 35 pixels in diameter. For a dynamic showcase video, we'll gradually reduce the nut size by 1 pixel during each consequent 20 frames. In each frame, we will render the word "Lollipop" on a black background, complete with a mirrored reflection to simulate a water reflection image effect. Finally, we will save each resulting image frame as a separate PNG file.
 </p>
 
 ```cs
