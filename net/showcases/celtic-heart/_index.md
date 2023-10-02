@@ -4,19 +4,19 @@ type: docs
 url: /net/showcases/celtic-heart/
 weight: 20
 description: Creating semi-transparent Celtic Heart figure text drawing with Aspose.Drawing .NET (C#) 2d graphic library
-keywords: [2d drawing,]
+keywords: [drawing 2d, graphic library, graphic path, image drawing, transparency level, blend bitmaps, text drawing, figure text, Bezier curves, draw path, image effect, elliptical gradient, intersection region, ribbons intersection, clip region, draw shadow, transparent background, text rendering, shift symbols, rotate symbol, C# code examples, Celtic Heart, Celtic rune, runic symbols, create video]
 ---
 
 ## Creating semi-transparent Celtic Heart figure text
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The first impression is crucial when introducing new content to customers or viewers. Creating splash screens or digital art objects can be accomplished more quickly and effectively with a powerful tool like the Aspose.Drawing graphic library for .NET (C#). You can leverage a variety of ready-to-use functions from the library's API for text and image drawings, manipulate graphic objects with controlled transparency levels, and blend bitmaps to craft stunning art objects.
+The first impression is crucial when introducing new content to customers or viewers. Creating splash screens or digital art objects can be accomplished more quickly and effectively with a powerful tool like the Aspose.Drawing 2d graphic library for .NET (C#). You can leverage a variety of ready-to-use functions from the library's API for text and image drawings, manipulate graphic objects with controlled transparency levels, and blend bitmaps to craft stunning art objects.
 </p>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In our showcase example, we craft a drawing featuring Celtic rune text drawn along an intricate, curvy path that resembles a heart shape with multiple intersections. At the center of this design, we employ a 10-node knot with semi-intersections, represented by a semi-transparent ribbon. While it may appear complex initially, we'll guide you through the showcase with step-by-step C# code examples.
+In our showcase example, we craft a drawing featuring Celtic rune text drawn along an intricate, curvy path that resembles a heart shape with multiple intersections. At the center of this design, we employ a 10-node knot with semi-intersections, represented by a semi-transparent graphic path. While it may appear complex initially, we'll guide you through the showcase with step-by-step C# code examples.
 </p>
 
 <style>
@@ -54,7 +54,7 @@ In our showcase example, we craft a drawing featuring Celtic rune text drawn alo
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Let's begin with a basic example. In the illustration below, you can observe two simple unknot paths represented by cyan and magenta circles, which are linked together, forming a structure known as the Hopf Link. These paths intersect at 2 points, or in other words, the figure comprises 2 nodes. Simultaneously, we can observe 2 ribbons (segments), with the cyan ribbon passing over the magenta ribbon at one node, and vice versa magenta over the cyan at the second node. In the second illustration, an extra node is introduced due to the self-intersection of the cyan ribbon.
+Let's begin with a basic example. In the illustration below, you can observe two simple unknot paths represented by cyan and magenta circles, which are linked together, forming a structure known as the Hopf Link. These paths intersect at 2 points, or in other words, the figure comprises 2 nodes. Simultaneously, we can observe 2 ribbons, with the cyan ribbon passing over the magenta ribbon at one node, and vice versa magenta over the cyan at the second node. In the second illustration, an extra node is introduced due to the self-intersection of the cyan path.
 </p>
 
 <figure class="frame">
@@ -79,12 +79,12 @@ Let's begin with a basic example. In the illustration below, you can observe two
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In our Celtic Heart showcase, we created a figure that also consists of two linked paths. The internal path is a knot with 10 nodes (and accordingly, 10 self-intersections), while the external second path resembles a large heart and has 6 intersections with the first path. In three nodes, the second path crosses above the first one, and in three other nodes, it goes below another ribbon.
+In our Celtic Heart showcase, we created a figure that also consists of two linked paths. The internal path is a knot with 10 nodes (and accordingly, 10 self-intersections), while the external second path resembles a large heart and has 6 intersections with the first path. In three nodes, the second path crosses above the first one, and in three other nodes, it goes below another path.
 </p>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-We create a `Node` object that describes the point where ribbon segments intersect. The path contains multiple alternations where the ribbon passes beneath and then above another ribbon. Therefore, each Node has one ribbon that takes the upper route and two ribbons where segments pass beneath the upper ribbon. Consequently, the `Ribbon` object has its path with three Nodes: the starting Node, where the ribbon begins from beneath an upper ribbon, the Node where the ribbon takes the upper route above another ribbon, and the ending Node, where the ribbon once again passes beneath another ribbon. Additionally, the ribbon includes its text and a list of shifts that indicate the positions, angles, and corrections (hints) for each symbol.
+We create a `Node` object that describes the point where paths intersect. The path contains multiple alternations where the path passes beneath and then above another path. Therefore, each Node connects to one ribbon that takes the upper route and two ribbons that hide beneath the upper ribbon. Consequently, the `Ribbon` object has its path with three Nodes: the starting Node, where the ribbon begins from beneath an upper ribbon, the Node where the ribbon takes the upper route above another ribbon, and the ending Node, where the ribbon once again goes beneath another ribbon. Additionally, the ribbon includes its text and a list of shifts that indicate the positions, angles, and corrections (hints) for each text symbol.
 </p>
 
 ```cs
@@ -230,7 +230,7 @@ MakeRibbons(ribbons, segments1);
 CalcShifts(ribbons, g);
 ```
 
-### Draw path with ribbons
+### Draw ribbons with shadows
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -262,7 +262,7 @@ for (int i = 0; i < frameLimit; i++)
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To draw a ribbon, we employ the <a href="https://reference.aspose.com/drawing/net/aspose.drawing/graphics/drawpath/">Graphics.DrawPath</a> method, using a Pen tool corresponding to the border and inner path width. Furthermore, we incorporate a shadow that falls from the upper ribbon onto the underlying ribbons. To achieve this image effect, we define a new inner path using the <a href="https://reference.aspose.com/drawing/net/aspose.drawing.drawing2d/graphicspath/widen/">GraphicsPath.Widen</a> method, which takes into account the width of the border pen. Subsequently, we apply a Brush tool with an elliptical gradient that smoothly transitions from black to the surrounding color. This gradient has levels of transparency, gradually decreasing from 255 to 0, and is directed towards the centers of the ribbon's starting and ending nodes.
+To draw a ribbon, we employ the <a href="https://reference.aspose.com/drawing/net/aspose.drawing/graphics/drawpath/">Graphics.DrawPath</a> method, using a Pen tool corresponding to the border and inner path width. Furthermore, we draw a shadow that falls from the upper ribbon onto the underlying ribbons. To achieve this shadow image effect, we define a new inner path using the <a href="https://reference.aspose.com/drawing/net/aspose.drawing.drawing2d/graphicspath/widen/">GraphicsPath.Widen</a> method, which takes into account the width of the border pen. Subsequently, we apply a Brush tool with an elliptical gradient that smoothly transitions from black to the surrounding color. This gradient has levels of transparency, gradually decreasing from 255 to 0, and is directed towards the centers of the ribbon's starting and ending nodes.
 </p>
 
 ```cs
@@ -309,7 +309,7 @@ private static PathGradientBrush MakeBrush(PointF pt)
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-After applying shadows to the bottom ribbon, we need to redraw the section where the ribbons intersect to make the upper ribbon semi-transparent. This intersection region is located at the middle point of 'Node2' on the upper ribbon. To create this region, we combine the path from the two underlying ribbons using the 'MakeUnderPart()' function. Then, we find the intersection region between the upper and bottom ribbons using the <a href="https://reference.aspose.com/drawing/net/aspose.drawing/region/intersect/#intersect_1">Region.Intersect method</a>. For this specific clip region, we apply a transparent background and redraw all three corresponding ribbons once more.
+After applying shadows to the bottom ribbon, we need to redraw the region where the ribbons intersect to make the upper ribbon semi-transparent. This intersection region is located at the middle point of 'Node2' on the upper ribbon. To create this region, we combine the path from the two underlying ribbons using the 'MakeUnderPart()' function. Then, we find the intersection region between the upper and bottom ribbons using the <a href="https://reference.aspose.com/drawing/net/aspose.drawing/region/intersect/#intersect_1">Region.Intersect method</a>. For this specific clip region, we apply a transparent background and redraw all three corresponding ribbons once more.
 </p>
 
 ```cs
@@ -489,4 +489,4 @@ ffmpeg -i ./out/out.mp4 -i Nakarada.mp3 -map 0:v -map 1:a -c:v copy -shortest ./
 
 ### Source code
 
-You can find the full source code of the showcase in the Aspose.Drawing Github repository: <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/blob/master/Examples/Showcases/Showcases/CelticHeart.cs">CelticHeart.cs</a>
+You can find the full C# source code of the showcase in the Aspose.Drawing Github repository: <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/blob/master/Examples/Showcases/Showcases/CelticHeart.cs">CelticHeart.cs</a>
