@@ -156,11 +156,11 @@ ffmpeg -framerate 30 -i ./out/%%05d.png -vcodec libx264 -pix_fmt yuv420p ./out/C
     "uploadDate": "2023-09-16",
     "embedUrl": "https://www.youtube.com/embed/xvEuQHaHWrk",
     "thumbnailUrl": "https://i9.ytimg.com/vi/xvEuQHaHWrk/mqdefault.jpg?sqp=CMi6oKgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFUgVihlMA8=&rs=AOn4CLAAyl52MFXaz0bGBtDwjlO_vH9-5Q",
-    "description": "Creating Car Body drawing with Aspose.Drawing .NET (C#) 2d graphic library",
+    "description": "Creating Car Body drawing with Aspose.Drawing .NET (C#) 2d graphic library"
 }
 </script>
 
-<iframe width="1156" height="650" src="https://www.youtube.com/embed/xvEuQHaHWrk" title="CarBody" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-player" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/xvEuQHaHWrk" title="CarBody" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Source code
 
