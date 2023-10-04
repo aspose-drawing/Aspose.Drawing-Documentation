@@ -127,7 +127,7 @@ The reflection image effect enhances the visual attractiveness of the drawing. T
     "duration": "PT00M20S",
     "uploadDate": "2023-09-16",
     "embedUrl": "https://www.youtube.com/embed/wLFASipfdRM",
-    "thumbnailUrl": "https://i9.ytimg.com/vi/wLFASipfdRM/mqdefault.jpg?sqp=CMi6oKgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCggVShyMA8=&rs=AOn4CLAZ-4ZL0q8d2h17Ju3AjoWaxoCn3w",
+    "thumbnailUrl": "https://img.youtube.com/vi/wLFASipfdRM/hqdefault.jpg",
     "description": "Creating Lollipop Font drawing with Aspose.Drawing .NET (C#) 2d graphic library"
 }
 </script>

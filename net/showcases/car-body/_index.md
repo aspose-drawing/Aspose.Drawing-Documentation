@@ -155,7 +155,7 @@ ffmpeg -framerate 30 -i ./out/%%05d.png -vcodec libx264 -pix_fmt yuv420p ./out/C
     "duration": "PT00M30S",
     "uploadDate": "2023-09-16",
     "embedUrl": "https://www.youtube.com/embed/xvEuQHaHWrk",
-    "thumbnailUrl": "https://i9.ytimg.com/vi/xvEuQHaHWrk/mqdefault.jpg?sqp=CMi6oKgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFUgVihlMA8=&rs=AOn4CLAAyl52MFXaz0bGBtDwjlO_vH9-5Q",
+    "thumbnailUrl": "https://img.youtube.com/vi/xvEuQHaHWrk/hqdefault.jpg",
     "description": "Creating Car Body drawing with Aspose.Drawing .NET (C#) 2d graphic library"
 }
 </script>
