@@ -185,7 +185,7 @@ ffmpeg -i ./out/out.mp4 -i Nakarada.mp3 -map 0:v -map 1:a -c:v copy -shortest ./
     "duration": "PT03M50S",
     "uploadDate": "2023-09-16",
     "embedUrl": "https://www.youtube.com/embed/TkCpEYy8Ong",
-    "thumbnailUrl": "https://i9.ytimg.com/vi/TkCpEYy8Ong/mqdefault.jpg?sqp=CMi6oKgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEkgVChlMA8=&rs=AOn4CLC4YKu2NhaS4pRGgd81tjsqPn-J1g",
+    "thumbnailUrl": "https://img.youtube.com/vi/TkCpEYy8Ong/hqdefault.jpg",
     "description": "Creating semi-transparent Celtic Heart figure text drawing with Aspose.Drawing .NET (C#) 2d graphic library"
 }
 </script>
