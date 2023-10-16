@@ -1,13 +1,13 @@
 ---
 title: "Feature List"
 type: docs
-url: /net/feature-list/
+url: /java/feature-list/
 weight: 30
-keywords: C#, .NET, 2D Drawings, C# draw vector graphics, C# draw curves, C# draw text, draw fonts in C#, draw geometries in C#, C# draw images
-description: Create vector graphics lines, curves, and shapes in C#. Display text having different fonts, sizes, styles in C#. Load and save drawings in C#. 
+keywords: Java, Java, 2D Drawings, Java draw vector graphics, Java draw curves, Java draw text, draw fonts in Java, draw geometries in Java, Java draw images
+description: Create vector graphics lines, curves, and shapes in Java. Display text having different fonts, sizes, styles in Java. Load and save drawings in Java. 
 ---
 
-Aspose.Drawing for .NET provides a rich set of features to draw vector graphics primitives (such as lines, curves, and figures) that are specified by sets of points on a coordinate system, to display text in a variety of fonts, sizes, and styles, and to save drawing results in commonly used graphics file formats.
+Aspose.Drawing for Java provides a rich set of features to draw vector graphics primitives (such as lines, curves, and figures) that are specified by sets of points on a coordinate system, to display text in a variety of fonts, sizes, and styles, and to save drawing results in commonly used graphics file formats.
 ## **Lines, Curves, and Shapes**
 - Lines
 - Rectangles

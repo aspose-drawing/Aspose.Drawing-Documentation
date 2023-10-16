@@ -1,7 +1,7 @@
 ---
 title: "Known Issues"
 type: docs
-url: /net/known-issues/
+url: /java/known-issues/
 weight: 35
 ---
 

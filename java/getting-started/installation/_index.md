@@ -1,16 +1,16 @@
 ---
 title: "Installation"
 type: docs
-url: /net/installation/
+url: /java/installation/
 weight: 50
-keywords: .NET, installation, NuGet, Package Manager Console
-description: Learn about Aspose.Drawing for .NET installation through NuGet and Package Manager Console.
+keywords: Java, installation, NuGet, Package Manager Console
+description: Learn about Aspose.Drawing for Java installation through NuGet and Package Manager Console.
 ---
 
-## **Installing Aspose.Drawing for .NET through NuGet**
-NuGet is the easiest way to download and install Aspose APIs for .NET. Open Microsoft Visual Studio and NuGet package manager. Search "aspose" to find the desired Aspose API. Click on "Install", the selected API will be downloaded and referenced in your project.
+## **Installing Aspose.Drawing for Java through NuGet**
+NuGet is the easiest way to download and install Aspose APIs for Java. Open Microsoft Visual Studio and NuGet package manager. Search "aspose" to find the desired Aspose API. Click on "Install", the selected API will be downloaded and referenced in your project.
 
-![Installing Aspose.Drawing for .NET through NuGet](installation_1.png)
+![Installing Aspose.Drawing for Java through NuGet](installation_1.png)
 
 You can select from Aspose.Drawing and Aspose.Drawing.Common packages. Aspose.Drawing package uses System.Drawing namespace and can be used to replace System.Drawing.Common without changing source code. Aspose.Drawing.Common package uses Aspose.Drawing namespace and can be used side-by-side with System.Drawing.Common.
 
@@ -41,10 +41,10 @@ In order to use the library in your application, add a reference to it. The step
 1. If you have used MSI installer to install Aspose.Drawing or if you have downloaded and unpacked the DLL only, click the **Browse** button and locate the Aspose.Drawing.dll file.
 1. Click **OK**. 
    An Aspose.Drawing reference appears under the **References** node of the project.
-## **Uninstalling Aspose.Drawing for .NET**
+## **Uninstalling Aspose.Drawing for Java**
 If you have used MSI installer to deploy Aspose.Drawing, follow these steps to completely remove the library and the associated demos and documentation:
 
 1. From the **Start** menu, select **Settings** followed by **Control Panel**.
 1. Click **Add/Remove Programs**.
-1. Select **Aspose.Drawing for .NET**.
+1. Select **Aspose.Drawing for Java**.
 1. Click the **Change/Remove** button to remove Aspose.Drawing.

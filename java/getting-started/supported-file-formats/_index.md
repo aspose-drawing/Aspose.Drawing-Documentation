@@ -1,14 +1,14 @@
 ---
 title: "Supported File Formats"
 type: docs
-url: /net/supported-file-formats/
-keywords: "C# API to create bmp, C# create JPEG, C# Create PNG, C# Create GIF, C# Create TIFF."
-description: "Create images using .NET languages C# and VB.NET."
+url: /java/supported-file-formats/
+keywords: "Java API to create bmp, Java create JPEG, Java Create PNG, Java Create GIF, Java Create TIFF."
+description: "Create images using Java languages Java and VBJava."
 weight: 20
 ---
 
 ## **Supported File Formats**
-The following table indicates the file formats that Aspose.Drawing for .NET can load and save.
+The following table indicates the file formats that Aspose.Drawing for Java can load and save.
 
 |**Format**|**Description**|**Load**|**Save**|**Remarks**|
 | :- | :- | :- | :- | :- |

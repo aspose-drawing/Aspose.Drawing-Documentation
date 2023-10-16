@@ -1,9 +1,9 @@
 ---
 type: docs
-url: /net/developer-guide/system-drawing-alternative/
+url: /java/developer-guide/system-drawing-alternative/
 weight: 6
 title: System.Drawing.Common (System.Drawing) alternative
-description: System.Drawing alternative with Aspose.Drawing.Common C# API for drawing pictures. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
+description: System.Drawing alternative with Aspose.Drawing.Common Java API for drawing pictures. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
 keywords: [drawing pictures, anti aliasing, System drawing alternative, dot net, affine transformation, bezier curves, nuget package, alpha blending, rendering text, Drawing library for Windows]
 ---
 
@@ -27,11 +27,11 @@ keywords: [drawing pictures, anti aliasing, System drawing alternative, dot net,
    }
 </style>
 
-## Aspose.Drawing.Common API as an alternative to System.Drawing.Common for 2D graphics engine for .NET
+## Aspose.Drawing.Common API as an alternative to System.Drawing.Common for 2D graphics engine for Java
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for .NET 6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package supports .NET Standard 2.0 interface and is compatible with any 32-bit or 64-bit operating system where .NET Core 3.1, .NET 6, .NET 7 and higher are installed. Aspose.Drawing is not just a drawing library for Windows with the full support of the System.Drawing.Common API; is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and surpasses other alternative competitors' solutions.
+The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for Java 6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package supports Java Standard 2.0 interface and is compatible with any 32-bit or 64-bit operating system where Java Core 3.1, Java 6, Java 7 and higher are installed. Aspose.Drawing is not just a drawing library for Windows with the full support of the System.Drawing.Common API; is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and surpasses other alternative competitors' solutions.
 </p>
 
 ### Aspose.Drawing features description
@@ -66,7 +66,7 @@ When drawing graphics, you have the flexibility to configure a pen with various 
 By utilizing the clipping regions method, you can create visually attractive pictures with fascinating designs. With the Aspose.Drawing library, you can draw graphics objects and then manipulate them by moving or stretching them using affine transformations.
 </p>
 
-You can follow a link to the <a href="https://docs.aspose.com/drawing/net/feature-list/">Aspose.Drawing for .NET documentation</a> for a full feature list.
+You can follow a link to the <a href="https://docs.aspose.com/drawing/java/feature-list/">Aspose.Drawing for Java documentation</a> for a full feature list.
 
 ### Aspose.Drawing supported image formats
 
@@ -77,5 +77,5 @@ Using the Aspose.Drawing library, you can create drawings on a new bitmap or loa
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The Aspose.Drawing.Common package can be downloaded from the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">NuGet package manager repository</a>. For the API description, please refer to the <a href="https://products.aspose.com/drawing/net/">Aspose .NET APIs for 2D Graphics Drawing</a> product page.
+The Aspose.Drawing.Common package can be downloaded from the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">NuGet package manager repository</a>. For the API description, please refer to the <a href="https://products.aspose.com/drawing/java/">Aspose Java APIs for 2D Graphics Drawing</a> product page.
 </p>

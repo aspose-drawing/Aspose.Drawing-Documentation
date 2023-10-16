@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 type: docs
-url: /net/getting-started/
+url: /java/getting-started/
 weight: 10
 ---
 

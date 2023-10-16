@@ -1,16 +1,16 @@
 ---
 title: "Hello World Example"
 type: docs
-url: /net/hello-world-example/
-keywords: "C# API, C# create arc, C# Vector Graphics"
-description: "C# Hello World example to draw an arc. .NET code sample to work with vector graphics in C# and VB.NET."
+url: /java/hello-world-example/
+keywords: "Java API, Java create arc, Java Vector Graphics"
+description: "Java Hello World example to draw an arc. Java code sample to work with vector graphics in Java and VBJava."
 weight: 70
 ---
 
 ## **Hello World Example**
-This "Hello World" example introduces the drawing features of Aspose.Drawing for .NET API with a simple vector graphics drawing. 
+This "Hello World" example introduces the drawing features of Aspose.Drawing for Java API with a simple vector graphics drawing. 
 
-Aspose.Drawing for .NET is a feature-rich image manipulation and vector drawing library that is used to draw vector graphics primitives such as lines, curves, and figures. These are specified by sets of points on a coordinate system, to display text in a variety of fonts, sizes, and styles, and to save drawing results in commonly used graphics file formats. This example shows how to draw an arc using C# with the following steps.
+Aspose.Drawing for Java is a feature-rich image manipulation and vector drawing library that is used to draw vector graphics primitives such as lines, curves, and figures. These are specified by sets of points on a coordinate system, to display text in a variety of fonts, sizes, and styles, and to save drawing results in commonly used graphics file formats. This example shows how to draw an arc using Java with the following steps.
 
 1. Instantiate an object of Bitmap class
 1. Initialize an object of Graphics class from this bitmap

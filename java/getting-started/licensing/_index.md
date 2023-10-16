@@ -1,7 +1,7 @@
 ---
 title: "Licensing"
 type: docs
-url: /net/licensing/
+url: /java/licensing/
 keywords: "license, licensing, metered license"
 description: "Learn more about licensing of Aspose.Drawing, types of licenses, apply the license."
 weight: 60
@@ -17,7 +17,7 @@ The license can be loaded from a file or stream object. The easiest way to set 
 
 {{% alert color="primary" %}} 
 
-If you use are using any other Aspose for .NET library along with Aspose.Drawing for .NET, please specify the namespace for License like Aspose.Drawing.License for Aspose.Drawing.Common package or System.Drawing.AsposeDrawing.License for Aspose.Drawing package.
+If you use are using any other Aspose for Java library along with Aspose.Drawing for Java, please specify the namespace for License like Aspose.Drawing.License for Aspose.Drawing.Common package or System.Drawing.AsposeDrawing.License for Aspose.Drawing package.
 
 {{% /alert %}} 
 ### **Loading a License from File**
