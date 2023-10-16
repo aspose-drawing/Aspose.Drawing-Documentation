@@ -46,7 +46,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0
 WORKDIR /app
 COPY . ./
 RUN dotnet publish "Aspose.Drawing.Docker.Sample.csproj" -c Release -o /app/out
-ENTRYPOINT ["dotnet", "out/Aspose.Drawing.Docker.Sample.dll"]
+ENTRYPOINT ["dotnet", "out/Aspose.Drawing.Docker.Sample.jar"]
 {{< /highlight >}}
 
 The above is a simple Dockerfile, which contains the following instructions:

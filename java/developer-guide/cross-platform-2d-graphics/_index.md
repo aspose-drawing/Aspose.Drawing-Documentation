@@ -6,14 +6,10 @@ title: Cross platform 2D graphics library
 description: Aspose.Drawing library for Microsoft Java to draw pictures. Cross-platform alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
 keywords: [
 drawing pictures,
-c sharp,
-dot net,
-asp net,
 microsoft net,
 nuget package,
 image drawing,
 2d drawing,
-csharp net,
 cross platform,
 web assembly,
 Drawing library for Windows,
@@ -41,33 +37,68 @@ Graphic libraries for Java are not limited to the Windows platforms; they are al
 </p>
 
 
-### How to install Aspose.Drawing for different platforms
+### Installing Aspose.Drawing for Java from Maven Repository
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-If you are developing within the Visual Studio development environment, you can easily install Aspose.Drawing using the integrated NuGet package manager. Simply search for `Aspose`, select `Aspose.Drawing` or `Aspose.Drawing.Common`, and click Install. Alternatively, you can install Aspose.Drawing from the NuGet package manager command line by typing the following command:
+If you are developing within the Maven , you can easily install Aspose.Drawing using the Maven Repository. 
 </p>
 
-```sh
-> Install-Package Aspose.Drawing
 ```
+<repositories>
 
+    <repository>
+
+        <id>AsposeJavaAPI</id>
+
+        <name>Aspose Java API</name>
+
+        <url>https://repository.aspose.com/repo/</url>
+
+    </repository>
+
+</repositories>
+```
+<p align='justify'>
+Then define Aspose.Drawing for Java API dependency in your pom.xml as follows:
+</p>
+<dependencies>
+
+    <dependency>
+
+        <groupId>com.aspose</groupId>
+
+        <artifactId>aspose-drawing</artifactId>
+
+        <version>23.11</version>
+
+        <classifier>jdk16</classifier>
+
+   </dependency>
+
+   <!-- if you need a documentation, please add the following dependency. For example it could be useful for IDE. -->
+   <dependency>
+
+        <groupId>com.aspose</groupId>
+
+        <artifactId>aspose-drawing</artifactId>
+
+        <version>23.11</version>
+
+        <classifier>javadoc</classifier>
+
+   </dependency>
+
+</dependencies>
+<p align='justify'>
 For more detailed installation instructions please visit the
 <a href="https://docs.aspose.com/drawing/java/installation/">Aspose.Drawing Installation Guide</a>.
+<\p>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Aspose.Drawing can serve as a graphic library for various target platforms, including Windows, MacOS, Linux, Azure, ASP sites, and Blazor WebAssembly applications. In Visual Studio, you have the flexibility to create new projects and run Java programs on Java as Console Applications on Windows, Linux, or MacOS, as Web applications using ASPJava Core or Blazor WebAssembly. Additionally, you can utilize the same Aspose drawing library for Java MAUI applications on mobile platforms like Android or iOS.
 </p>
-
-<p align='justify'>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-To run a Java application on Linux, you simply need to have Java installed and ensure that `Aspose.Drawing.dll` is available in your project folder. You can download the binaries from the <a href="https://downloads.aspose.com/drawing/java">official Aspose website</a>. Alternatively, you can define the API using the command line command:
-</p>
-
-```sh
-> dotnet add package Aspose.Drawing
-```
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -80,7 +111,7 @@ Furthermore, you can run Java applications with the Aspose library in a Docker c
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-One of the most popular use case for 2D drawing is adding text to images, such as creating text on images for making gift cards. In the example below, we will draw a text string "Happy Birthday!" on the available space at the bottom right corner of the existing image. We will use the <a href="https://reference.aspose.com/drawing/java/system.drawing/solidbrush/">`SolidBrush` tool</a> to draw the text string. You should choose the desired text color and a font with the appropriate size and style. Next, calculate the position of the <a href="https://reference.aspose.com/drawing/java/system.drawing/rectangle/">`Rectangle` structure</a> to fit the text, and then draw the text string using the <a href="https://reference.aspose.com/imaging/java/aspose.imaging/graphics/drawstring/">`DrawString` method</a>.
+One of the most popular use case for 2D drawing is adding text to images, such as creating text on images for making gift cards. In the example below, we will draw a text string "Happy Birthday!" on the available space at the bottom right corner of the existing image. We will use the <a href="https://reference.aspose.com/drawing/java/system.drawing/solidbrush/">`SolidBrush` tool</a> to draw the text string. You should choose the desired text color and a font with the appropriate size and style. Next, calculate the position of the <a href="https://reference.aspose.com/drawing/java/system.drawing/rectangle/">`Rectangle` structure</a> to fit the text, and then draw the text string using the <a href="https://reference.aspose.com/imaging/java/Aspose.Drawing/graphics/drawstring/">`DrawString` method</a>.
 </p>
 
 Example of Java code to draw text on an image:
@@ -152,7 +183,7 @@ Example of Java code to draw a color frame around a photo:
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Another useful scenario involves creating callouts on images to add supplementary information, such as diameter size details in mm. Callouts consist of several graphics primitives, and to draw them, we need to utilize various drawing methods such as <a href="https://reference.aspose.com/drawing/java/system.drawing/graphics/drawline/">`DrawLine`</a>, <a href="https://reference.aspose.com/drawing/java/system.drawing/graphics/drawellipse/">`DrawEllipse`</a>, and <a href="https://reference.aspose.com/imaging/java/aspose.imaging/graphics/drawstring/">`DrawString`</a>.
+Another useful scenario involves creating callouts on images to add supplementary information, such as diameter size details in mm. Callouts consist of several graphics primitives, and to draw them, we need to utilize various drawing methods such as <a href="https://reference.aspose.com/drawing/java/system.drawing/graphics/drawline/">`DrawLine`</a>, <a href="https://reference.aspose.com/drawing/java/system.drawing/graphics/drawellipse/">`DrawEllipse`</a>, and <a href="https://reference.aspose.com/imaging/java/Aspose.Drawing/graphics/drawstring/">`DrawString`</a>.
 </p>
 
 Example of Java code to draw callouts on an image:

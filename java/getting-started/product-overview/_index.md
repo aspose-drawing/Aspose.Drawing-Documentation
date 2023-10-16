@@ -13,7 +13,7 @@ description: Java graphic library to work with 2D drawings with simple API and i
 
 **Welcome to the Aspose.Drawing for Java**
 
-Aspose.Drawing is a fully managed, cross-platform, complete 2D graphic library for drawing text, geometries, and images. Aspose.Drawing provides System.Drawing compatible API, making it very easy for your existing code using System.Drawing to become truly cross-platform. Built against Java Standard 2.0, Aspose.Drawing can be used in web, mobile, desktop, cloud and IoT scenarios. The drawing engine supports rendering vector graphics (such as lines, curves, and figures) and text (in a variety of fonts, sizes, and styles) onto raster images in all commonly used graphics file formats.
+Aspose.Drawing is a fully managed, cross-platform, complete 2D graphic library for drawing text, geometries, and images. Aspose.Drawing provides System.Drawing compatible API, making it very easy for your existing code using System.Drawing to become truly cross-platform. Built against Java 6, Aspose.Drawing can be used in web, mobile, desktop, cloud and IoT scenarios. The drawing engine supports rendering vector graphics (such as lines, curves, and figures) and text (in a variety of fonts, sizes, and styles) onto raster images in all commonly used graphics file formats.
 
 {{% /alert %}} 
 ## **Product Description**

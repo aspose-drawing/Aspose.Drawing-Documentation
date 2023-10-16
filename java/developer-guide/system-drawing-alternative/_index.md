@@ -4,7 +4,7 @@ url: /java/developer-guide/system-drawing-alternative/
 weight: 6
 title: System.Drawing.Common (System.Drawing) alternative
 description: System.Drawing alternative with Aspose.Drawing.Common Java API for drawing pictures. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
-keywords: [drawing pictures, anti aliasing, System drawing alternative, dot net, affine transformation, bezier curves, nuget package, alpha blending, rendering text, Drawing library for Windows]
+keywords: [drawing pictures, anti aliasing, System drawing alternative,  affine transformation, bezier curves, nuget package, alpha blending, rendering text, Drawing library for Windows]
 ---
 
 <style>
@@ -31,7 +31,7 @@ keywords: [drawing pictures, anti aliasing, System drawing alternative, dot net,
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for Java 6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package supports Java Standard 2.0 interface and is compatible with any 32-bit or 64-bit operating system where Java Core 3.1, Java 6, Java 7 and higher are installed. Aspose.Drawing is not just a drawing library for Windows with the full support of the System.Drawing.Common API; is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and surpasses other alternative competitors' solutions.
+The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for Java 6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package supports Java 6 interface and is compatible with any 32-bit or 64-bit operating system where , Java 6, Java 7 and higher are installed. Aspose.Drawing is not just a drawing library for Windows with the full support of the System.Drawing.Common API; is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and surpasses other alternative competitors' solutions.
 </p>
 
 ### Aspose.Drawing features description

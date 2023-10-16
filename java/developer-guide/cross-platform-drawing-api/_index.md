@@ -2,14 +2,14 @@
 type: docs
 url: /java/developer-guide/cross-platform-drawing-api/
 weight: 8
-title: Cross platform drawing API for Java (Java)
+title: Cross platform drawing API for Java 
 description: Aspose.Drawing library for Microsoft Java for drawing pictures. Cross-platform support of Java Graphics API for 2D geometric drawings such as drawing lines, drawing shapes, drawing path and drawing rectangles.
 keywords: [drawing pictures,
 lines drawing,
 draw lines,
 vector images,
 vector file,
-dot net,
+
 drawing shapes,
 geometric drawings,
 Java api,
@@ -41,7 +41,7 @@ Graphics API for ASP site]
    }
 </style>
 
-## Cross-platform drawing API for Java (Java)
+## Cross-platform drawing API for Java 
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
