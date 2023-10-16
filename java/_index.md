@@ -1,7 +1,7 @@
 ---
 title: Aspose.Drawing for Java
 type: docs
-url: /net/
+url: /java/
 keywords: "System.Drawing, 2D graphic library, Aspose.Drawing Features, documentation"
 description: "Get an introduction to Aspose.Drawing for Java, a complete 2D graphic library for building modern, desktop, mobile, cloud-enabled, internet-connected apps."
 weight: 10
@@ -22,11 +22,11 @@ Aspose.Drawing is a fully managed, cross-platform, complete 2D graphic library f
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Drawing for Java Online Documentation](/drawing/net/)
-- [Aspose.Drawing for Java Features](/drawing/net/feature-list/)
-- [Aspose.Drawing for Java Release Notes](https://releases.aspose.com/drawing/net/release-notes/)
-- [Aspose.Drawing for Java Product Page](https://products.aspose.com/drawing/net)
+- [Aspose.Drawing for Java Online Documentation](/drawing/java/)
+- [Aspose.Drawing for Java Features](/drawing/java/feature-list/)
+- [Aspose.Drawing for Java Release Notes](https://releases.aspose.com/drawing/java/release-notes/)
+- [Aspose.Drawing for Java Product Page](https://products.aspose.com/drawing/java)
 - [Install Aspose.Drawing for Java NuGet Package](https://www.nuget.org/packages/Aspose.Drawing/)
-- [Aspose.Drawing for Java API Reference Guide](https://reference.aspose.com/drawing/net)
+- [Aspose.Drawing for Java API Reference Guide](https://reference.aspose.com/drawing/java)
 - [Aspose.Drawing for Java Free Support Forum](https://forum.aspose.com/c/drawing)
 - [Aspose.Drawing for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)

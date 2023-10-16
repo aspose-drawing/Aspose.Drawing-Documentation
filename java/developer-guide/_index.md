@@ -1,7 +1,7 @@
 ---
 title: "Developer Guide"
 type: docs
-url: /net/developer-guide/
+url: /java/developer-guide/
 weight: 20
 ---
 

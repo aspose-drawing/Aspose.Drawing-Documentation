@@ -1,14 +1,14 @@
 ---
 title: "Working with Pens"
 type: docs
-url: /net/working-with-pens/
-keywords: "C# Draw Graphics, Change Graphics Pen color C#, Pen Width Draw Graphics C#, Join Lines in C#"
-description: "Learn about how to draw with pen in C#. .NET code to set pen width and color in C# and VB.NET. Join Lines in C#"
+url: /java/working-with-pens/
+keywords: "Java Draw Graphics, Change Graphics Pen color Java, Pen Width Draw Graphics Java, Join Lines in Java"
+description: "Learn about how to draw with pen in Java. Java code to set pen width and color in Java and VBJava. Join Lines in Java"
 weight: 30
 ---
 
-Aspose.Drawing for .NET API provides the capability to draw graphics elements. Pens are one of the key elements of working with graphics and are used to draw different line objects such as an ellipse, circle, etc with the specified color.
-## **Set Pen Width to Draw Graphics in C#**
+Aspose.Drawing for Java API provides the capability to draw graphics elements. Pens are one of the key elements of working with graphics and are used to draw different line objects such as an ellipse, circle, etc with the specified color.
+## **Set Pen Width to Draw Graphics in Java**
 To draw graphics with a certain pen width, the following steps can be used.
 
 1. Create an object of the Bitmap class
@@ -19,9 +19,9 @@ To draw graphics with a certain pen width, the following steps can be used.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Width-Width.cs" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Pens/Width_out.png" alt="Pen width" width="500" />
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Pens/Width_out.png" alt="Pen width" width="500" />
 
-## **Set Pen Color to Draw Graphics in C#**
+## **Set Pen Color to Draw Graphics in Java**
 To draw graphics with a certain pen color, the following steps can be used.
 
 1. Create an object of the Bitmap class
@@ -32,10 +32,10 @@ To draw graphics with a certain pen color, the following steps can be used.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Colors-Colors.cs" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Pens/Colors_out.png" alt="Pen color" width="500" />
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Pens/Colors_out.png" alt="Pen color" width="500" />
 
-## **Join lines to create Path in C#**
-Multiple lines can be joined to create a path. To join lines using C#, the following steps can be used.
+## **Join lines to create Path in Java**
+Multiple lines can be joined to create a path. To join lines using Java, the following steps can be used.
 
 1. Create an object of the Bitmap class
 1. Initialize the Graphics object from the bitmap
@@ -44,4 +44,4 @@ Multiple lines can be joined to create a path. To join lines using C#, the follo
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Join-Join.cs" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/raw/master/Examples/Data/Pens/Join_out.png" alt="Join lines" width="500" />
+<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Pens/Join_out.png" alt="Join lines" width="500" />

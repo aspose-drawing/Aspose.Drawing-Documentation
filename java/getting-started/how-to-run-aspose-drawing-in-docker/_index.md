@@ -3,7 +3,7 @@ title: How to Run Aspose.Drawing in Docker
 type: docs
 description: "Run Aspose.Drawing in a Docker container for Linux, Windows Server and any OS. "
 weight: 90
-url: /net/how-to-run-aspose-drawing-in-docker/
+url: /java/how-to-run-aspose-drawing-in-docker/
 ---
 
 ## Prerequisites
@@ -79,7 +79,7 @@ Pay attention to the mount argument, because, as mentioned earlier, a folder on 
 
 ## More Examples
 
-For more samples of how you can use Aspose.Drawing in Docker, see the [examples](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET).
+For more samples of how you can use Aspose.Drawing in Docker, see the [examples](https://github.com/aspose-drawing/Aspose.Drawing-for-Java).
 
 
 ## See Also
@@ -88,4 +88,4 @@ For more samples of how you can use Aspose.Drawing in Docker, see the [examples]
 - [Install Docker Desktop on Mac](https://docs.docker.com/docker-for-mac/install/)
 - [Visual Studio 2022, NET 6 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60#dependencies)
 - [Switch to Linux containers](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers) option
-- Additional information on [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)
+- Additional information on [Java Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)
