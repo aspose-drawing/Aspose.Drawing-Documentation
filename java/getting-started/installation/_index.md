@@ -38,7 +38,7 @@ In order to use the library in your application, add a reference to it. The step
 
 1. In the Solution Explorer, expand the project node you want to add a reference to.
 1. Right-click the **References** node for the project and select **Add Reference** from the menu.
-1. If you have used MSI installer to install Aspose.Drawing or if you have downloaded and unpacked the DLL only, click the **Browse** button and locate the Aspose.Drawing.dll file.
+1. If you have used MSI installer to install Aspose.Drawing or if you have downloaded and unpacked the DLL only, click the **Browse** button and locate the Aspose.Drawing.jar file.
 1. Click **OK**. 
    An Aspose.Drawing reference appears under the **References** node of the project.
 ## **Uninstalling Aspose.Drawing for Java**

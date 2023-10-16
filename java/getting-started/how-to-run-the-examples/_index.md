@@ -13,7 +13,7 @@ Please make sure you meet the following requirements before downloading and runn
 1. Visual Studio 2015 or higher
 1. NuGet Package Manager installed in Visual Studio. Make sure that latest NuGet API version is installed in Visual Studio. For details on how to install NuGet package manager please check <http://docs.nuget.org/ndocs/guides/install-nuget>
 1. Go to Tools->Options->NuGet Package Manager->Package Sources and make sure that the option **nuget.org** is checked
-1. Example project uses NuGet Automatic Package Restore feature therefore you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [installation](/drawing/java/installation/) and manually add reference to Aspose.Drawing.dll in the example project.
+1. Example project uses NuGet Automatic Package Restore feature therefore you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [installation](/drawing/java/installation/) and manually add reference to Aspose.Drawing.jar in the example project.
 ## **Download from GitHub**
 All examples of Aspose.Drawing for Java are hosted on [GitHub](https://github.com/aspose-drawing/Aspose.Drawing-for-Java).
 
