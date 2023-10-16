@@ -24,7 +24,7 @@ keywords: [
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Creating images using graphic libraries can be a challenging task for developers, researchers, students, and managers involved in building graphic applications and services on the Microsoft Java platform. Aspose.Drawing is a contemporary cross-platform graphic drawing library that offers advanced features and functionality. By utilizing the Aspose library for Java platform (Java, VBJava and other languages), developers can efficiently draw images with lines and shapes using diverse Pen and Brush objects, generate texts with varying fonts and styles, perform different transformations, and render drawings into popular graphics file formats. This readily-available graphic library significantly boosts productivity, drastically reduces development time, and accelerates time-to-market. Microsoft's System.Drawing.Common library has recently altered its support for non-Windows platforms, making Aspose.Drawing.Common API a suitable alternative for image drawings.
+Creating images using graphic libraries can be a challenging task for developers, researchers, students, and managers involved in building graphic applications and services on the Java platform. Aspose.Drawing is a contemporary cross-platform graphic drawing library that offers advanced features and functionality. By utilizing the Aspose library for Java platform (Java, VBJava and other languages), developers can efficiently draw images with lines and shapes using diverse Pen and Brush objects, generate texts with varying fonts and styles, perform different transformations, and render drawings into popular graphics file formats. This readily-available graphic library significantly boosts productivity, drastically reduces development time, and accelerates time-to-market. Microsoft's System.Drawing.Common library has recently altered its support for non-Windows platforms, making Aspose.Drawing.Common API a suitable alternative for image drawings.
 </p>
 
 
@@ -45,7 +45,7 @@ This issue arises from the fact that cross-platform implementation of System.Dra
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Fortunately, Aspose.Drawing avoids these drawbacks by not depending on any 3rd party libraries. It includes all the necessary rendering engines for all supported platforms, ensuring consistent rendering results. Aspose.Drawing for Microsoft Java is a robust cross-platform programming library for 2D graphics drawing. The Aspose library serves as a viable alternative to the System.Drawing.Common package. Aspose.Drawing supports Java 6 and higher interface and proves to be an excellent option for developing drawing applications, Xamarin applications for Windows, Linux, Android, Azure Functions, or Blazor WebAssembly.
+Fortunately, Aspose.Drawing avoids these drawbacks by not depending on any 3rd party libraries. It includes all the necessary rendering engines for all supported platforms, ensuring consistent rendering results. Aspose.Drawing for Java is a robust cross-platform programming library for 2D graphics drawing. The Aspose library serves as a viable alternative to the System.Drawing.Common package. Aspose.Drawing supports Java 6 and higher interface and proves to be an excellent option for developing drawing applications, Xamarin applications for Windows, Linux, Android, Azure Functions, or Blazor WebAssembly.
 </p>
 
 

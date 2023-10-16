@@ -3,7 +3,7 @@ type: docs
 url: /java/developer-guide/cross-platform-2d-graphics/
 weight: 7
 title: Cross platform 2D graphics library
-description: Aspose.Drawing library for Microsoft Java to draw pictures. Cross-platform alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
+description: Aspose.Drawing library for Java to draw pictures. Cross-platform alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
 keywords: [
 drawing pictures,
 microsoft net,
@@ -25,7 +25,7 @@ Drawing library for Blazor
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Drawing libraries for Microsoft Java are widely utilized for creating 2D drawing applications and services. Developing a Java (C sharp) application for image drawing that can run on multiple platforms enables you to reach a broader customer base with minimal effort. Aspose.Drawing is a cross-platform solution for Java that supports the most popular platforms and consistently delivers excellent quality results.
+Drawing libraries for Java are widely utilized for creating 2D drawing applications and services. Developing a Java (C sharp) application for image drawing that can run on multiple platforms enables you to reach a broader customer base with minimal effort. Aspose.Drawing is a cross-platform solution for Java that supports the most popular platforms and consistently delivers excellent quality results.
 </p>
 
 
