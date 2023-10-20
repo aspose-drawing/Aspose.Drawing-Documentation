@@ -18,19 +18,21 @@ Aspose.Drawing for .NET provides a rich set of features to draw vector graphics 
 - Bézier splines
 - Open and closed curves
 - Regions
-- Flatten paths (planned)
+- Flatten paths
+- Widen paths
+- Text paths
 ## **Pens**
 - Color
 - Width
 - Dash style
-- Cap type (planned)
+- Cap type
 - Join type
 ## **Brushes**
 - Solid
 - Hatch
 - Texture
 - LinearGradient
-- PathGradient (planned)
+- PathGradient
 ## **Text and Fonts**
 - Load installed and private fonts
 - Draw text
@@ -58,3 +60,5 @@ Aspose.Drawing for .NET provides a rich set of features to draw vector graphics 
 - JPEG
 - PNG
 - TIFF
+- EMF
+- WMF
