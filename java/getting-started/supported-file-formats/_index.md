@@ -2,8 +2,8 @@
 title: "Supported File Formats"
 type: docs
 url: /java/supported-file-formats/
-keywords: "Java API to create bmp, Java create JPEG, Java Create PNG, Java Create GIF, Java Create TIFF."
-description: "Create images using Java languages Java and VBJava."
+keywords: "Java API to create BMP, Java create JPEG, Java Create PNG, Java Create GIF, Java Create TIFF"
+description: "Create images using Java."
 weight: 20
 ---
 
@@ -17,4 +17,3 @@ The following table indicates the file formats that Aspose.Drawing for Java can 
 |JPEG|Joint Photographic Experts Group|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |GIF|Graphics Interchange Format|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |TIFF|Tagged Image File Format|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-
