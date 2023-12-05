@@ -3,48 +3,43 @@ title: "Installation"
 type: docs
 url: /java/installation/
 weight: 50
-keywords: Java, installation, NuGet, Package Manager Console
-description: Learn about Aspose.Drawing for Java installation through NuGet and Package Manager Console.
+keywords: Java installation, Maven repository, Maven project, Aspose dependency, pom.xml
+description: Learn about Aspose.Drawing for Java installation through Maven repository and dependency definition in pom.xml Maven project file.
 ---
 
-## **Installing Aspose.Drawing for Java through NuGet**
-NuGet is the easiest way to download and install Aspose APIs for Java. Open Microsoft Visual Studio and NuGet package manager. Search "aspose" to find the desired Aspose API. Click on "Install", the selected API will be downloaded and referenced in your project.
+## **Installing Aspose.Drawing for Java through Maven**
 
-![Installing Aspose.Drawing for Java through NuGet](installation_1.png)
+<a href="https://repository.aspose.com/repo/com/aspose/">Maven repository</a> hosted by Aspose is the easiest way to download and install Aspose APIs for Java. You can use your Maven Project configuration to specify the repository configuration. Add Aspose Maven repository in your Maven `pom.xml` file: 
 
-You can select from Aspose.Drawing and Aspose.Drawing.Common packages. Aspose.Drawing package uses System.Drawing namespace and can be used to replace System.Drawing.Common without changing source code. Aspose.Drawing.Common package uses Aspose.Drawing namespace and can be used side-by-side with System.Drawing.Common.
+```xml
+ <repositories>
+    <repository>
+        <id>AsposeJavaAPI</id>
+        <name>Aspose Java API</name>
+        <url>https://repository.aspose.com/repo/</url>
+    </repository>
+</repositories>
+```
 
-## **Install or Update Aspose.Drawing using the Package Manager Console**
-You can follow the steps below to reference the Aspose.Drawing API using the package manager console:
+Define the following dependency for Aspose.Drawing Java in your `pom.xml` file:
 
-1. Open your solution/project in Visual Studio.
-1. Select Tools -> Library Package Manager -> Package Manager Console from the menu to open package manager console.
+```xml
+ <dependencies>
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-drawing</artifactId>
+        <version>23.10</version>
+        <classifier>jdk16</classifier>
+   </dependency>
 
-![Package Manager Console menu item command](installation_2.png)
+   <!-- if you need a documentation, please add the following dependency. For example it could be useful for IDE. -->
+   <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-drawing</artifactId>
+        <version>23.10</version>
+        <classifier>javadoc</classifier>
+   </dependency>
+</dependencies>
+```
 
-Type the command “**Install-Package Aspose.Drawing**” and press enter to install the latest full release into your application. Alternatively, you can add the "**-prerelease**" suffix to the command in order to specify that the latest release including hotfixes is to be installed as well.
-
-![Package Manager Console log](installation_3.png)
-
-If you are not familiar with the [Aspose EULA](http://www.aspose.com/corporate/purchase/end-user-license-agreement.aspx) then it is a good idea to read the license referenced in the URL. 
-
-You should now find that Aspose.Drawing has successfully been added and referenced in your application for you.
-
-![Aspose.Drawing installed reference](installation_4.png)
-
-In the package manager console, you can also use the command “**Update-Package Aspose.Drawing**” and press enter to check for any updates to the Aspose.Drawing package and install them if present. You can also add the "-prerelease" suffix to update the latest release.
-## **Referencing the Library**
-In order to use the library in your application, add a reference to it. The steps that follow describe what to do when you use Visual Studio.
-
-1. In the Solution Explorer, expand the project node you want to add a reference to.
-1. Right-click the **References** node for the project and select **Add Reference** from the menu.
-1. If you have used MSI installer to install Aspose.Drawing or if you have downloaded and unpacked the DLL only, click the **Browse** button and locate the Aspose.Drawing.jar file.
-1. Click **OK**. 
-   An Aspose.Drawing reference appears under the **References** node of the project.
-## **Uninstalling Aspose.Drawing for Java**
-If you have used MSI installer to deploy Aspose.Drawing, follow these steps to completely remove the library and the associated demos and documentation:
-
-1. From the **Start** menu, select **Settings** followed by **Control Panel**.
-1. Click **Add/Remove Programs**.
-1. Select **Aspose.Drawing for Java**.
-1. Click the **Change/Remove** button to remove Aspose.Drawing.
+Aspose.Drawing for Java dependency is defined in your Maven project after finishing these steps.

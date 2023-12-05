@@ -3,23 +3,38 @@ title: "System Requirements"
 type: docs
 url: /java/system-requirements/
 weight: 40
-keywords: System Requirements, Java Core, Linux, Mac OS
-description: Aspose.Drawing for Java System Requirements
+keywords: System Requirements, Java versions, Cross platform, Linux, Android, Mac OS
+description: Aspose.Drawing for Java System Requirements and supported Java versions
 ---
 
 ## **Operating Systems**
-Aspose.Drawing for Java supports any 32-bit or 64-bit operating system where Java Framework or Java Core is installed including, but not limited to:
 
-- Microsoft Windows desktop (XP, Vista, 7, 8, 10) and server operating systems (2003, 2008, 2012, 2016, 2019)
-- Windows Azure
-- Linux
-- Mac OS X
-## **Supported Frameworks**
-Aspose.Drawing for Java supports Java and Java Core frameworks as follows:
+Aspose.Drawing is a cross-platform library for Java that supports any operating system x86 and x64 where Java is installed including:
 
-- Java Framework version 2.0
-- Java Core 2.0 or later
-## **Development Environments**
-You can use Aspose.Drawing for Java to develop applications in any development environment that targets the Java platform, but the following environments are explicitly supported:
+- Microsoft Windows Desktop (7 and newer) and Windows Server operating systems,
+- Linux,
+- Android,
+- Mac OS.
 
-- Microsoft Visual Studio 2012, 2013, 2015, 2017, 2019
+## **Supported Java versions**
+
+**LTS**
+
+- Java 21 (LTS)
+- Java 17 (LTS)
+- Java 11 (LTS)
+- Java 8 (LTS)
+
+**Other versions**
+
+- Java 6 - 20
+
+**Additionally**
+
+In Linux OS, it is recommended to install the package with Microsoft-compatible fonts:
+
+```sh
+sudo apt-get install ttf-mscorefonts-installer
+```
+
+In MacOS it is necessary to install ttc/ttf/otf fonts and set the font directory by `com.aspose.imaging.FontSettings.setFontFolder`, `com.aspose.imaging.FontSettings.setFontFolders`, and set the default font for rendering with method `com.aspose.imaging.FontSettings.setDefaultFontName`.
