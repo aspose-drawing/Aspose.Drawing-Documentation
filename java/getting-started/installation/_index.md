@@ -28,7 +28,7 @@ Define the following dependency for Aspose.Drawing Java in your `pom.xml` file:
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-drawing</artifactId>
-        <version>23.10</version>
+        <version>23.11</version>
         <classifier>jdk16</classifier>
    </dependency>
 
@@ -36,7 +36,7 @@ Define the following dependency for Aspose.Drawing Java in your `pom.xml` file:
    <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-drawing</artifactId>
-        <version>23.10</version>
+        <version>23.11</version>
         <classifier>javadoc</classifier>
    </dependency>
 </dependencies>

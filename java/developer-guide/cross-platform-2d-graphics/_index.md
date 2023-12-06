@@ -3,21 +3,15 @@ type: docs
 url: /java/developer-guide/cross-platform-2d-graphics/
 weight: 7
 title: Cross platform 2D graphics library
-description: Aspose.Drawing library for Java to draw pictures. Cross-platform alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
+description: Aspose.Drawing library for Java to draw pictures. Cross-platform image drawing library for 2D graphics.
 keywords: [
 drawing pictures,
-microsoft net,
-nuget package,
 image drawing,
 2d drawing,
 cross platform,
-web assembly,
 Drawing library for Windows,
 Drawing library for Linux,
-Drawing library for Azure,
-Graphics library for ASP site,
-Graphics library for Web application,
-Drawing library for Blazor
+Graphics library for Web application
 ]
 ---
 
@@ -28,7 +22,6 @@ Drawing library for Blazor
 Drawing libraries for Java are widely utilized for creating 2D drawing applications and services. Developing a Java (C sharp) application for image drawing that can run on multiple platforms enables you to reach a broader customer base with minimal effort. Aspose.Drawing is a cross-platform solution for Java that supports the most popular platforms and consistently delivers excellent quality results.
 </p>
 
-
 ### Aspose.Drawing supported platforms
 
 <p align='justify'>
@@ -36,68 +29,54 @@ Drawing libraries for Java are widely utilized for creating 2D drawing applicati
 Graphic libraries for Java are not limited to the Windows platforms; they are also widely popular on other systems such as MacOS, Linux, Android, Azure Functions, ASPJava WebApp and Blazor WebAssembly. One major advantage of Aspose.Drawing.Common API is its cross-platform compatibility, allowing you to utilize it simultaneously on multiple platforms. Developing with a single library streamlines the application creation process. You can reuse code developed once across multiple platforms. Aspose.Drawing is compatible with all target platforms listed in the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common#supportedframeworks-body-tab">Supported frameworks list</a>, making it suitable for any choice you make.
 </p>
 
-
 ### Installing Aspose.Drawing for Java from Maven Repository
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-If you are developing within the Maven , you can easily install Aspose.Drawing using the Maven Repository. 
+If you are developing within the Maven, you can easily install Aspose.Drawing using the Maven Repository.
 </p>
 
-```
+```xml
 <repositories>
-
     <repository>
-
         <id>AsposeJavaAPI</id>
-
         <name>Aspose Java API</name>
-
         <url>https://repository.aspose.com/repo/</url>
-
     </repository>
-
 </repositories>
 ```
+
 <p align='justify'>
 Then define Aspose.Drawing for Java API dependency in your pom.xml as follows:
 </p>
+
+```xml
 <dependencies>
-
     <dependency>
-
         <groupId>com.aspose</groupId>
-
         <artifactId>aspose-drawing</artifactId>
-
         <version>23.11</version>
-
         <classifier>jdk16</classifier>
-
    </dependency>
 
    <!-- if you need a documentation, please add the following dependency. For example it could be useful for IDE. -->
    <dependency>
-
         <groupId>com.aspose</groupId>
-
         <artifactId>aspose-drawing</artifactId>
-
         <version>23.11</version>
-
         <classifier>javadoc</classifier>
-
    </dependency>
-
 </dependencies>
+```
+
 <p align='justify'>
 For more detailed installation instructions please visit the
 <a href="https://docs.aspose.com/drawing/java/installation/">Aspose.Drawing Installation Guide</a>.
-<\p>
+</p>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Aspose.Drawing can serve as a graphic library for various target platforms, including Windows, MacOS, Linux, Azure, ASP sites, and Blazor WebAssembly applications. In Visual Studio, you have the flexibility to create new projects and run Java programs on Java as Console Applications on Windows, Linux, or MacOS, as Web applications using ASPJava Core or Blazor WebAssembly. Additionally, you can utilize the same Aspose drawing library for Java MAUI applications on mobile platforms like Android or iOS.
+Aspose.Drawing can serve as a graphic library for various target platforms, including Windows, MacOS, Linux, and Android applications. In an IDE, such as Eclipse, you have the flexibility to create new projects and run Java programs on Java as Console Applications on Windows, Linux, MacOS, or as Web applications.
 </p>
 
 <p align='justify'>
@@ -105,9 +84,9 @@ Aspose.Drawing can serve as a graphic library for various target platforms, incl
 Furthermore, you can run Java applications with the Aspose library in a Docker container. For more information about Docker installation, please refer to the <a href="https://docs.aspose.com/drawing/java/how-to-run-aspose-drawing-in-docker/">Aspose.Drawing documentation</a>.
 </p>
 
-### Aspose Drawing library use cases
+### **Aspose.Drawing for Java Use Cases**
 
-#### Text on image
+#### **Draw a Text on Image**
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -154,7 +133,7 @@ Example of Java code to draw text on an image:
 </figure>
 
 
-#### Photo frame
+#### **Draw a Photo Frame**
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -179,7 +158,7 @@ Example of Java code to draw a color frame around a photo:
 </figure>
 
 
-#### Make callouts
+#### **Make Callouts**
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
