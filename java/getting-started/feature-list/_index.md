@@ -3,11 +3,11 @@ title: "Feature List"
 type: docs
 url: /java/feature-list/
 weight: 30
-keywords: Java, 2D Drawings, Java draw vector graphics, Java draw curves, Java draw text, draw fonts in Java, draw geometries in Java, Java draw images
-description: Create vector graphics lines, curves, and shapes in Java. Display text having different fonts, sizes, and styles in Java. Load and save drawings in Java.
+keywords: Java API, 2D Drawings, Java draw vector graphics, Java draw curves, Java draw text, draw fonts in Java, draw geometries in Java, Java draw images
+description: Create vector graphics lines, curves, and shapes with Aspose.Drawing Java API. Display text with different fonts, sizes, and styles in Java. Load and save drawings in Java.
 ---
 
-Aspose.Drawing for Java provides a rich set of features to draw vector graphics primitives (such as lines, curves, and figures) that are specified by sets of points on a coordinate system, to display text in a variety of fonts, sizes, and styles, and to save drawing results in commonly used graphics file formats.
+Aspose.Drawing for Java offers an extensive array of features, empowering users to draw vector graphics primitives like lines, curves, and figures. These are defined by sets of points on a coordinate system. The library also facilitates the display of text in diverse fonts, sizes, and styles, and allows users to save their drawing results in widely used graphics file formats.
 
 ## **Lines, Curves, and Shapes**
 
@@ -17,7 +17,7 @@ Aspose.Drawing for Java provides a rich set of features to draw vector graphics 
 - Arcs
 - Polygons
 - Cardinal splines
-- Bézier splines
+- Bezier splines
 - Open and closed curves
 - Regions
 - Flatten paths (planned)

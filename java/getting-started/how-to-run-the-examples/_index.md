@@ -3,29 +3,30 @@ title: "How to Run the Examples"
 type: docs
 url: /java/how-to-run-the-examples/
 weight: 80
-keywords: Run Examples, Visual Studio, NuGet Package Manager
-description: Learn about how to run examples in Visual Studio using NuGet or manually add reference to dll.
+keywords: Run Examples, Aspose.Drawing for Java
+description: Learn about how to download Aspose.Drawing for Java examples from Github and running examples 
 ---
 
-## **Software Requirements**
-Please make sure you meet the following requirements before downloading and running the examples.
-
-1. Visual Studio 2015 or higher
-1. NuGet Package Manager installed in Visual Studio. Make sure that latest NuGet API version is installed in Visual Studio. For details on how to install NuGet package manager please check <http://docs.nuget.org/ndocs/guides/install-nuget>
-1. Go to Tools->Options->NuGet Package Manager->Package Sources and make sure that the option **nuget.org** is checked
-1. Example project uses NuGet Automatic Package Restore feature therefore you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [installation](/drawing/java/installation/) and manually add reference to Aspose.Drawing.jar in the example project.
 ## **Download from GitHub**
+
 All examples of Aspose.Drawing for Java are hosted on [GitHub](https://github.com/aspose-drawing/Aspose.Drawing-for-Java).
 
-- You can either clone the repository using your favorite GitHub client or download the ZIP file from [here](https://github.com/aspose-drawing/Aspose.Drawing-for-Java/archive/master.zip).
-- Extract the contents of ZIP file to any folder on your computer. All the examples are located in the **Examples** folder.
-- Open the solution file in Visual Studio and build the project.
-- On first run the dependencies will automatically be downloaded via NuGet.
-- **Data** folder at the root folder of **Examples** contains input files which CSharp examples used. It is mandatory that you download the **Data** folder along with the examples project.
-- Open RunExamples.cs file, all the examples are called from here.
+- Clone the repository using your preferred GitHub client or download the ZIP file from [Aspose.Drawing-for-Java repository](https://github.com/aspose-drawing/Aspose.Drawing-for-Java/archive/master.zip).
+- Unzip the contents to a folder of your choice on your computer; all examples are in the `Examples` folder.
+- Utilize any IDE, such as Eclipse, to run the examples. Import the desired example via File -> Import and specify the path.
+- Include the necessary jar files (Libraries) in the project.
+- The `src/main/resources` folder contains the input documents/files referenced in the examples.
 
-Please feel free to reach out using our Forums if you have any issues setting up or running the examples.
+{{% alert color="primary" %}}
+
+You can also import the examples directly from GitHub repository.
+
+{{% /alert %}}
+
+If you have any issues setting up or running the examples, you can reach out to our <a href="https://forum.aspose.com/c/drawing/44">Forum</a>.
+
 ## **Contribute**
-If you like to add or improve an example, we encourage you to contribute to the project. All examples and showcase projects in this repository are open source and can be freely used in your own applications.
 
-To contribute, you can fork the repository, edit the source code and create a pull request. We will review the changes and include it in the repository if found helpful.
+Feel free to contribute to the project by adding or enhancing examples. All examples and showcase projects in this repository are open source, and available for unrestricted use in your applications.
+
+To contribute, simply fork the repository, modify the source code, and then create a pull request. We'll thoroughly review the changes and incorporate them into the repository if deemed beneficial.

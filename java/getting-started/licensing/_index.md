@@ -2,14 +2,14 @@
 title: "Licensing"
 type: docs
 url: /java/licensing/
-keywords: "license, licensing, metered license"
-description: "Learn more about licensing of Aspose.Drawing, types of licenses, apply the license."
+keywords: "license file, Aspose licensing, metered license"
+description: "Learn more about licensing of Aspose.Drawing for Java, types of licenses, apply the license."
 weight: 60
 ---
 
 ## **Evaluation Version Limitations**
 
-Customers can test the API thoroughly before making a final decision to buy it. However, the API has certain evaluation limitations if you will use it without a license. These limitations include:
+Customers can comprehensively test the Aspose.Drawing Java API before reaching a final decision to make a purchase. However, it's important to note that the API comes with certain evaluation limitations if used without a license. These limitations encompass:
 
 - The number of drawing operations is limited to 100 and an exception will be thrown after that.
 - A watermark is embedded in the output image when a user saves the image.
