@@ -2,22 +2,19 @@
 type: docs
 url: /java/developer-guide/cross-platform-drawing-api/
 weight: 8
-title: Cross platform drawing API for Java 
-description: Aspose.Drawing library for Java for drawing pictures. Cross-platform support of Java Graphics API for 2D geometric drawings such as drawing lines, drawing shapes, drawing path and drawing rectangles.
+title: Cross-platform drawing API
+description: Aspose.Drawing library for Java for drawing pictures. Cross-platform support of Java Graphics API for 2D geometric drawings such as drawing lines, drawing shapes, drawing paths and drawing rectangles.
 keywords: [drawing pictures,
 lines drawing,
 draw lines,
 vector images,
 vector file,
-
 drawing shapes,
 geometric drawings,
-Java api,
-cross platform,
+Java API,
+cross-platform drawing,
 Drawing API for Windows,
-Drawing API for Linux,
-Drawing API for Azure,
-Graphics API for ASP site]
+Drawing API for Linux]
 ---
 
 <style>
@@ -45,7 +42,7 @@ Graphics API for ASP site]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The Aspose.Drawing library provides a cross-platform Java API for creating geometric drawings. With Aspose.Drawing, you can effortlessly draw vector images such as lines, shapes, rectangles, polygons, arcs, Bezier curves, and text with various fonts and styles. Additionally, you can apply different transformations to 2D objects and save the results as raster or vector files. You can utilize the same Aspose library as a drawing API for Windows, Linux, Azure, or as a graphic API for ASP sites, ensuring consistent quality and performance across all target platforms.
+The Aspse.Drawing library offers a cross-platform Java API for crafting geometric drawings. With Aspose.Drawing, you can effortlessly sketch vector images like lines, shapes, rectangles, polygons, arcs, Bezier curves, and text with diverse fonts and styles. Moreover, you can implement various transformations to 2D objects and preserve the outcomes as raster or vector files. The same Aspose library serves as a drawing API for Windows, Linux or MacOS, ensuring consistent quality and performance across all targeted platforms where Java is available.
 </p>
 
 ### How to draw lines and shapes
