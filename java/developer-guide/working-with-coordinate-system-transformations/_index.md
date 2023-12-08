@@ -3,78 +3,85 @@ title: "Working with Coordinate System Transformations"
 type: docs
 url: /java/working-with-coordinate-system-transformations/
 description: "Change Coordinate System Transformations of image in Java."
+keywords: Java Draw Graphics, coordinate system transformation, Global transformation, Local transformation, matrix transformation, page transformation, units of measure, World transformation
 weight: 60
 ---
 
-## **Global Transformation**
-For global transformation of a scene in Java, the following steps can be used.
+## **Global Transformation in Java**
 
-1. Instantiate a new object of Bitmap class
-1. Initialize a new object of Graphics class with this bitmap object
-1. Use the RotateTransform method of Graphics object to specify the rotation angle
-1. Draw the shapes with global transformation
+To globally transform a scene in Java, follow these steps:
+
+- Create an instance of the `Bitmap` class.
+- Initialize a new object of the `Graphics` class with this bitmap object.
+- Use the `RotateTransform` method of the `Graphics` object to specify the rotation angle.
+- Draw the shapes with global transformation.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-GlobalTransformation-GlobalTransformation.cs" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/GlobalTransformation_out.png" alt="Global Transformation" width="500" />
 
-## **Local Transformation**
-For local transformation of an object in Java, the following steps can be used.
+## **Local Transformation of in Java**
 
-1. Instantiate a new object of Bitmap class
-1. Initialize a new object of Graphics class with this bitmap object
-1. Create a shape such as Ellipse
-1. Define a matrix with desired transformation
-1. Apply the matrix to defined object
+To locally transform an object in Java, follow these steps:
+
+- Create an instance of the `Bitmap` class.
+- Initialize a new object of the `Graphics` class with this bitmap object.
+- Create a shape such as `Ellipse`.
+- Define a matrix with the desired transformation.
+- Apply the matrix to the defined object.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-LocalTransformation-LocalTransformation.cs" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/LocalTransformation_out.png" alt="Local Transformation" width="500" />
 
-## **Matrix Transformation**
-For Matrix transformation of a path in Java, the following steps can be used.
+## **Matrix Transformation of a Path in Java**
 
-1. Instantiate a new object of Bitmap class
-1. Initialize a new object of Graphics class with this bitmap object
-1. Create a shape such as Rectangle
-1. Define the Matrix Transformation using the Matrix class
-1. Apply the transformation to defined rectangle
+To perform a matrix transformation on a path in Java, follow these steps:
+
+- Create an instance of the `Bitmap` class.
+- Initialize a new object of the `Graphics` class with this bitmap object.
+- Create a shape such as a `Rectangle`.
+- Define the Matrix Transformation using the `Matrix` class.
+- Apply the transformation to a defined rectangle.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-MatrixTransformations-MatrixTransformations.cs" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/MatrixTransformations_out.png" alt="Matrix Transformation" width="500" />
 
-## **Page Transformation**
-For Page transformation of a scene in Java, the following steps can be used.
+## **Page Transformation in Java**
 
-1. Instantiate a new object of Bitmap class
-1. Initialize a new object of Graphics class with this bitmap object
-1. Set the GraphicsUnit for the Graphics class object
-1. Draw a shape such as Rectangle
+To perform a page transformation of a scene in Java, follow these steps:
+
+- Create an instance of the `Bitmap` class.
+- Initialize a new object of the `Graphics` class with this bitmap object.
+- Set the `GraphicsUnit` for the `Graphics` class object.
+- Draw a shape such as a `Rectangle`.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-PageTransformation-PageTransformation.cs" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/PageTransformation_out.png" alt="Page Transformation" width="500" />
 
-## **Units of Measure**
-To apply different units of measurement to different objects of a scene in Java, the following steps can be used.
+## **Applying Different Units of Measurement in Java**
 
-1. Instantiate a new object of Bitmap class
-1. Initialize a new object of Graphics class with this bitmap object
-1. Set the PageUnit for the Graphics class object
-1. Draw the shapes such as Rectangles
+To apply different units of measurement to different objects in a scene in Java, follow these steps:
+
+- Create an instance of the `Bitmap` class.
+- Initialize a new object of the `Graphics` class with this bitmap object.
+- Set the `PageUnit` for the `Graphics` class object.
+- Draw shapes such as rectangles.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-UnitsOfMeasure-UnitsOfMeasure.cs" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/UnitsOfMeasure_out.png" alt="Units of Measure" width="500" />
 
-## **World Transformation**
-For World Transformation, the following sample Java code can be used.
+## **World Transformation in Java**
 
-1. Instantiate a new object of Bitmap class
-1. Initialize a new object of Graphics class with this bitmap object
-1. Use the TranslateTransform method to set the transformation
-1. Draw a shape such as Rectangle
+To apply world transformation in Java, follow these steps:
+
+- Create an instance of the `Bitmap` class.
+- Initialize a new object of the `Graphics` class with this bitmap object.
+- Use the `TranslateTransform` method to set the transformation.
+- Draw a shape such as a rectangle.
 
 {{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-CoordinateSystemsTransformations-WorldTransformation-WorldTransformation.cs" >}}
 
