@@ -29,7 +29,7 @@ To work with Aspose.Drawing in your applications:
 ### Download Aspose.Drawing for Java
 
 - Download <a href="https://downloads.aspose.com/drawing/java">Aspose.Drawing for Java</a>.
-- Unzip the downloaded ZIP archive on your development computer, for example D:\Java.Drawing-API.
+- Unzip the downloaded ZIP archive on your development computer, for example `D:\Java.Drawing-API`.
 
 ### Create Project
 
@@ -40,7 +40,7 @@ To work with Aspose.Drawing in your applications:
 
 ### Add Reference of Aspose.Drawing for Java API
 
-The project uses the Aspose.Drawing API as the core library for performing image operations. So, you have to reference the Aspose.Drawing JAR in the  .
+The project uses the Aspose.Drawing API as the core library for performing image operations. So, you have to reference the Aspose.Drawing JAR in the project.
 
 1. Select the project’s properties menu (right-click on the project).
 

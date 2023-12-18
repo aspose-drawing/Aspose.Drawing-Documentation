@@ -3,7 +3,7 @@ title: "Licensing"
 type: docs
 url: /java/licensing/
 keywords: "license file, Aspose licensing, metered license"
-description: "Learn more about licensing of Aspose.Drawing for Java, types of licenses, apply the license."
+description: "Learn about licensing of Aspose.Drawing for Java, types of licenses. Apply the license from file, from a stream object or use metered license."
 weight: 60
 ---
 
@@ -16,31 +16,31 @@ Customers can comprehensively test the Aspose.Drawing Java API before reaching a
 
 ## **Apply License using File or Stream Object**
 
-The license can be loaded from a file or stream object. The easiest way to set a license is to put the license file in the same folder as the Aspose.Drawing.jar/Aspose.Drawing.Common.jar file and specify the file name, without a path, as shown in the example below.
+The license can be loaded from a file or stream object. The easiest way to set a license is to put the license file in the same folder as the Aspose.Drawing.jar file and specify the file name, without a path, as shown in the example below.
 
 {{% alert color="primary" %}} 
 
-If you are using any other Aspose for Java library along with Aspose.Drawing for Java, please specify the namespace for a License like Aspose.Drawing.License for Aspose.Drawing.Common package or System.Drawing.AsposeDrawing.License for Aspose.Drawing package.
+If you are using any other Aspose for Java library along with Aspose.Drawing for Java, please specify the namespace for a License like Aspose.Drawing.License for Aspose.Drawing package.
 
 {{% /alert %}} 
 
 ### **Loading a License from File**
 
-The easiest way to apply for a license is to put the license file in the same folder as the Aspose.Drawing.jar/Aspose.Drawing.Common.jar file and specify just the file name without a path.
+The easiest way to apply for a license is to put the license file in the same folder as the Aspose.Drawing.jar file and specify just the file name without a path.
 
 {{% alert color="primary" %}} 
 
-When you call the SetLicense method, the license name that you pass should be that of your license file. For example, if you change the license file name to "Aspose.Drawing.lic.xml" pass that file name to the Drawing.SetLicense(…) method.
+When you call the SetLicense method, the license name that you pass should be that of your license file. For example, if you change the license file name to "Aspose.Drawing.lic" pass that file name to the setLicense() method.
 
 {{% /alert %}} 
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Licensing-Licensing-LoadLicenseFromFile.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Licensing-Licensing-LoadLicenseFromFile.cs" >}}
 
 ### **Loading a License from a Stream Object**
 
 The following example shows how to load a license from a stream.
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Licensing-Licensing-LoadLicenseFromStream.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Licensing-Licensing-LoadLicenseFromStream.cs" >}}
 
 ## **Metered License**
 
@@ -48,4 +48,4 @@ Aspose.Drawing allows developers to apply a metered key. It is a new licensing m
 
 A new class Metered has been introduced to apply metered key. Following is the sample code demonstrating how to set metered public and private keys.
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Licensing-Licensing-SetMeteredLicense.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Licensing-Licensing-SetMeteredLicense.cs" >}}

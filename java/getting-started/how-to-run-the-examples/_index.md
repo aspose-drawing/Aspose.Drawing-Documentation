@@ -3,8 +3,8 @@ title: "How to Run the Examples"
 type: docs
 url: /java/how-to-run-the-examples/
 weight: 80
-keywords: Run Examples, Aspose.Drawing for Java
-description: Learn about how to download Aspose.Drawing for Java examples from Github and running examples 
+keywords: Run Examples, Aspose.Drawing for Java, download Java examples
+description: Learn about how to download Aspose.Drawing for Java examples from Github and running examples.
 ---
 
 ## **Download from GitHub**

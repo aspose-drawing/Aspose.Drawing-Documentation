@@ -95,7 +95,7 @@ One of the most popular use case for 2D drawing is adding text to images, such a
 
 Example of Java code to draw text on an image:
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-DrawText-GiftCard.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-DrawText-GiftCard.cs" >}}
 
 <style>
    .frame {
@@ -142,7 +142,7 @@ Moreover, you can enhance the visual appeal by creating a color frame around ima
 
 Example of Java code to draw a color frame around a photo:
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawRectangle-PhotoWithFrame.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawRectangle-PhotoWithFrame.cs" >}}
 
 <figure class="frame">
 <div class="container"><div>Source image</div><div>Resulting image</div></div>
@@ -167,7 +167,7 @@ Another useful scenario involves creating callouts on images to add supplementar
 
 Example of Java code to draw callouts on an image:
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-DrawCallOut.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-DrawCallOut.cs" >}}
 
 <figure class="frame">
 <div class="container"><div>Source image</div><div>Resulting image</div></div>

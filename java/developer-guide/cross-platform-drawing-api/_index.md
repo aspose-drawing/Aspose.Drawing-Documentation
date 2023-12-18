@@ -53,9 +53,9 @@ In this example, we demonstrate how to create a series of graphic primitives, in
 pixels, which will be used for drawing the images, along with a <a href="https://reference.aspose.com/drawing/java/system.drawing.drawing2d/graphicspath/graphicspath/">Path object</a>. Following that, we sequentially add two lines to the Path, each defined by its starting and ending X, Y coordinates: one from (100, 100) to (1000, 400), and another line from (1000, 600) to (300, 600); a Rectangle with the following specifications: left upper corner at (500, 350), width of 200, and height of 400 pixels; and an Ellipse object fitted within a rectangle, positioned at the left upper corner (10, 250), with a width of 450 and a height of 300 pixels. Using the DrawPath method and the previously described Pen object, we draw the Path onto the created bitmap. Finally, we rasterize the image and save it as a PNG file.
 </p>
 
-Java code example:
+Java code example to draw a path:
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawPath-DrawPath.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawPath-DrawPath.cs" >}}
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -80,7 +80,7 @@ Similar to the previous example of 2D geometrics drawings, to draw an arc, we be
 The Java code example to draw an arc:
 </p>
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawArc-DrawArc.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.cs" >}}
 
 <figure class="frame">
 <img class="marginauto" src="DrawArc_out.png" alt="Draw Arc with Aspose.Drawing" width="640" height="512"/>
@@ -97,7 +97,7 @@ To draw a Bezier curve, you need to utilize the <a href="https://reference.aspos
 The Java code example to draw a Bezier curve:
 </p>
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-LinesCurvesShapes-DrawBezierSpline-DrawBezierSpline.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawBezierSpline-DrawBezierSpline.cs" >}}
 
 <figure class="frame">
 <img class="marginauto" src="DrawBezierSpline_out.png" alt="Draw Bezier spline curve with Aspose.Drawing" width="640" height="512"/>
@@ -117,7 +117,7 @@ Let's try a more intricate example with text drawing. We will render a text with
 The Java code example to draw a text string:
 </p>
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-Clipping-Clipping.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-Clipping-Clipping.cs" >}}
 
 <figure class="frame">
 <img class="marginauto" src="Clipping_out.png" alt="Draw text string and clipping with Aspose.Drawing" width="640" height="512"/>
