@@ -16,9 +16,9 @@ To draw graphics with a solid brush, follow these steps:
 1. Create an instance of the `Bitmap` class.
 2. Initialize the `Graphics` object from the created bitmap.
 3. Create a new Brush using the `SolidBrush` class.
-4. Utilize a method like `FillEllipse` to draw a solid-filled ellipse as an example.
+4. Utilize a method like `fillEllipse()` to draw a solid-filled ellipse as an example.
 5. Save the output in any desired image format.
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Brushes-Solid-Solid.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Brushes-Solid-Solid.java" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Brushes/Solid_out.png" alt="Drawing with solid brush" width="500" />

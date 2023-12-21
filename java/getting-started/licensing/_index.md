@@ -34,13 +34,13 @@ When you call the SetLicense method, the license name that you pass should be th
 
 {{% /alert %}} 
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Licensing-Licensing-LoadLicenseFromFile.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Licensing-Licensing-LoadLicenseFromFile.java" >}}
 
 ### **Loading a License from a Stream Object**
 
 The following example shows how to load a license from a stream.
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Licensing-Licensing-LoadLicenseFromStream.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Licensing-Licensing-LoadLicenseFromStream.java" >}}
 
 ## **Metered License**
 
@@ -48,4 +48,4 @@ Aspose.Drawing allows developers to apply a metered key. It is a new licensing m
 
 A new class Metered has been introduced to apply metered key. Following is the sample code demonstrating how to set metered public and private keys.
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Licensing-Licensing-SetMeteredLicense.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Licensing-Licensing-SetMeteredLicense.java" >}}

@@ -31,7 +31,7 @@ keywords: [drawing pictures, anti-aliasing, affine transformation, bezier curves
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The Aspose.Drawing library provides a wide range of 2D drawing features, encompassing diverse methods for drawing lines, Bezier curves, splines, arcs, and shapes such as rectangles, polygons, and ellipses. Additionally, it facilitates the processing and drawing of graphics paths and allows for the incorporation of text strings. In contrast to rival drawing libraries, Aspose.Drawing proposes superior rendering of text through anti-aliasing and hinting, ensuring smooth font edges without uneven contours, thus ensuring legibility across various displays and resolutions. What sets Aspose.Drawing apart is its support for strikeout or underline font rendering and the capability to draw text in specific shapes with alignment.
+The Aspose.Drawing library provides a wide range of 2D drawing features, encompassing diverse methods for drawing lines, Bezier curves, splines, arcs, and shapes such as rectangles, polygons, and ellipses. Additionally, it facilitates the processing and drawing of graphics paths and allows for the incorporation of text strings. In contrast to rival drawing libraries, Aspose.Drawing proposes superior rendering of text through anti-aliasing and hinting, ensuring smooth font edges without uneven contours, thus ensuring legibility across various displays and resolutions. What sets Aspose.Drawing apart is its support for a strikeout or underline font rendering and the capability to draw text in specific shapes with alignment.
 </p>
 
 <figure class="frame">
@@ -61,7 +61,7 @@ By employing the clipping regions method, you can craft visually appealing image
 
 You can follow a link to the <a href="/drawing/java/feature-list/">Aspose.Drawing for Java documentation</a> for a full feature list.
 
-## Aspose.Drawing supported image formats
+## Aspose.Drawing Supported Image Formats
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

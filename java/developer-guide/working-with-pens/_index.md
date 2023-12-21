@@ -13,13 +13,13 @@ Aspose.Drawing for Java API empowers you to create graphic elements. Pens play a
 
 To draw graphics with a specific pen width, follow these steps:
 
-1. Create a Bitmap class object.
-2. Initialize the Graphics object from the created bitmap.
-3. Create a new Pen with the desired width.
-4. Utilize the DrawLine method to draw a line with the specified width.
+1. Create a `Bitmap` class object.
+2. Initialize the `Graphics` object from the created bitmap.
+3. Create a new `Pen` with the desired width.
+4. Utilize the `drawLine()` method to draw a line with the specified width.
 5. Save the output in any desired image format.
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Width-Width.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Pens-Width-Width.java" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Pens/Width_out.png" alt="Pen width" width="500" />
 
@@ -27,25 +27,25 @@ To draw graphics with a specific pen width, follow these steps:
 
 To draw graphics with a certain pen color, the following steps can be used.
 
-1. Create an object of the Bitmap class
-1. Initialize the Graphics object from the bitmap
-1. Create a new Pen with the desired color
-1. Use the DrawLine method to draw a line
+1. Create an object of the `Bitmap` class
+1. Initialize the `Graphics` object from the bitmap
+1. Create a new `Pen` with the desired color
+1. Use the `drawLine()` method to draw a line
 1. Save the output to any desired output image format
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Colors-Colors.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Pens-Colors-Colors.java" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Pens/Colors_out.png" alt="Pen color" width="500" />
 
-## **Join lines to create Path in Java**
+## **Join Lines to Create Path in Java**
 
 Multiple lines can be joined to create a path. To join lines using Java, the following steps can be used.
 
-1. Create an object of the Bitmap class
-1. Initialize the Graphics object from the bitmap
-1. Create a GraphicsPath object to establish a path
-1. Use the LineJoin to join lines
+1. Create an object of the `Bitmap` class
+1. Initialize the `Graphics` object from the bitmap
+1. Create a `GraphicsPath` object to establish a path
+1. Use the `setLineJoin()` to join lines
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Pens-Join-Join.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Pens-Join-Join.java" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Pens/Join_out.png" alt="Join lines" width="500" />

@@ -22,7 +22,7 @@ Graphics library for Web application
 Java drawing libraries play a pivotal role in crafting 2D drawing applications and services. Designing a Java application for image drawing with compatibility across various platforms not only broadens your audience reach but also demands minimal effort. Aspose.Drawing stands out as a cross-platform solution for Java, ensuring compatibility with any platform where Java is available and consistently delivering high-quality results.
 </p>
 
-### Aspose.Drawing supported platforms
+### Aspose.Drawing Supported Platforms
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -95,7 +95,7 @@ One of the most popular use case for 2D drawing is adding text to images, such a
 
 Example of Java code to draw text on an image:
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-DrawText-GiftCard.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-DrawText-GiftCard.java" >}}
 
 <style>
    .frame {
@@ -129,7 +129,7 @@ Example of Java code to draw text on an image:
         <img src="girl_card.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
     </div>
 </div>
-<figcaption>Frame drawing on image</figcaption>
+<figcaption>Drawing text on image</figcaption>
 </figure>
 
 
@@ -142,7 +142,7 @@ Moreover, you can enhance the visual appeal by creating a color frame around ima
 
 Example of Java code to draw a color frame around a photo:
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawRectangle-PhotoWithFrame.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawRectangle-PhotoWithFrame.java" >}}
 
 <figure class="frame">
 <div class="container"><div>Source image</div><div>Resulting image</div></div>
@@ -167,7 +167,7 @@ Another useful scenario involves creating callouts on images to add supplementar
 
 Example of Java code to draw callouts on an image:
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-DrawCallOut.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-DrawCallOut.java" >}}
 
 <figure class="frame">
 <div class="container"><div>Source image</div><div>Resulting image</div></div>

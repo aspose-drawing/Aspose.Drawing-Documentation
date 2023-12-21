@@ -2,7 +2,7 @@
 type: docs
 url: /java/developer-guide/cross-platform-drawing-api/
 weight: 8
-title: Cross-platform drawing API
+title: Cross-Platform Drawing API
 description: Aspose.Drawing library for Java for drawing pictures. Cross-platform support of Java Graphics API for 2D geometric drawings such as drawing lines, drawing shapes, drawing paths and drawing rectangles.
 keywords: [drawing pictures,
 lines drawing,
@@ -38,14 +38,14 @@ Drawing API for Linux]
    }
 </style>
 
-## Cross-platform drawing API for Java 
+## Cross-Platform Drawing API for Java
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 The Aspse.Drawing library offers a cross-platform Java API for crafting geometric drawings. With Aspose.Drawing, you can effortlessly sketch vector images like lines, shapes, rectangles, polygons, arcs, Bezier curves, and text with diverse fonts and styles. Moreover, you can implement various transformations to 2D objects and preserve the outcomes as raster or vector files. The same Aspose library serves as a drawing API for Windows, Linux or MacOS, ensuring consistent quality and performance across all targeted platforms where Java is available.
 </p>
 
-### How to draw lines and shapes
+### How to Draw Lines and Shapes in Java
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -55,7 +55,7 @@ pixels, which will be used for drawing the images, along with a <a href="https:/
 
 Java code example to draw a path:
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawPath-DrawPath.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawPath-DrawPath.java" >}}
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -68,7 +68,7 @@ The Java code above will draw the following image with Lines, Rectangles and Ell
 </figure>
 
 
-### How to create geometric drawings with arcs and Bezier curves
+### How to Create Geometric Drawings with Arcs and Bezier Curves
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -80,7 +80,7 @@ Similar to the previous example of 2D geometrics drawings, to draw an arc, we be
 The Java code example to draw an arc:
 </p>
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.java" >}}
 
 <figure class="frame">
 <img class="marginauto" src="DrawArc_out.png" alt="Draw Arc with Aspose.Drawing" width="640" height="512"/>
@@ -97,7 +97,7 @@ To draw a Bezier curve, you need to utilize the <a href="https://reference.aspos
 The Java code example to draw a Bezier curve:
 </p>
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawBezierSpline-DrawBezierSpline.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawBezierSpline-DrawBezierSpline.java" >}}
 
 <figure class="frame">
 <img class="marginauto" src="DrawBezierSpline_out.png" alt="Draw Bezier spline curve with Aspose.Drawing" width="640" height="512"/>
@@ -105,7 +105,7 @@ The Java code example to draw a Bezier curve:
 </figure>
 
 
-### How to render text
+### How to Render Text
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -117,7 +117,7 @@ Let's try a more intricate example with text drawing. We will render a text with
 The Java code example to draw a text string:
 </p>
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-Clipping-Clipping.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-Clipping-Clipping.java" >}}
 
 <figure class="frame">
 <img class="marginauto" src="Clipping_out.png" alt="Draw text string and clipping with Aspose.Drawing" width="640" height="512"/>

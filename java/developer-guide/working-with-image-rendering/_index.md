@@ -21,10 +21,10 @@ To draw graphics with transparency using Java, follow these steps:
 
 - Create an instance of the `Bitmap` class.
 - Initialize the `Graphics` object from the created bitmap.
-- Use the `Color.FromArgb` method with the alpha channel parameter.
+- Use the `Color.fromArgb()` method with the alpha channel parameter.
 - Save the output in any desired image format.
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-AlphaBlending-AlphaBlending.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-AlphaBlending-AlphaBlending.java" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Rendering/AlphaBlending_out.png" alt="Alpha Blending" width="500" />
 
@@ -39,7 +39,7 @@ Drawing lines and curves with anti-aliasing in Java can be achieved through the 
 - Create the desired line, curve, or other object.
 - Save the output in any desired image format.
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-Antialiasing-Antialiasing.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-Antialiasing-Antialiasing.java" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Rendering/Antialiasing_out.png" alt="Antialiasing" width="500" />
 
@@ -50,6 +50,6 @@ To perform image clipping in Java, follow these steps:
 - Create an instance of the `Bitmap` class.
 - Initialize the `Graphics` object from the bitmap.
 - Define the clipping path using `GraphicsPath`.
-- Set the clip-path using the `SetClip` method.
+- Set the clip-path using the `setClip()` method.
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-Rendering-Clipping-Clipping.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-Clipping-Clipping.java" >}}

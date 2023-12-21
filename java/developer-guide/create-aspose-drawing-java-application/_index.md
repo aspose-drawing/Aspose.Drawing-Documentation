@@ -64,7 +64,7 @@ The code below uses the Aspose.Drawing API to create a drawing from scratch.
 
 Replace the **MyClasss.java** file with the following code that draws a gradient and saves an image:
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-NET6-Drawing.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-NET6-Drawing.java" >}}
 
 {{% alert color="primary" %}}
 

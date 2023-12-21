@@ -20,12 +20,12 @@ Below are the steps to draw text:
 
 - Create an instance of the `Bitmap` class.
 - Initialize a new object of the `Graphics` class with the bitmap object.
-- Set up a brush for text drawing.
-- Employ the `DrawString` method to draw text on the bitmap.
+- Set up a `Brush` object for text drawing.
+- Employ the `drawString()` method to draw text on the bitmap.
 
 These simple steps empower you to effortlessly integrate text into your graphics using Aspose.Drawing for Java.
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-DrawText-DrawText.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-DrawText-DrawText.java" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/TextFonts/DrawText_out.png" alt="Draw text" width="500" />
 
@@ -36,9 +36,9 @@ Formatting text adds a layer of sophistication to your Java graphics, and with A
 - Begin by creating a `Bitmap` object.
 - Initialize a new `Graphics` object using the created bitmap object.
 - Specify the necessary string format parameters, such as string alignment and line alignment, to achieve the desired formatting.
-- Utilize the `DrawString` method to effortlessly draw formatted text on the bitmap.
+- Utilize the `drawString()` method to effortlessly draw formatted text on the bitmap.
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-FormatText-FormatText.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-FormatText-FormatText.java" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/TextFonts/FormatText_out.png" alt="Format text" width="500" />
 
@@ -49,13 +49,13 @@ Text hinting mode is a crucial aspect of text rendering, and with Aspose.Drawing
 - Start by creating a `Bitmap` object.
 - Initialize a new `Graphics` object using the created bitmap object.
 - Utilize the `TextRenderingHint` property of the `Graphics` object to specify the desired hinting mode.
-- Finally, employ the `DrawText` method to draw text with the specified hinting mode.
+- Finally, employ the `drawText()` method to draw text with the specified hinting mode.
 
 By following these steps, you can precisely control the text hinting mode to achieve optimal text rendering using Aspose.Drawing for Java.
 
 Text hinting mode can be specified using the API. The following Java code shows how to set the grid fitting mode.
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-Hinting-Hinting.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-Hinting-Hinting.java" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/TextFonts/Hinting_out.png" alt="Text hinting" />
 
@@ -63,6 +63,6 @@ Text hinting mode can be specified using the API. The following Java code shows 
 
 Retrieving Existing Fonts in Java:
 
-{{< gist "aspose-com-gists" "b8960f80422422251405395636eab772" "Examples-CSharp-TextFonts-InstalledFonts-InstalledFonts.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-InstalledFonts-InstalledFonts.java" >}}
 
 <img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/TextFonts/InstalledFonts_out.png" alt="Installed fonts" width="500" />

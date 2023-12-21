@@ -18,4 +18,4 @@ The Aspose.Drawing library for Java library is a comprehensive tool for image ma
 1. Define a `Pen` object with desired parameters.
 1. Use the `drawArc()` method of `Graphics` class object to Draw an Arc.
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.cs" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.java" >}}
