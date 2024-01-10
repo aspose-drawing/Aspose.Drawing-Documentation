@@ -26,7 +26,7 @@ To draw graphics with transparency using Java, follow these steps:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-AlphaBlending-AlphaBlending.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Rendering/AlphaBlending_out.png" alt="Alpha Blending" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/Rendering/AlphaBlending.png" alt="Alpha Blending drawing in Java" width="1000" />
 
 
 ## **Anti-aliasing with Lines and Curves**
@@ -41,7 +41,7 @@ Drawing lines and curves with anti-aliasing in Java can be achieved through the 
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-Antialiasing-Antialiasing.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Rendering/Antialiasing_out.png" alt="Antialiasing" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/Rendering/Antialiasing.png" alt="Antialiasing drawing in Java" width="1000" />
 
 ## **Image Clipping**
 
@@ -53,3 +53,5 @@ To perform image clipping in Java, follow these steps:
 - Set the clip-path using the `setClip()` method.
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-Clipping-Clipping.java" >}}
+
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/Rendering/Clipping.png" alt="Clipping drawing in Java" width="1000" />

@@ -20,7 +20,30 @@ Creating a new image from scratch is pretty straightforward with the Aspose.Draw
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/DrawArc_out.png" alt="Draw Arc" width="500" />
+<style>
+   .frame {
+    border: 2px solid darkgray;
+    padding: 5px;
+    margin: 10px 0 5px 5px;
+    background: #f0f0f0;
+    align-items: center;
+   }
+   .marginauto {
+    margin: 10px auto 20px;
+    display: block;
+   }
+   .frame figcaption {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+</style>
+
+<figure class="frame"><p>
+    <img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawArc.png" alt="Draw arc in bitmap in Java" width="1000" height="800"/>
+<figcaption>Draw arc graphics on bitmap in Java</figcaption>
+</p></figure>
 
 ## **Load existing Image from File into Bitmap**
 
@@ -28,4 +51,7 @@ Loading an existing image from a file and saving it back to disk using the Java 
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Images-LoadSave-LoadSave.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Images/LoadSave_out.png" alt="Load and save image" />
+<figure class="frame"><p>
+    <img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/LoadSave_out.png" alt="Load and save image bitmap in Java" width="195" height="55"/>
+<figcaption>Load and save image bitmap in Java</figcaption>
+</p></figure>

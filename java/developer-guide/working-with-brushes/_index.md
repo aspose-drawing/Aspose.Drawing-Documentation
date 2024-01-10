@@ -21,4 +21,4 @@ To draw graphics with a solid brush, follow these steps:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Brushes-Solid-Solid.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Brushes/Solid_out.png" alt="Drawing with solid brush" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/Brushes/Solid_out.png" alt="Drawing with solid brush" width="1000" />

@@ -35,7 +35,7 @@ The Aspose.Drawing library provides a wide range of 2D drawing features, encompa
 </p>
 
 <figure class="frame">
-<img class="marginauto" src="Hinting_out.png" alt="Text strings rendering with font hinting" width="640" height="244"/>
+<img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/TextFonts/Hinting.png" alt="Text strings rendering with font hinting" width="1000" height="800"/>
 <figcaption>Using Java API for text rendering with font hinting </figcaption>
 </figure>
 
@@ -45,12 +45,12 @@ When creating graphics, you can customize a pen with different colors, widths, a
 </p>
 
 <figure class="frame">
-<img class="marginauto" src="AlphaBlending_out.png" alt="Shapes drawing with alfa-blending" width="640" height="512"/>
+<img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/Rendering/AlphaBlending.png" alt="Shapes drawing with alfa-blending" width="1000" height="800"/>
 <figcaption>Using Java API for shapes alfa-blending</figcaption>
 </figure>
 
 <figure class="frame">
-<img class="marginauto" src="Antialiasing_out.png" alt="Lines drawing with anti-aliasing" width="640" height="512"/>
+<img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/Rendering/Antialiasing.png" alt="Lines drawing with anti-aliasing" width="1000" height="800"/>
 <figcaption>Using Java API for anti-aliasing lines drawing</figcaption>
 </figure>
 

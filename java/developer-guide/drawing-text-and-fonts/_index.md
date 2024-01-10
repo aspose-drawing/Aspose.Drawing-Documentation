@@ -27,7 +27,7 @@ These simple steps empower you to effortlessly integrate text into your graphics
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-DrawText-DrawText.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/TextFonts/DrawText_out.png" alt="Draw text" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/TextFonts/DrawText.png" alt="Draw text" width="1000" />
 
 ## **Format Text in Java**
 
@@ -40,7 +40,7 @@ Formatting text adds a layer of sophistication to your Java graphics, and with A
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-FormatText-FormatText.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/TextFonts/FormatText_out.png" alt="Format text" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/TextFonts/FormatText.png" alt="Format text" width="1000" />
 
 ## **Text Hinting in Java**
 
@@ -57,7 +57,7 @@ Text hinting mode can be specified using the API. The following Java code shows 
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-Hinting-Hinting.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/TextFonts/Hinting_out.png" alt="Text hinting" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/TextFonts/Hinting.png" alt="Text hinting" width="1000"/>
 
 ## **Installed Fonts in Java**
 
@@ -65,4 +65,4 @@ Retrieving Existing Fonts in Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-InstalledFonts-InstalledFonts.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/TextFonts/InstalledFonts_out.png" alt="Installed fonts" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/TextFonts/InstalledFonts.png" alt="Installed fonts" width="1000" />

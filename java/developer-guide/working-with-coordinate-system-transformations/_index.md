@@ -18,7 +18,7 @@ To globally transform a scene in Java, follow these steps:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-CoordinateSystemsTransformations-GlobalTransformation-GlobalTransformation.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/GlobalTransformation_out.png" alt="Global Transformation" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/CoordinateSystemsTransformations/GlobalTransformation_out.png" alt="Global Transformation" width="1000" />
 
 ## **Local Transformation of in Java**
 
@@ -32,7 +32,7 @@ To locally transform an object in Java, follow these steps:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-CoordinateSystemsTransformations-LocalTransformation-LocalTransformation.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/LocalTransformation_out.png" alt="Local Transformation" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/CoordinateSystemsTransformations/LocalTransformation_out.png" alt="Local Transformation" width="1000" />
 
 ## **Matrix Transformation of a Path in Java**
 
@@ -46,7 +46,7 @@ To perform a matrix transformation on a path in Java, follow these steps:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-CoordinateSystemsTransformations-MatrixTransformations-MatrixTransformations.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/MatrixTransformations_out.png" alt="Matrix Transformation" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/CoordinateSystemsTransformations/MatrixTransformations_out.png" alt="Matrix Transformation" width="1000" />
 
 ## **Page Transformation in Java**
 
@@ -59,7 +59,7 @@ To perform a page transformation of a scene in Java, follow these steps:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-CoordinateSystemsTransformations-PageTransformation-PageTransformation.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/PageTransformation_out.png" alt="Page Transformation" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/CoordinateSystemsTransformations/PageTransformation_out.png" alt="Page Transformation" width="1000" />
 
 ## **Applying Different Units of Measurement in Java**
 
@@ -72,7 +72,7 @@ To apply different units of measurement to different objects in a scene in Java,
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-CoordinateSystemsTransformations-UnitsOfMeasure-UnitsOfMeasure.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/UnitsOfMeasure_out.png" alt="Units of Measure" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/CoordinateSystemsTransformations/UnitsOfMeasure_out.png" alt="Units of Measure" width="1000" />
 
 ## **World Transformation in Java**
 
@@ -85,4 +85,4 @@ To apply world transformation in Java, follow these steps:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-CoordinateSystemsTransformations-WorldTransformation-WorldTransformation.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/CoordinateSystemsTransformations/WorldTransformation_out.png" alt="World Transformation" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/CoordinateSystemsTransformations/WorldTransformation_out.png" alt="World Transformation" width="1000" />

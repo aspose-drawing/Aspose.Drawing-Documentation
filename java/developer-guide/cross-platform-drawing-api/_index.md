@@ -63,7 +63,7 @@ The Java code above will draw the following image with Lines, Rectangles and Ell
 </p>
 
 <figure class="frame">
-<img class="marginauto" src="DrawPath_out.png" alt="Draw Line Rectangle Ellipse Path " width="640" height="512"/>
+<img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawPath.png" alt="Draw Line Rectangle Ellipse Path " width="1000" height="800"/>
 <figcaption>Example of drawing lines, rectangles and ellipses</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ The Java code example to draw an arc:
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.java" >}}
 
 <figure class="frame">
-<img class="marginauto" src="DrawArc_out.png" alt="Draw Arc with Aspose.Drawing" width="640" height="512"/>
+<img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawArc.png" alt="Draw Arc with Aspose.Drawing" width="1000" height="800"/>
 <figcaption>Example of drawing arc</figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ The Java code example to draw a Bezier curve:
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawBezierSpline-DrawBezierSpline.java" >}}
 
 <figure class="frame">
-<img class="marginauto" src="DrawBezierSpline_out.png" alt="Draw Bezier spline curve with Aspose.Drawing" width="640" height="512"/>
+<img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawBezierSpline.png" alt="Draw Bezier spline curve with Aspose.Drawing" width="1000" height="800"/>
 <figcaption>Example of drawing Bezier spline curve</figcaption>
 </figure>
 
@@ -120,7 +120,7 @@ The Java code example to draw a text string:
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-Clipping-Clipping.java" >}}
 
 <figure class="frame">
-<img class="marginauto" src="Clipping_out.png" alt="Draw text string and clipping with Aspose.Drawing" width="640" height="512"/>
+<img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/Rendering/Clipping.png" alt="Draw text string and clipping with Aspose.Drawing" width="1000" height="800"/>
 <figcaption>Example of drawing text string with clipping</figcaption>
 </figure>
 

@@ -76,4 +76,27 @@ All coding is done in the main() method of the MyClass.java class.
 
 Start the project from IDE, in the project output directory the resulting **gradient.png** image file will be generated:
 
-![Linear gradient drawn in Java](linear-gradient-in-java.png)
+<style>
+   .frame {
+    border: 2px solid darkgray;
+    padding: 5px;
+    margin: 10px 0 5px 5px;
+    background: #f0f0f0;
+    align-items: center;
+   }
+   .marginauto {
+    margin: 10px auto 20px;
+    display: block;
+   }
+   .frame figcaption {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+</style>
+
+<figure class="frame"><p>
+    <img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/gradient.png" alt="Linear gradient drawing in Java" width="1000" height="800"/>
+<figcaption>Linear gradient drawing in Java</figcaption>
+</p></figure>

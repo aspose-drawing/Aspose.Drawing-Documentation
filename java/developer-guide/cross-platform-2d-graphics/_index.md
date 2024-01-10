@@ -126,7 +126,7 @@ Example of Java code to draw text on an image:
         <img src="girl.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
     </div>
     <div>
-        <img src="girl_card.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
+        <img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/TextFonts/girl_giftCard.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
     </div>
 </div>
 <figcaption>Drawing text on image</figcaption>
@@ -151,7 +151,7 @@ Example of Java code to draw a color frame around a photo:
         <img src="cat.jpg" alt="Frame drawing on image" width="476" height="268"/>
     </div>
     <div>
-       <img src="cat_with_honor.jpg" alt="Frame drawing on image" width="476" height="268"/>
+       <img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/TextFonts/cat_with_honor_out.jpg" alt="Frame drawing on image" width="476" height="268"/>
     </div>
 </div>
 <figcaption>Frame drawing on image</figcaption>
@@ -176,7 +176,7 @@ Example of Java code to draw callouts on an image:
         <img src="gears.png" alt="Callouts drawing on image" width="176" height="183"/>
     </div>
     <div>
-        <img src="gears_with_callout.jpg" alt="Callouts drawing on image" width="176" height="183"/>
+        <img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/TextFonts/gears_with_callout_out.png" alt="Callouts drawing on image" width="176" height="183"/>
     </div>
 </div>
 <figcaption>Callouts drawing on image</figcaption>

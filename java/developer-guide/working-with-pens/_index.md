@@ -21,7 +21,7 @@ To draw graphics with a specific pen width, follow these steps:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Pens-Width-Width.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Pens/Width_out.png" alt="Pen width" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/Pens/Width.png" alt="Pen width" width="1000" />
 
 ## **Set Pen Color to Draw Graphics in Java**
 
@@ -35,7 +35,7 @@ To draw graphics with a certain pen color, the following steps can be used.
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Pens-Colors-Colors.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Pens/Colors_out.png" alt="Pen color" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/Pens/Colors.png" alt="Pen color" width="1000" />
 
 ## **Join Lines to Create Path in Java**
 
@@ -48,4 +48,4 @@ Multiple lines can be joined to create a path. To join lines using Java, the fol
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Pens-Join-Join.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/Pens/Join_out.png" alt="Join lines" width="500" />
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/Pens/Join.png" alt="Join lines" width="1000" />

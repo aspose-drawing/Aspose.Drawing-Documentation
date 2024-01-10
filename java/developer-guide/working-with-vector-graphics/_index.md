@@ -21,7 +21,7 @@ To draw an arc using Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/DrawArc_out.png" alt="Draw Arc" width="500"/>
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawArc.png" alt="Draw Arc" width="1000"/>
 
 ## **Draw Bezier Spline in Java**
 
@@ -32,7 +32,7 @@ To draw an arc using Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawBezierSpline-DrawBezierSpline.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/DrawBezierSpline_out.png" alt="Draw Bezier Spline" width="500"/>
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawBezierSpline.png" alt="Draw Bezier Spline" width="1000"/>
 
 ## **Draw Cardinal Spline in Java**
 
@@ -43,7 +43,7 @@ To draw an arc using Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawCardinalSpline-DrawCardinalSpline.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/DrawCardinalSpline_out.png" alt="Draw Cardinal Spline" width="500"/>
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawCardinalSpline.png" alt="Draw Cardinal Spline" width="1000"/>
 
 ## **Draw Closed Curve in Java**
 
@@ -54,7 +54,7 @@ To draw an arc using Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawClosedCurve-DrawClosedCurve.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/DrawClosedCurve_out.png" alt="Draw Closed Curve" width="500"/>
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawClosedCurve.png" alt="Draw Closed Curve" width="1000"/>
 
 ## **Draw Ellipse in Java**
 
@@ -65,7 +65,7 @@ To draw an arc using Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawEllipse-DrawEllipse.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/DrawEllipse_out.png" alt="Draw Ellipse" width="500"/>
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawEllipse.png" alt="Draw Ellipse" width="1000"/>
 
 ## **Draw Lines in Java**
 
@@ -76,7 +76,7 @@ To draw an arc using Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawLines-DrawLines.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/DrawLines_out.png" alt="Draw Lines" width="500"/>
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawLines.png" alt="Draw Lines" width="1000"/>
 
 ## **Draw Path in Java**
 
@@ -87,7 +87,7 @@ To draw an arc using Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawPath-DrawPath.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/DrawPath_out.png" alt="Draw Path" width="500"/>
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawPath.png" alt="Draw Path" width="1000"/>
 
 ## **Draw Polygon in Java**
 
@@ -98,7 +98,7 @@ To draw an arc using Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawPolygon-DrawPolygon.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/DrawPolygon_out.png" alt="Draw Polygon" width="500"/>
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawPolygon.png" alt="Draw Polygon" width="1000"/>
 
 ## **Draw Rectangle in Java**
 
@@ -109,7 +109,7 @@ To draw an arc using Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawRectangle-DrawRectangle.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/DrawRectangle_out.png" alt="Draw Rectangle" width="500"/>
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/DrawRectangle.png" alt="Draw Rectangle" width="1000"/>
 
 ## **Fill Region in Java**
 
@@ -121,4 +121,4 @@ To draw an arc using Java:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-FillRegion-FillRegion.java" >}}
 
-<img src="https://github.com/aspose-drawing/Aspose.Drawing-for-Java/raw/master/Examples/Data/LinesCurvesShapes/FillRegion_out.png" alt="Fill Region" width="500"/>
+<img src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/LinesCurvesShapes/FillRegion.png" alt="Fill Region" width="1000"/>
