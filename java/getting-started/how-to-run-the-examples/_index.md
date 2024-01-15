@@ -7,19 +7,35 @@ keywords: Run Examples, Aspose.Drawing for Java, download Java examples
 description: Learn about how to download Aspose.Drawing for Java examples from Github and running examples.
 ---
 
-## **Download from GitHub**
+## **Download Examples from GitHub**
 
 All examples of Aspose.Drawing for Java are hosted on [GitHub](https://github.com/aspose-drawing/Aspose.Drawing-for-Java).
 
 - Clone the repository using your preferred GitHub client or download the ZIP file from [Aspose.Drawing-for-Java repository](https://github.com/aspose-drawing/Aspose.Drawing-for-Java/archive/master.zip).
+
 - Unzip the contents to a folder of your choice on your computer; all examples are in the `Examples` folder.
-- Utilize any IDE, such as Eclipse, to run the examples. Import the desired example via File -> Import and specify the path.
-- Include the necessary jar files (Libraries) in the project.
-- The `src/main/resources` folder contains the input documents/files referenced in the examples.
+
+## **Import Examples to IDE Project**
+
+Utilize any IDE, such as an IntelliJ IDEA or Eclipse, to run the examples. Import the desired example via File -> Project Structure -> Modules -> Add -> Import Module and select the directory with sources:
+
+<img src="./import_module_aspose_examples.webp" alt="Import Aspose.Drawing for Java examples" width="996"/>
+
+<img src="./select_directory_to_import_aspose_examples.webp" alt="Select directory with examples to add the the project" width="360" height=""/>
+
+## **Adding Dependencies**
+
+Include the necessary JAR files (Libraries) to the project on the "Dependencies" tab:
+
+<img src="./aspose_drawing_dependencies.webp" alt="Add dependencies from Aspose.Drawing JAR file" width="1236" />
+
+Aspose.Drawing for Java examples opened in IntelliJ IDEA:
+
+<img src="./aspose-drawing-for-java-examples.webp" alt="Aspose.Drawing for Java examples opened in IDE" width="1435" />
 
 {{% alert color="primary" %}}
 
-You can also import the examples directly from GitHub repository.
+You can also import the examples directly from the GitHub repository.
 
 {{% /alert %}}
 

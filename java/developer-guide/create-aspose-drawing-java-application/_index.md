@@ -11,7 +11,7 @@ You can use Aspose.Drawing library in a cross-platform Java applications to draw
 
 {{% alert color="primary" %}}
 
-Aspose.Drawing is a versatile and user-friendly API. This article guides you, step by step, through the process of setting up and creating your first Java application with Aspose.Drawing. Although the steps are demonstrated using MyEclipse, the procedures for other IDEs are analogous. The article includes a code example that generates your first simple drawing.
+Aspose.Drawing is a versatile and user-friendly API. This article guides you, step by step, through the process of setting up and creating your first Java application with Aspose.Drawing. Although the steps are demonstrated using IntelliJ IDEA, the procedures for other IDEs are analogous. The article includes a code example that generates your first simple drawing.
 
 {{% /alert %}}
 
@@ -29,52 +29,57 @@ To work with Aspose.Drawing in your applications:
 ### Download Aspose.Drawing for Java
 
 - Download <a href="https://downloads.aspose.com/drawing/java">Aspose.Drawing for Java</a>.
-- Unzip the downloaded ZIP archive on your development computer, for example `D:\Java.Drawing-API`.
+- Unzip the downloaded ZIP archive on your development computer, for example, `c:\Users\User\Aspose\aspose-drawing-java\Aspose.Drawing\target`.
 
 ### Create Project
 
-- Launch the MyEclipse IDE.
-- In the main toolbar, click New Java Project, or, from the File menu, select New Java Project.
-- Enter the project name.
-- Click Finish.
+- Launch the IDE IntelliJ IDEA.
+- In the main toolbar click "New Project".
+- Enter the project name and location.
+- Click "Create" button.
+
+<img src="./create_new_java_project.png" alt="" width="776"/>
 
 ### Add Reference of Aspose.Drawing for Java API
 
-The project uses the Aspose.Drawing API as the core library for performing image operations. So, you have to reference the Aspose.Drawing JAR in the project.
+The project uses the Aspose.Drawing API as the core library for performing drawing operations. So, you have to reference the Aspose.Drawing JAR in the project.
 
-1. Select the project’s properties menu (right-click on the project).
+1. Select the "Project Structure" menu (in the File menu):
 
-Right-clicking the project opens a menu. The Properties option can be found at the bottom.
+<img src="./new_java_project_structure.png" alt="" width="316"/>
 
-2. Select the Java Build Path option.
-3. Click **Add External Jar**.
-4. Select the Aspose.Drawing file to add it to the project.
+2. Select the "Modules" in the "Project Settings".
 
-### Write MyClass.Java
+3. Navigate to the "Dependencies" tab and click "+" to add a folder:
+
+<img src="./java_project_dependencies.png" alt="" width="1167"/>
+
+4. Select the Aspose.Drawing the target folder with JAR file for adding it to the project:
+
+<img src="./aspose-drawing-jar.png" alt="" width="1417"/>
+
+
+### Write **Main.java**
 
 The next step is to create a new class.
 
-- Click on **New Java Class** in the main toolbar.
-- If not already specified, select `HelloWorld/src` as the source folder.
-- Type `MyClass` for the class name.
-- Select the option to create the `main()` method.
-- Click Finish.
+By default, the `Main.java` file is created in the `src/main/java/org.example` folder inside the Project tree. `Main.java` file is ready for editing with the default class `Main` and method `main()`.
 
-The code below uses the Aspose.Drawing API to create a drawing from scratch.
-
-Replace the **MyClasss.java** file with the following code that draws a gradient and saves an image:
+The code below uses the Aspose.Drawing API to create a drawing from scratch. Replace the **Main.java** file with the following code that draws a gradient and saves an image:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-NET6-Drawing.java" >}}
 
 {{% alert color="primary" %}}
 
-All coding is done in the main() method of the MyClass.java class.
+All coding is done in the `main()` method of the class `Main`.
 
 {{% /alert %}}
 
+<img src="./run_main_aspose_drawing.webp" alt="Run Main.java in IDE to create drawing image" width="1486" height=""/>
+
 ## Run Java application
 
-Start the project from IDE, in the project output directory the resulting **gradient.png** image file will be generated:
+Start the project from IDE by pressing the "Run" button on the toolbar. In the project output directory, the resulting **gradient.png** image file will be generated:
 
 <style>
    .frame {
