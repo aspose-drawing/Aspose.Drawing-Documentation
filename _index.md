@@ -21,9 +21,9 @@ The following are the links to some useful resources you may need to accomplish 
 
 - [Aspose.Drawing for .NET Online Documentation](net/)
 - [Aspose.Drawing for Java Online Documentation](java/)
-- [Aspose.Drawing for .NET Product Page](https://products.aspose.com/drawing/)
-- [Aspose.Drawing for .NET API Reference Guide](https://reference.aspose.com/drawing/)
-- [Aspose.Drawing for .NET Free Support Forum](https://forum.aspose.com/c/drawing)
-- [Aspose.Drawing for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
+- [Aspose.Drawing Product Page](https://products.aspose.com/drawing/)
+- [Aspose.Drawing API Reference Guide](https://reference.aspose.com/drawing/)
+- [Aspose.Drawing Free Support Forum](https://forum.aspose.com/c/drawing)
+- [Aspose.Drawing Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 
