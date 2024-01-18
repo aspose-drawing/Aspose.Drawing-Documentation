@@ -43,3 +43,14 @@ Define the following dependency for Aspose.Drawing Java in your `pom.xml` file:
 ```
 
 Aspose.Drawing for Java dependency is defined in your Maven project after finishing these steps.
+
+<img src="./aspose-maven-repository.png" alt="Aspose maven repository" width="1482"/>
+
+
+## **Adding Aspose.Drawing dependency**
+
+Alternatively, you can download the latest version of Aspose.Drawing JAR file from  <a href="https://releases.aspose.com/java/repo/com/aspose/aspose-drawing/">Aspose Repository Server</a> and add it to your project as a dependency.
+
+If you are using IntelliJ IDEA, you can open the "Project Structure" menu, navigate to "Project Settings" -> "Modules", select the "Dependencies" tab and add the path where the Aspose.Drawing JAR is located.
+
+<img src="./aspose_drawing_dependencies.png" alt="Adding Aspose.Drawing JAR dependency" width="1414"/>

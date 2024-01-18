@@ -9,7 +9,7 @@ description: Java graphic library to work with 2D drawings with simple API.
 
 {{% alert color="primary" %}} 
 
-![Aspose.Drawing logo](product-overview_1)
+![Aspose.Drawing logo](product-overview_1.png)
 
 **Welcome to the Aspose.Drawing for Java**
 

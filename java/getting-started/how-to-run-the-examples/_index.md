@@ -19,19 +19,19 @@ All examples of Aspose.Drawing for Java are hosted on [GitHub](https://github.c
 
 Utilize any IDE, such as an IntelliJ IDEA or Eclipse, to run the examples. Import the desired example via File -> Project Structure -> Modules -> Add -> Import Module and select the directory with sources:
 
-<img src="./import_module_aspose_examples.webp" alt="Import Aspose.Drawing for Java examples" width="996"/>
+<img src="./import_module_aspose_examples.png" alt="Import Aspose.Drawing for Java examples" width="1008"/>
 
-<img src="./select_directory_to_import_aspose_examples.webp" alt="Select directory with examples to add the the project" width="360" height=""/>
+<img src="./select_directory_to_import_aspose_examples.png" alt="Select directory with examples to add the the project" width="435" height=""/>
 
 ## **Adding Dependencies**
 
 Include the necessary JAR files (Libraries) to the project on the "Dependencies" tab:
 
-<img src="./aspose_drawing_dependencies.webp" alt="Add dependencies from Aspose.Drawing JAR file" width="1236" />
+<img src="./aspose-drawing-dependencies.png" alt="Add dependencies from Aspose.Drawing JAR file" width="1414" />
 
 Aspose.Drawing for Java examples opened in IntelliJ IDEA:
 
-<img src="./aspose-drawing-for-java-examples.webp" alt="Aspose.Drawing for Java examples opened in IDE" width="1435" />
+<img src="./aspose-drawing-for-java-examples.png" alt="Aspose.Drawing for Java examples opened in IDE" width="1531" />
 
 {{% alert color="primary" %}}
 

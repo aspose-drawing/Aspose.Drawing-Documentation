@@ -9,10 +9,7 @@ weight: 60
 
 ## **Evaluation Version Limitations**
 
-Customers can comprehensively test the Aspose.Drawing Java API before reaching a final decision to make a purchase. However, it's important to note that the API comes with certain evaluation limitations if used without a license. These limitations encompass:
-
-- The number of drawing operations is limited to 100 and an exception will be thrown after that.
-- A watermark is embedded in the output image when a user saves the image.
+Customers can comprehensively test the Aspose.Drawing Java API before reaching a final decision to make a purchase. However, it's important to note that the API comes with certain evaluation limitations if used without a license: a watermark is embedded in the output image when a user saves the image.
 
 ## **Apply License using File or Stream Object**
 
