@@ -13,10 +13,10 @@ Aspose.Drawing for Java API empowers you to create graphic elements. Pens play a
 
 To draw graphics with a specific pen width, follow these steps:
 
-1. Create a `Bitmap` class object.
-2. Initialize the `Graphics` object from the created bitmap.
-3. Create a new `Pen` with the desired width.
-4. Utilize the `drawLine()` method to draw a line with the specified width.
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+4. Utilize the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawLine-com.aspose.drawing.Pen-int-int-int-int-">`drawLine()` method</a> to draw a line with the specified width.
 5. Save the output in any desired image format.
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Pens-Width-Width.java" >}}
@@ -27,10 +27,10 @@ To draw graphics with a specific pen width, follow these steps:
 
 To draw graphics with a certain pen color, the following steps can be used.
 
-1. Create an object of the `Bitmap` class
-1. Initialize the `Graphics` object from the bitmap
-1. Create a new `Pen` with the desired color
-1. Use the `drawLine()` method to draw a line
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawLine-com.aspose.drawing.Pen-int-int-int-int-">`drawLine()` method</a> to draw a line
 1. Save the output to any desired output image format
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Pens-Colors-Colors.java" >}}
@@ -41,10 +41,10 @@ To draw graphics with a certain pen color, the following steps can be used.
 
 Multiple lines can be joined to create a path. To join lines using Java, the following steps can be used.
 
-1. Create an object of the `Bitmap` class
-1. Initialize the `Graphics` object from the bitmap
-1. Create a `GraphicsPath` object to establish a path
-1. Use the `setLineJoin()` to join lines
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Create a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing.drawing2d/graphicspath/">`GraphicsPath` object</a> to establish a path
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/#setLineJoin-int-">`setLineJoin()` method</a> to join lines
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Pens-Join-Join.java" >}}
 

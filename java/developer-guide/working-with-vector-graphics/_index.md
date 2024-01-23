@@ -14,10 +14,10 @@ Creating vector graphics in Java becomes a straightforward task with Aspose.Draw
 
 To draw an arc using Java:
 
-1. Create an object of `Bitmap` class
-1. Initialize an object of `Graphics` class from this bitmap
-1. Define a `Pen` object with desired parameters
-1. Use the `drawArc()` method of `Graphics` class object to draw an arc
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawArc-com.aspose.drawing.Pen-float-float-float-float-float-float-">`drawArc()` method</a> of `Graphics` class object to draw an arc
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.java" >}}
 
@@ -25,10 +25,10 @@ To draw an arc using Java:
 
 ## **Draw Bezier Spline in Java**
 
-1. Create an object of `Bitmap` class
-1. Initialize an object of `Graphics` class from this bitmap
-1. Define a `Pen` object with desired parameters
-1. Use the `drawBezier()` method of `Graphics` class object to draw Bezier Spline
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawBezier-com.aspose.drawing.Pen-com.aspose.drawing.PointF-com.aspose.drawing.PointF-com.aspose.drawing.PointF-com.aspose.drawing.PointF-">`drawBezier()` method</a> of `Graphics` class object to draw Bezier Spline
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawBezierSpline-DrawBezierSpline.java" >}}
 
@@ -36,10 +36,10 @@ To draw an arc using Java:
 
 ## **Draw Cardinal Spline in Java**
 
-1. Create an object of `Bitmap` class
-1. Initialize an object of `Graphics` class from this bitmap
-1. Define a `Pen` object with desired parameters
-1. Use the `drawCurve()` method of `Graphics` class object to draw Cardinal Spline
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawCurve-com.aspose.drawing.Pen-com.aspose.drawing.PointF---">`drawCurve()` method</a> of `Graphics` class object to draw Cardinal Spline
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawCardinalSpline-DrawCardinalSpline.java" >}}
 
@@ -47,10 +47,10 @@ To draw an arc using Java:
 
 ## **Draw Closed Curve in Java**
 
-1. Create an object of `Bitmap` class
-1. Initialize an object of Grap`hics class from this bitmap
-1. Define a `Pen` object with desired parameters
-1. Use the `drawClosedCurve()` method of `Graphics` class object to draw closed curve
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawClosedCurve-com.aspose.drawing.Pen-com.aspose.drawing.PointF---">`drawClosedCurve()`</a> method of `Graphics` class object to draw a closed curve
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawClosedCurve-DrawClosedCurve.java" >}}
 
@@ -58,10 +58,10 @@ To draw an arc using Java:
 
 ## **Draw Ellipse in Java**
 
-1. Create an object of `Bitmap` class
-1. Initialize an object of `Graphics` class from this bitmap
-1. Define a `Pen` object with desired parameters
-1. Use the `drawEllipse()` method of `Graphics` class object to draw Ellipse
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap.
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawEllipse-com.aspose.drawing.Pen-float-float-float-float-">`drawEllipse()` method</a> of `Graphics` class object to draw Ellipse
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawEllipse-DrawEllipse.java" >}}
 
@@ -69,10 +69,10 @@ To draw an arc using Java:
 
 ## **Draw Lines in Java**
 
-1. Create an object of `Bitmap` class
-1. Initialize an object of `Graphics` class from this bitmap
-1. Define a `Pen` object with desired parameters
-1. Use the `drawLine()` method of `Graphics` class object to draw lines
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawLine-com.aspose.drawing.Pen-int-int-int-int-">`drawLine()` method</a> of `Graphics` class object to draw lines
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawLines-DrawLines.java" >}}
 
@@ -80,10 +80,10 @@ To draw an arc using Java:
 
 ## **Draw Path in Java**
 
-1. Create an object of `Bitmap` class
-1. Initialize an object of `Graphics` class from this bitmap
-1. Define a `Pen` object with desired parameters
-1. Initialize a new object of `GraphicsPath` class and add Lines to its path collection
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+1. Initialize a new object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing.drawing2d/graphicspath/">`GraphicsPath` class</a> and add Lines to its path collection
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawPath-DrawPath.java" >}}
 
@@ -91,10 +91,10 @@ To draw an arc using Java:
 
 ## **Draw Polygon in Java**
 
-1. Create an object of `Bitmap` class
-1. Initialize an object of `Graphics` class from this bitmap
-1. Define a `Pen` object with desired parameters
-1. Use the `drawPolygon()` method of `Graphics` class object to draw Polygon
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawPolygon-com.aspose.drawing.Pen-com.aspose.drawing.Point---">`drawPolygon()` method</a> of `Graphics` class object to draw Polygon
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawPolygon-DrawPolygon.java" >}}
 
@@ -102,10 +102,10 @@ To draw an arc using Java:
 
 ## **Draw Rectangle in Java**
 
-1. Create an object of `Bitmap` class
-1. Initialize an object of `Graphics` class from this bitmap
-1. Define a `Pen` object with desired parameters
-1. Use the `drawRectangle()` method of `Graphics` class object to draw Rectangle
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with desired parameters
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawRectangle-com.aspose.drawing.Pen-int-int-int-int-">`drawRectangle()` method</a> of `Graphics` class object to draw Rectangle
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawRectangle-DrawRectangle.java" >}}
 
@@ -113,11 +113,11 @@ To draw an arc using Java:
 
 ## **Fill Region in Java**
 
-1. Create an object of `Bitmap` class
-1. Initialize an object of `Graphics` class from this bitmap
-1. Create a `GraphicsPath` class object
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+1. Initialize an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap
+1. Create a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing.drawing2d/graphicspath/">`GraphicsPath` class</a> class object
 1. Add polygon to the Path collection of `GraphicsPath` class object
-1. Use the `fillRegion()` method of `Graphics` class to fill defined regions
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#fillRegion-com.aspose.drawing.Brush-com.aspose.drawing.Region-">`fillRegion()` method</a> of `Graphics` class to fill defined regions
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-FillRegion-FillRegion.java" >}}
 

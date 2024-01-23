@@ -18,10 +18,10 @@ Working with text and fonts using Java is simplified with Aspose.Drawing for Jav
 
 Below are the steps to draw text:
 
-- Create an instance of the `Bitmap` class.
-- Initialize a new object of the `Graphics` class with the bitmap object.
-- Set up a `Brush` object for text drawing.
-- Employ the `drawString()` method to draw text on the bitmap.
+- Create an instance of the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+- Initialize a new object of the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> with the bitmap object.
+- Set up a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/brush/">`Brush` object</a> for text drawing.
+- Employ the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawString-java.lang.String-com.aspose.drawing.Font-com.aspose.drawing.Brush-com.aspose.drawing.RectangleF-">`drawString()` method</a> to draw text on the bitmap.
 
 These simple steps empower you to effortlessly integrate text into your graphics using Aspose.Drawing for Java.
 
@@ -33,10 +33,10 @@ These simple steps empower you to effortlessly integrate text into your graphics
 
 Formatting text adds a layer of sophistication to your Java graphics, and with Aspose.Drawing for Java, it's a straightforward process. Here's how you can format text:
 
-- Begin by creating a `Bitmap` object.
-- Initialize a new `Graphics` object using the created bitmap object.
+- Begin by creating a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` object</a>.
+- Initialize a new <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` object</a> using the created bitmap object.
 - Specify the necessary string format parameters, such as string alignment and line alignment, to achieve the desired formatting.
-- Utilize the `drawString()` method to effortlessly draw formatted text on the bitmap.
+- Utilize the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawString-java.lang.String-com.aspose.drawing.Font-com.aspose.drawing.Brush-com.aspose.drawing.RectangleF-">`drawString()` method</a> to effortlessly draw formatted text on the bitmap.
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-TextFonts-FormatText-FormatText.java" >}}
 
@@ -46,10 +46,10 @@ Formatting text adds a layer of sophistication to your Java graphics, and with A
 
 Text hinting mode is a crucial aspect of text rendering, and with Aspose.Drawing for Java, you have the flexibility to control it. Steps to Set Text Hinting Mode:
 
-- Start by creating a `Bitmap` object.
-- Initialize a new `Graphics` object using the created bitmap object.
+- Start by creating a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` object</a>.
+- Initialize a new <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` object</a> using the created bitmap object.
 - Utilize the `TextRenderingHint` property of the `Graphics` object to specify the desired hinting mode.
-- Finally, employ the `drawText()` method to draw text with the specified hinting mode.
+- Finally, employ the `drawText` function to draw text with the specified hinting mode.
 
 By following these steps, you can precisely control the text hinting mode to achieve optimal text rendering using Aspose.Drawing for Java.
 
