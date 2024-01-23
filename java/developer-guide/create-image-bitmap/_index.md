@@ -13,9 +13,9 @@ Whether you're creating a bitmap from scratch or loading one from an existing fi
 
 Creating a new image from scratch is pretty straightforward with the Aspose.Drawing Java API. The ensuing Java code example demonstrates how to create a new bitmap and draw an Arc on it:
 
-1. Create an instance of the `Bitmap` class.
-2. Initialize an object of the `Graphics` class from this bitmap.
-3. Define a `Pen` object with the desired parameters.
+1. Create an instance of the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+2. Initialize an object of the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap.
+3. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with the desired parameters.
 4. Utilize the `drawArc()` method of the `Graphics` class object to draw an Arc.
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.java" >}}

@@ -13,10 +13,10 @@ This "Hello World" example demonstrates the drawing capabilities of the Aspose.D
 
 The Aspose.Drawing Graphic Library for Java is a comprehensive tool for image manipulation and vector drawing. It facilitates the creation of vector graphics primitives like lines, curves, and figures by defining sets of points on a coordinate system. Additionally, it allows the display of text in various fonts, sizes, and styles, and provides the capability to save drawing results in popular graphics file formats. The subsequent example illustrates the process of drawing an arc in Java through the following steps.
 
-1. Create an object of `Bitmap` class with the size of 1000x800 pixels.
-1. Create an object of `Graphics` class from this bitmap.
-1. Define a `Pen` object with parameters: color `Blue` and pen size of 2 pixels.
-1. Use the `drawArc()` method of `Graphics` class object to Draw an Arc.
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a> with the size of 1000x800 pixels.
+1. Create an object of <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` class</a> from this bitmap.
+1. Define a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` object</a> with parameters: color `Blue` and pen size of 2 pixels.
+1. Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawArc-com.aspose.drawing.Pen-float-float-float-float-float-float-">`drawArc()` method</a> of `Graphics` class object to Draw an Arc.
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-LinesCurvesShapes-DrawArc-DrawArc.java" >}}
 

@@ -79,18 +79,13 @@ For more detailed installation instructions please visit the
 Aspose.Drawing for Java can function as a graphic library across diverse platforms, encompassing Windows, MacOS, Linux, and Android applications. In IDEs like Eclipse, you have the flexibility to create new projects and run Java programs as Console Applications on Windows, Linux, MacOS, or as Web applications.
 </p>
 
-<p align='justify'>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Furthermore, you can run Java applications with the Aspose library in a Docker container. For more information about Docker installation, please refer to the <a href="https://docs.aspose.com/drawing/java/how-to-run-aspose-drawing-in-docker/">Aspose.Drawing documentation</a>.
-</p>
-
 ### **Aspose.Drawing for Java Use Cases**
 
 #### **Draw a Text on Image**
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-One of the most popular use case for 2D drawing is adding text to images, such as creating text on images for making gift cards. In the example below, we will draw a text string "Happy Birthday!" on the available space at the bottom right corner of the existing image. We will use the <a href="https://reference.aspose.com/drawing/java/system.drawing/solidbrush/">`SolidBrush` tool</a> to draw the text string. You should choose the desired text color and a font with the appropriate size and style. Next, calculate the position of the <a href="https://reference.aspose.com/drawing/java/system.drawing/rectangle/">`Rectangle` structure</a> to fit the text, and then draw the text string using the <a href="https://reference.aspose.com/imaging/java/Aspose.Drawing/graphics/drawstring/">`DrawString` method</a>.
+One of the most popular use case for 2D drawing is adding text to images, such as creating text on images for making gift cards. In the example below, we will draw a text string "Happy Birthday!" on the available space at the bottom right corner of the existing image. We will use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/solidbrush/">`SolidBrush` tool</a> to draw the text string. You should choose the desired text color and a font with the appropriate size and style. Next, calculate the position of the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/rectangle/">`Rectangle` structure</a> to fit the text, and then draw the text string using the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawString-java.lang.String-com.aspose.drawing.Font-com.aspose.drawing.Brush-com.aspose.drawing.RectangleF-">`DrawString` method</a>.
 </p>
 
 Example of Java code to draw text on an image:
@@ -137,7 +132,7 @@ Example of Java code to draw text on an image:
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Moreover, you can enhance the visual appeal by creating a color frame around images or photographs. This can be easily accomplished by choosing a <a href="https://reference.aspose.com/drawing/java/system.drawing/pen/pen/">`Pen` tool</a> with your desired color and using the <a href="https://reference.aspose.com/drawing/java/system.drawing/graphics/drawrectangle/">`DrawRectangle` method</a> to draw the frame with the calculated width and height.
+Moreover, you can enhance the visual appeal by creating a color frame around images or photographs. This can be easily accomplished by choosing a <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/pen/">`Pen` tool</a> with your desired color and using the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawRectangle-com.aspose.drawing.Pen-int-int-int-int-">`DrawRectangle` method</a> to draw the frame with the calculated width and height.
 </p>
 
 Example of Java code to draw a color frame around a photo:
@@ -162,7 +157,7 @@ Example of Java code to draw a color frame around a photo:
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Another useful scenario involves creating callouts on images to add supplementary information, such as diameter size details in mm. Callouts consist of several graphics primitives, and to draw them, we need to utilize various drawing methods such as <a href="https://reference.aspose.com/drawing/java/system.drawing/graphics/drawline/">`DrawLine`</a>, <a href="https://reference.aspose.com/drawing/java/system.drawing/graphics/drawellipse/">`DrawEllipse`</a>, and <a href="https://reference.aspose.com/imaging/java/Aspose.Drawing/graphics/drawstring/">`DrawString`</a>.
+Another useful scenario involves creating callouts on images to add supplementary information, such as diameter size details in mm. Callouts consist of several graphics primitives, and to draw them, we need to utilize various drawing methods such as <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawLine-com.aspose.drawing.Pen-int-int-int-int-">`DrawLine`</a>, <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawEllipse-com.aspose.drawing.Pen-com.aspose.drawing.RectangleF-">`DrawEllipse`</a>, and <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#drawString-java.lang.String-com.aspose.drawing.Font-com.aspose.drawing.Brush-com.aspose.drawing.RectangleF-">`DrawString`</a>.
 </p>
 
 Example of Java code to draw callouts on an image:

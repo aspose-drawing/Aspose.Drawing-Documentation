@@ -19,9 +19,9 @@ Alpha blending involves combining the alpha channel with other layers in an imag
 
 To draw graphics with transparency using Java, follow these steps:
 
-- Create an instance of the `Bitmap` class.
-- Initialize the `Graphics` object from the created bitmap.
-- Use the `Color.fromArgb()` method with the alpha channel parameter.
+- Create an instance of the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+- Initialize the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` object</a> from the created bitmap.
+- Use the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/color/#fromArgb-int-int-int-int-">`Color.fromArgb()` method</a> with the alpha channel parameter.
 - Save the output in any desired image format.
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-AlphaBlending-AlphaBlending.java" >}}
@@ -33,8 +33,8 @@ To draw graphics with transparency using Java, follow these steps:
 
 Drawing lines and curves with anti-aliasing in Java can be achieved through the following steps:
 
-- Create an instance of the `Bitmap` class.
-- Initialize the `Graphics` object from the bitmap.
+- Create an instance of the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+- Initialize the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` object</a> from the bitmap.
 - Set the smoothing mode to Anti-aliasing.
 - Create the desired line, curve, or other object.
 - Save the output in any desired image format.
@@ -47,10 +47,10 @@ Drawing lines and curves with anti-aliasing in Java can be achieved through the 
 
 To perform image clipping in Java, follow these steps:
 
-- Create an instance of the `Bitmap` class.
-- Initialize the `Graphics` object from the bitmap.
-- Define the clipping path using `GraphicsPath`.
-- Set the clip-path using the `setClip()` method.
+- Create an instance of the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/bitmap/">`Bitmap` class</a>.
+- Initialize the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/">`Graphics` object</a> from the bitmap.
+- Define the clipping path using <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing.drawing2d/graphicspath/">`GraphicsPath` object</a>.
+- Set the clip-path using the <a href="https://reference.aspose.com/drawing/java/com.aspose.drawing/graphics/#setClip-com.aspose.drawing.Region-int-">`setClip()` method</a>.
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Rendering-Clipping-Clipping.java" >}}
 
