@@ -67,7 +67,7 @@ By default, the `Main.java` file is created in the `src/main/java/org.example` f
 
 The code below uses the Aspose.Drawing API to create a drawing from scratch. Replace the **Main.java** file with the following code that draws a gradient and saves an image:
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-NET6-Drawing.java" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Drawing.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -102,6 +102,6 @@ Start the project from IDE by pressing the "Run" button on the toolbar. In the p
 </style>
 
 <figure class="frame"><p>
-    <img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/gradient.png" alt="Linear gradient drawing in Java" width="1000" height="800"/>
+    <img class="marginauto" src="https://raw.githubusercontent.com/aspose-drawing/Aspose.Drawing-for-Java/main/Examples/Data/gradient.png" alt="Linear gradient drawing in Java" width="1000" height="800"/>
 <figcaption>Linear gradient drawing in Java</figcaption>
 </p></figure>
