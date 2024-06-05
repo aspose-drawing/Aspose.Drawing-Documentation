@@ -47,13 +47,11 @@ The project uses the Aspose.Drawing API as the core library for performing drawi
 2. Add Aspose.Drawing JAR in to dependencies implementation(files("libs/aspose-drawing-24.4.jar"))
 
 
-### Write **Main.java**
+### Write **MainActivity**
 
 The next step is to create a new class.
 
-By default, the `Main.java` file is created in the `src/main/java/org.example` folder inside the Project tree. `Main.java` file is ready for editing with the default class `Main` and method `main()`.
-
-The code below uses the Aspose.Drawing API to create a drawing from scratch. Replace the **Main.java** file with the following code that draws a gradient and saves an image:
+The code below uses the Aspose.Drawing API to run a simple Pen test. Replace the **MainActivity** file with the following code:
 
 {{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Drawing.java" >}}
 
