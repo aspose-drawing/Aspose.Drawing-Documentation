@@ -28,7 +28,7 @@ To work with Aspose.Drawing in your applications:
 ### Download Aspose.Drawing for Java
 
 - Download <a href="https://downloads.aspose.com/drawing/java">Aspose.Drawing for Java</a>.
-- Unzip the downloaded ZIP archive on your development computer, for example, `c:\Users\User\Aspose\aspose-drawing-java\Aspose.Drawing\target`.
+- Unzip the downloaded ZIP archive on your development computer, for example, `c:\Users\User\AndroidApp\lib`.
 
 ### Create Project
 
@@ -37,7 +37,6 @@ To work with Aspose.Drawing in your applications:
 - Enter the project name and location.
 - Click "Create" button.
 
-<img src="./create_new_java_project.png" alt="" width="776"/>
 
 ### Add Reference of Aspose.Drawing for Java API
 
@@ -45,17 +44,7 @@ The project uses the Aspose.Drawing API as the core library for performing drawi
 
 1. Select the "Project Structure" menu (in the File menu):
 
-<img src="./new_java_project_structure.png" alt="" width="316"/>
-
-2. Select the "Modules" in the "Project Settings".
-
-3. Navigate to the "Dependencies" tab and click "+" to add a folder:
-
-<img src="./java_project_dependencies.png" alt="" width="1167"/>
-
-4. Select the Aspose.Drawing the target folder with JAR file for adding it to the project:
-
-<img src="./aspose-drawing-jar.png" alt="" width="1417"/>
+2. Add Aspose.Drawing JAR in to dependencies implementation(files("libs/aspose-drawing-24.4.jar"))
 
 
 ### Write **Main.java**
@@ -78,6 +67,6 @@ All coding is done in the `main()` method of the class `Main`.
 
 ## Run Android application
 
-Start the project from IDE by pressing the "Run" button on the toolbar. In the project output directory, the resulting **gradient.png** image file will be generated:
+Connect to your Android device and start the project from IDE by pressing the "Run" button on the toolbar. Simple test should be success.
 
 
