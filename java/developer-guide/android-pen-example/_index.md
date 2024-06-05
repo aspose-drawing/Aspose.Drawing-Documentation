@@ -53,7 +53,7 @@ The next step is to create a new class.
 
 The code below uses the Aspose.Drawing API to run a simple Pen test. Replace the **MainActivity** file with the following code:
 
-{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "Examples-JAVA-Drawing.java" >}}
+{{< gist "aspose-com-gists" "3562c2fe053aae0bda46f32abae6062a" "AndroidPenTest.java" >}}
 
 {{% alert color="primary" %}}
 
