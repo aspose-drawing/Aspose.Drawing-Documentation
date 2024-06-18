@@ -61,8 +61,6 @@ All coding is done in the `main()` method of the class `Main`.
 
 {{% /alert %}}
 
-<img src="./run_main_aspose_drawing.webp" alt="Run Main.java in IDE to create drawing image" width="1486" height=""/>
-
 ## Run Android application
 
 Connect to your Android device and start the project from IDE by pressing the "Run" button on the toolbar. Simple test should be success.
