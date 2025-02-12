@@ -17,7 +17,7 @@ In Visual Studio, create a new C# **.NET MAUI App** project, selecting **.NET 9.
 
 ## 2. Add the Aspose.Drawing.Common package to the MauiApp1 project dependencies.
 
-<img src="installation.png" alt="Aspose.Drawing.Common package" />
+<img src="../installation/installation_adc.png" alt="Aspose.Drawing.Common package" />
 
 ## 3. Add image drawing code.
 
